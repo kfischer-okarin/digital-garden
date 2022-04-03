@@ -1,12 +1,12 @@
 ---
 id: 3fvssyiusw47mby35qoukwh
-title: Links
+title: Create Note Links
 desc: ''
-updated: 1648979815139
+updated: 1648980897123
 created: 1648979545946
 ---
 
-# Dendron Links
+# Create Note Links
 
 ## Use the note title as link text
 ```markdown

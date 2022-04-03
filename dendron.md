@@ -2,17 +2,15 @@
 id: senw3vmo10hz47w8ranpb8h
 title: Dendron
 desc: ''
-updated: 1648979850551
+updated: 1648981047567
 created: 1648907346857
 ---
 # Dendron
 
-- [[dendron.links]]
+## Try out
+- Generate Changelog/RSS Feed from Git history?
+## How To
+- [[dendron.how-to.hide-scratch-from-navigation]]
+- [[dendron.how-to.create-note-links]]
 
-## Publish
-
-### Hide Scratch notes from navigation
-
-- Create `scratch.md`
-- Add `nav_exclude: true` to frontmatter
 
