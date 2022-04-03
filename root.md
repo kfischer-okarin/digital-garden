@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1648910893386
+updated: 1648979364987
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -19,7 +19,7 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 ## Topics recently on my mind
 - Christian faith and Work / Creativity
 - ADHD
-- Spiritual abuse in churches
+- [[spiritual-abuse]] in churches
 
 
 ## Interests
