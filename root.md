@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1648979364987
+updated: 1648980440102
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -20,6 +20,7 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 - Christian faith and Work / Creativity
 - ADHD
 - [[spiritual-abuse]] in churches
+- [[What is a feasible PKM process for me?|pkm]]
 
 
 ## Interests
