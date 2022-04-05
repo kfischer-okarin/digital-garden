@@ -2,7 +2,7 @@
 id: 3fvssyiusw47mby35qoukwh
 title: Create Note Links
 desc: ''
-updated: 1648980897123
+updated: 1649124629945
 created: 1648979545946
 ---
 
@@ -17,3 +17,11 @@ created: 1648979545946
 ```markdown
 [[A Nice Label|note-file-without-md]]
 ```
+
+## Cross-Vault links
+
+```markdown
+[[dendron://vault/note-file-without-md]]
+```
+
+Also works with custom labels

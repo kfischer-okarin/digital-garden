@@ -2,7 +2,7 @@
 id: senw3vmo10hz47w8ranpb8h
 title: Dendron
 desc: ''
-updated: 1648981047567
+updated: 1649152876415
 created: 1648907346857
 ---
 # Dendron
@@ -12,5 +12,6 @@ created: 1648907346857
 ## How To
 - [[tools.dendron.how-to.hide-scratch-from-navigation]]
 - [[tools.dendron.how-to.create-note-links]]
+- [[tools.dendron.how-to.create-remote-vault]]
 
 
