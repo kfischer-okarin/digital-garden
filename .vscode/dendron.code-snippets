@@ -16,5 +16,11 @@
         "scope": "markdown,yaml",
         "body": "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
         "description": "time"
-    }
+    },
+    "youtube-icon": {
+        "prefix": "yt",
+        "scope": "markdown,yaml",
+        "body": "![Youtube Icon](assets/youtube-icon.svg){height: 1rem}",
+        "description": "youtube icon"
+    },
 }
