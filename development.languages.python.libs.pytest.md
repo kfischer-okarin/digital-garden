@@ -2,7 +2,7 @@
 id: 1uhq7rrzicz2rb103rzho2b
 title: pytest
 desc: ''
-updated: 1649239467185
+updated: 1649404781234
 created: 1649239256735
 ---
 # pytest
@@ -42,4 +42,10 @@ created: 1649239256735
         'Second Condition'
     ]
 )
+```
+
+## Use fixtures without referencing them
+
+```py
+@pytest.mark.usefixtures("cleandir")
 ```
