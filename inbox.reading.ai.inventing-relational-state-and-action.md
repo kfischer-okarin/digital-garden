@@ -1,6 +1,8 @@
 ---
 id: q3bbq4ct726bodc79obwrpf
-title: Inventing Relational State and Action Abstractions for Effective and Efficient Bilevel Planning
+title: >-
+  Inventing Relational State and Action Abstractions for Effective and Efficient
+  Bilevel Planning
 desc: ''
 updated: 1649437386152
 created: 1649437298832
