@@ -10,8 +10,8 @@ created: 1648907346857
 ## Try out
 - Generate Changelog/RSS Feed from Git history?
 ## How To
-- [[development.tools.dendron.how-to.hide-scratch-from-navigation]]
-- [[development.tools.dendron.how-to.create-note-links]]
-- [[development.tools.dendron.how-to.create-remote-vault]]
+- [[reference.dendron.how-to.hide-scratch-from-navigation]]
+- [[reference.dendron.how-to.create-note-links]]
+- [[reference.dendron.how-to.create-remote-vault]]
 
 
