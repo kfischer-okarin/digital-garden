@@ -20,7 +20,7 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 - [[reference.faith-and-work]]
 - ADHD
 - [[reference.spiritual-abuse]] in churches
-- [[What is a feasible PKM process for me?|pkm]]
+- [[What is a feasible PKM process for me?|areas.pkm]]
 
 
 ## Interests
