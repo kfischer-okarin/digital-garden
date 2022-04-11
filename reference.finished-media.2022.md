@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1649254261207
+updated: 1649685263354
 created: 1649253863905
 ---
 
@@ -25,4 +25,11 @@ created: 1649253863905
 ## 2022-03-26 The Dispatcher (John Scalzi) - Audiobook
 
 [Audible](https://www.audible.com/pd/The-Dispatcher-Audiobook/B01KKPH1VA)
+
+
+## 2022-03-30 Platinum End - Anime
+
+## 2022-04-04 Attack on Titan (Final Season Part 2)
+
+## 2022-04-10 Shimobee
 
