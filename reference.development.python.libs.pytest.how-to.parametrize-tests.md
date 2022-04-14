@@ -1,12 +1,12 @@
 ---
 id: f9gbum3a449ah7p5km5z6a4
-title: Parametrizing Tests
+title: Parametrize Tests
 desc: ''
-updated: 1649716540102
+updated: 1649929206678
 created: 1649716301326
 ---
 
-# Parametrizing tests
+# Parametrize tests
 
 ## Single argument
 

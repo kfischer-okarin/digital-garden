@@ -7,8 +7,8 @@ created: 1649239256735
 ---
 # pytest
 
-![[reference.development.python.libs.pytest.parametrizing-tests]]
+![[reference.development.python.libs.pytest.how-to.parametrize-tests]]
 
-![[reference.development.python.libs.pytest.parametrize-fixtures]]
+![[reference.development.python.libs.pytest.how-to.parametrize-fixtures]]
 
-![[reference.development.python.libs.pytest.use-fixtures]]
+![[reference.development.python.libs.pytest.how-to.use-fixtures]]
