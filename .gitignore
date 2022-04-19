@@ -1,3 +1,4 @@
 .DS_Store
 
 .dendron.cache.*
+node_modules
