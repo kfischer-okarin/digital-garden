@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1649503914109
+updated: 1650411600571
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -18,6 +18,7 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 
 ## Topics recently on my mind
 - [[reference.faith-and-work]]
+  - Taking notes on [[reference.book-video-notes.tim-keller.redefining-work]]
 - ADHD
 - [[reference.spiritual-abuse]] in churches
 - [[What is a feasible PKM process for me?|areas.pkm]]

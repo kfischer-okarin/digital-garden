@@ -2,10 +2,14 @@
 id: ixa6m1vstszidty3zktj5kj
 title: Faith and Work
 desc: ''
-updated: 1649153704890
+updated: 1650410059850
 created: 1649152995710
 ---
 # Faith and Work
+
+## Resources
+- TGC13 Faith at Work Post-Conference
+  - [[reference.book-video-notes.tim-keller.redefining-work]]
 
 ## Currently Listening To
 
