@@ -9,7 +9,7 @@ created: 1649152995710
 
 ## Resources
 - TGC13 Faith at Work Post-Conference
-  - [[reference.book-video-notes.tim-keller.redefining-work]]
+  - [[reference.book-video-notes.tim-keller-redefining-work]]
 
 ## Currently Listening To
 

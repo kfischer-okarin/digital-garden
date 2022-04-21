@@ -18,7 +18,7 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 
 ## Topics recently on my mind
 - [[reference.faith-and-work]]
-  - Taking notes on [[reference.book-video-notes.tim-keller.redefining-work]]
+  - Taking notes on [[reference.book-video-notes.tim-keller-redefining-work]]
 - ADHD
 - [[reference.spiritual-abuse]] in churches
 - [[What is a feasible PKM process for me?|areas.pkm]]
