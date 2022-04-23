@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1650411600571
+updated: 1650695453670
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -48,6 +48,9 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
   - Twelve Monkeys
   - Dark
   - Deep Space 9
+- 🎥 Movies
+  - Big Fish
+  - Memento
 - 📖 Books
   - Das Haus der Geschichten (Thomas Franke)
   - The Screwtape Letters (C.S. Lewis)
