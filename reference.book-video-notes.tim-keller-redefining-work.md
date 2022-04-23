@@ -2,7 +2,7 @@
 id: 9n77qmexjixj539cn4ldvxq
 title: Tim Keller | Redefining Work | TGC13
 desc: ''
-updated: 1650500152571
+updated: 1650679029076
 created: 1649719417430
 ---
 
@@ -11,7 +11,7 @@ created: 1649719417430
 ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
 [Tim Keller | Redefining Work | TGC13](https://www.youtube.com/watch?v=fGH5bhUwMB4)
 
-Current timestamp: 6:45
+Current timestamp: 8:45
 
 ## The Great Commission needs cultural engagement (2:07-2:52)
 - Isn't the job of the church simply to preach the word and bring people to Christ? Do we really need cultural
@@ -40,6 +40,18 @@ Current timestamp: 6:45
 - But: Jesus is a king, the king of every area of your life, you cannot conveniently compartmentalize your life like
   that
 
+## Work under the lens of the Story of the Bible (6:45 - 8:19)
+![[The Story of the Bible|reference.concepts.the-story-of-the-bible]] and how it relates to work:
+- Creation
+  - God is the creator of all things in this material world, including work
+- Fall
+  - Sin is distorting every area of your life, including church life and work
+  - Church life is not inherently more sacred than work
+- Redemption
+  - All things/areas are made new - including your work life!
+- Restoration
+  - God is restoring this material world in the end, we will not be taken away to some spritual netherworld, this
+    shows us the goodness of work and the future of work
 
 ## Quotes
 > Your work will make no sense to you unless you put it into some kind of story
