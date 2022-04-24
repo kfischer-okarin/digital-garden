@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1650678742823
+updated: 1650792987374
 created: 1650289758802
 ---
 
@@ -20,7 +20,7 @@ Media I'm currently engaged with...
 ## Currently watching
 - How I Met Your Mother
 - DS9
-- JoJo's Bizarre Adventure - Part 3 - Re-Watch
+- JoJo's Bizarre Adventure - Part 4 - Re-Watch
 - Spy x Family
 - Thermae Romae Novae (2022 anime)
 - Chimu Dondon

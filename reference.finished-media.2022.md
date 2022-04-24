@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1650290458108
+updated: 1650792978470
 created: 1649253863905
 ---
 
@@ -34,3 +34,6 @@ created: 1649253863905
 ## 2022-04-10 Shimobee
 
 ## 2022-04-17 Come Come Everybody
+
+
+## 2022-04-24 Rewatch: JoJo's Bizarre Adventure - Part 3
