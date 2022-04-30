@@ -4,5 +4,6 @@ title: Psalm 8
 desc: ''
 updated: 1650327963763
 created: 1650327927427
+nav_order: 8
 ---
 
