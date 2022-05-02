@@ -2,8 +2,11 @@
 id: xramujhceffp8k4hf4ax1rv
 title: Psalms
 desc: ''
-updated: 1650678117154
+updated: 1651468271761
 created: 1650678117154
-stub: true
+nav_order: 19
+bible_passage:
+  book: PSA
 ---
 
+# Psalms

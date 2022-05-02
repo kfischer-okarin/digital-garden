@@ -2,9 +2,12 @@
 id: rp8zz8mgxfowvq8jlyffvxb
 title: Psalm 8
 desc: ''
-updated: 1651289437481
+updated: 1651468281607
 created: 1650327927427
 nav_order: 8
+bible_passage:
+  book: PSA
+  chapter: 8
 ---
 
 # Psalm 8
