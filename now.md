@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1651285370887
+updated: 1651714740327
 created: 1650289758802
 ---
 
@@ -18,7 +18,6 @@ Media I'm currently engaged with...
 - When I don't desire God (John Piper)
 
 ## Currently watching
-- How I Met Your Mother
 - DS9
 - JoJo's Bizarre Adventure - Part 4 - Re-Watch
 - Spy x Family
