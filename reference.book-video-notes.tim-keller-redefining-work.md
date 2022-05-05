@@ -41,7 +41,7 @@ Current timestamp: 18:32
   that
 
 ## Work under the lens of the Story of the Bible (6:45 - 8:19)
-[[The Story of the Bible|reference.concepts.the-story-of-the-bible]] and how it relates to work:
+[[The Story of the Bible|reference.concepts.theology.the-story-of-the-bible]] and how it relates to work:
 - Creation
   - God is the creator of all things in this material world, including work
 - Fall
