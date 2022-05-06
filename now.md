@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1651714740327
+updated: 1651821326019
 created: 1650289758802
 ---
 
@@ -27,9 +27,10 @@ Media I'm currently engaged with...
 
 ### Paused
 - Scrubs
+- Boruto
 
 ## Currently playing
-- Super Mario Sunshine
+- Super Mario Galaxy
 - Stardew Valley
 - Fortnite
 - It takes two

@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1651714714714
+updated: 1651821296824
 created: 1649253863905
 ---
 
@@ -38,3 +38,5 @@ created: 1649253863905
 ## 2022-04-24 Rewatch: JoJo's Bizarre Adventure - Part 3
 
 ## 2022-05-04 How I Met Your Mother
+
+## 2022-05-06 Super Mario Galaxy
