@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1651821326019
+updated: 1651886076394
 created: 1650289758802
 ---
 
@@ -35,6 +35,7 @@ Media I'm currently engaged with...
 - Fortnite
 - It takes two
 - Robotics;Notes Elite
+- Dragon Quest 11
 
 ### Paused
 - Breath of the Wild
