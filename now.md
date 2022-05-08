@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1651886076394
+updated: 1651993071701
 created: 1650289758802
 ---
 
@@ -14,6 +14,8 @@ Media I'm currently engaged with...
 - The Ragamuffin Gospel (Brennan Manning)
 - Design Patterns: Elements of Reusable Object-Oriented Software ("The Gang of Four")
 - Steal like an Artist (Austin Kleon)
+
+### Paused
 - Getting Things Done (David Allen) - Re-Read
 - When I don't desire God (John Piper)
 
@@ -36,6 +38,7 @@ Media I'm currently engaged with...
 - It takes two
 - Robotics;Notes Elite
 - Dragon Quest 11
+- Steins;Gate Elite
 
 ### Paused
 - Breath of the Wild
