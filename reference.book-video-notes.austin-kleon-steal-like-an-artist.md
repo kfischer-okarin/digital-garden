@@ -2,11 +2,13 @@
 id: 54mmu1cutut6n23nea6agaf
 title: Austin Kleon - Steal like an Artist
 desc: ''
-updated: 1652007855112
+updated: 1652008106445
 created: 1652006071797
 ---
 
 # Austin Kleon - Steal like an Artist
+
+Current position: Chapter 2
 
 ## Embrace influence, don't run from it
 > There's nothing new under the sun
