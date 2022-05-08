@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1651993071701
+updated: 1652007940555
 created: 1650289758802
 ---
 
@@ -13,7 +13,7 @@ Media I'm currently engaged with...
 ## Currently reading
 - The Ragamuffin Gospel (Brennan Manning)
 - Design Patterns: Elements of Reusable Object-Oriented Software ("The Gang of Four")
-- Steal like an Artist (Austin Kleon)
+- [[reference.book-video-notes.austin-kleon-steal-like-an-artist]]
 
 ### Paused
 - Getting Things Done (David Allen) - Re-Read
