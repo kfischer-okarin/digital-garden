@@ -1,12 +1,12 @@
 ---
 id: 9n77qmexjixj539cn4ldvxq
-title: Tim Keller | Redefining Work | TGC13
+title: Tim Keller - Redefining Work | TGC13
 desc: ''
-updated: 1650754391245
+updated: 1652006679996
 created: 1649719417430
 ---
 
-# Tim Keller | Redefining Work | TGC13
+# Tim Keller - Redefining Work | TGC13
 
 ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
 [Tim Keller | Redefining Work | TGC13](https://www.youtube.com/watch?v=fGH5bhUwMB4)
@@ -73,18 +73,18 @@ Current timestamp: 18:32
 - Even if you have a job that's not really exciting you can know that your work matters
 
 ## Quotes
-> Your work will make no sense to you unless you put it into some kind of story
+- > Your work will make no sense to you unless you put it into some kind of story
 
-5:43
+  5:43
 
-> If work is your identity... If you're successful it goes to your head, if you're a failure it goes to your heart.
+- > If work is your identity... If you're successful it goes to your head, if you're a failure it goes to your heart.
 
-11:35
+  11:35
 
-> All work is God's work. It's God's way of caring for his creation.
+- > All work is God's work. It's God's way of caring for his creation.
 
-15:11
+  15:11
 
-> The way to do work as a Christian is to do it well
+- > The way to do work as a Christian is to do it well
 
-16:50
+  16:50
