@@ -2,7 +2,7 @@
 id: mv8da020s9mmyii8kzf6zgq
 title: Matthew 11
 desc: ''
-updated: 1651718336815
+updated: 1652059519723
 created: 1651717516243
 nav_order: 11
 bible_passage:
@@ -20,7 +20,7 @@ bible_passage:
   - Jesus points to his own miraculous deeds as a proof
 - Jesus teaches about John the Baptist
   - He is "Elijah" who is supposed to prepare the way for the Messiah as promised in Malachi 3:23
-- Jesus criticizes cynical public opinions that always find a fault
+- Jesus criticizes cynical public opinions that always finds a fault
   - John was "too holy" so he must have been possessed by a demon
   - Jesus was "too lax" so he was called a glutton and irreliable for hanging out with the wrong crowd
 - Jesus criticizes the cities that have seen so many of his wonders
