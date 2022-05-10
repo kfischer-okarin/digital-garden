@@ -2,11 +2,15 @@
 id: 54mmu1cutut6n23nea6agaf
 title: Austin Kleon - Steal like an Artist
 desc: ''
-updated: 1652008106445
+updated: 1652200516103
 created: 1652006071797
 ---
 
 # Austin Kleon - Steal like an Artist
+
+![Book cover](https://images-na.ssl-images-amazon.com/images/I/51QsfJKU3SL._SY498_BO1,204,203,200_.jpg){ height: 200px; }
+
+[Amazon](https://www.amazon.co.jp/dp/1523516321)
 
 Current position: Chapter 2
 
