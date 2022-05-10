@@ -13,7 +13,7 @@ Media I'm currently engaged with...
 ## Currently reading
 - The Ragamuffin Gospel (Brennan Manning)
 - Design Patterns: Elements of Reusable Object-Oriented Software ("The Gang of Four")
-- [[reference.book-video-notes.austin-kleon-steal-like-an-artist]]
+- [[reference.literature-notes.austin-kleon-steal-like-an-artist]]
 
 ### Paused
 - Getting Things Done (David Allen) - Re-Read
