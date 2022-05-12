@@ -2,7 +2,7 @@
 id: 4h2yfvg4kxaquyntitzs9e5
 title: Mister Chad's mindgarden
 desc: ''
-updated: 1652200787482
+updated: 1652314500818
 created: 1649650316689
 ---
 
@@ -15,10 +15,9 @@ https://mister-chad.com/mind+gardens/keeping+a+personal+blog
 Not everything we produce has to be perfect and final when we put it out there into the world. All classical
 distribution (like blogs) mechanisms don't really encourage updating and re-working...
 
-## References
-
-Brian Lovin's article [Incrementally correct personal websites](https://brianlovin.com/writing/incrementally-correct-personal-websites)
-describes this concept in detail.
+- Quoting from Brian Lovin's article
+[Incrementally correct personal websites](https://brianlovin.com/writing/incrementally-correct-personal-websites)
+which describes this concept in detail.
 
 > Incremental correctness is the process of iterating towards something more truthful, accurate, usable, or
 interesting. The faster we can iterate, the faster we can discover good ideas. Things aren't perfect today, but
@@ -28,3 +27,40 @@ tomorrow things can be slightly closer to perfect.
 about discovery and proof, research and prototyping, and having a framework to reliably test your instincts. It
 discourages major redesigns, preferring isolated improvements to a small subset of nodes in any kind of working tree.
 
+## Taking notes during creative work
+- Take notes, leave a record of your thought and development process to know how you got where you are.
+- Ideas that are just in your head will eventually disappear uselessly
+  - Be always prepared to show your work, having legible and clear notes is one part of that
+
+## Quantity leads to quality
+- Inspirations hits during the time people regularly work on things
+- First spend quite some time on "divergent thinking", exploring many different ideas
+  - create many variations to find the best idea
+    - doodle, collage, mind map, lists, mashups, research
+    - play
+  - **Write everything down**
+
+## Give yourself permission to play
+- work with no expectations, have a beginner's mind
+
+## Incubation of ideas
+- Take a break, shower, do the dishes
+- sleep on it
+- Go outside and play, go window shopping
+- Procrastination with a purpose
+
+## Thinking outside the box
+- Reference: https://www.lifehack.org/articles/featured/11-ways-to-think-outside-the-box.html
+- Study another industry
+- Learn about another religion
+- Take a class
+- Read a novel/watch a movie/play a game in an unfamiliar genre
+- Write a poem, draw a picture
+- Turn it upside down, work backwards
+- Ask a child
+- Use randomness
+- Take a break/shower
+
+
+## Resources
+- [Graphic Design Resources](https://mister-chad.com/graphic+design+resources/!+graphic+design+resources)
