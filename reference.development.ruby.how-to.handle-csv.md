@@ -1,12 +1,12 @@
 ---
 id: 2xlk3ofpwgxabwkgb8ur2dm
-title: CSV
+title: Handle CSV
 desc: ''
-updated: 1649334647739
+updated: 1652351584982
 created: 1649328459694
 ---
 
-# CSV Processing
+# Handle CSV
 
 ## Read a CSV as array of arrays
 
