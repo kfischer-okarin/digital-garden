@@ -2,11 +2,16 @@
 id: t1sez74d9glnkg06z2ffli7
 title: Create an Atom Feed
 desc: ''
-updated: 1652371154750
+updated: 1652371811713
 created: 1652369652003
 ---
 
 # Create an Atom Feed
+
+Usign this ruby script I wrote you can turn your most recent git 10 commits to your vault into an Atom Feed.
+- It will create one entry per modified file (renamed and deleted files are ignored), the updated timestamp will be
+  the timestamp of the commit
+- Commit starting with either `chore:` or `refactor:` will be ignored
 
 ## Prerequisite
 - An execution environment that runs Ruby (e.g. the GitHub Actions runner `ubuntu-latest`)
