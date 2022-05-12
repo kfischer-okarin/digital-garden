@@ -44,6 +44,8 @@ jobs:
       run: yarn dendron publish export --target github --yes
     - name: Generate Atom Feed
       run: ruby build_rss_feed.rb vault > docs/feed.xml
+    - name: Copy Google site verification file
+      run: cp google*.html docs/
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
       with:
