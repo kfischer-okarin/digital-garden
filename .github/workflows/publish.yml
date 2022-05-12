@@ -42,6 +42,8 @@ jobs:
       run: "(test -d .next) && (echo 'updating dendron next...' && cd .next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
     - name: Export notes
       run: yarn dendron publish export --target github --yes
+    - name: Generate Atom Feed
+      run: ruby build_rss_feed.rb vault > docs/feed.xml
     - name: Deploy site
       uses: peaceiris/actions-gh-pages@v3
       with:
