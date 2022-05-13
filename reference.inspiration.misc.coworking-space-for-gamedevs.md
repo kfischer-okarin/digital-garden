@@ -2,7 +2,7 @@
 id: 9njko22facz8jbuh7j1abfn
 title: Coworking Space for Gamedevs
 desc: ''
-updated: 1650679815214
+updated: 1652406626207
 created: 1650679695480
 ---
 
