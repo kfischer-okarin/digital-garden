@@ -2,7 +2,7 @@
 id: t1sez74d9glnkg06z2ffli7
 title: Create an Atom Feed
 desc: ''
-updated: 1652371811713
+updated: 1652535652558
 created: 1652369652003
 ---
 
@@ -19,7 +19,7 @@ Usign this ruby script I wrote you can turn your most recent git 10 commits to y
 ## Steps
 
 ### 1. Add the script
-Add [this ruby script](https://github.com/kfischer-okarin/digital-garden/blob/7068878f3923dc3787458e6717ef5f4f9f97b63e/build_rss_feed.rb)
+Add [this ruby script](https://github.com/kfischer-okarin/digital-garden/blob/publish/build_rss_feed.rb)
 next to your `dendron.yml`
 
 ### 2. Call the script between export and deploy
