@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1651821296824
+updated: 1652660982695
 created: 1649253863905
 ---
 
@@ -39,4 +39,4 @@ created: 1649253863905
 
 ## 2022-05-04 How I Met Your Mother
 
-## 2022-05-06 Super Mario Galaxy
+## 2022-05-06 Super Mario Sunshine
