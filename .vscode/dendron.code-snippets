@@ -23,4 +23,10 @@
         "body": "![Youtube Icon](assets/youtube-icon.svg){height: 1rem}",
         "description": "youtube icon"
     },
+    "twitter-icon": {
+        "prefix": "tw",
+        "scope": "markdown,yaml",
+        "body": "![Twitter Icon](assets/twitter-icon.svg){height: 1rem}",
+        "description": "twitter icon"
+    },
 }
