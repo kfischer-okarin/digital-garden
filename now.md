@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1652007940555
+updated: 1652661056815
 created: 1650289758802
 ---
 
@@ -26,6 +26,7 @@ Media I'm currently engaged with...
 - Thermae Romae Novae (2022 anime)
 - Chimu Dondon
 - Summertime Rendering
+- Neon Genesis Evangelion - Re-Watch
 
 ### Paused
 - Scrubs
@@ -39,10 +40,10 @@ Media I'm currently engaged with...
 - Robotics;Notes Elite
 - Dragon Quest 11
 - Steins;Gate Elite
+- Breath of Fire 3
 
 ### Paused
 - Breath of the Wild
-- Breath of Fire 3
 - Ni no Kuni
 
 ## Currently listening to
