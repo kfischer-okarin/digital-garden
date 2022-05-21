@@ -2,7 +2,7 @@
 id: bfbwiweiqyjetuxcxnztxqp
 title: Boss Design
 desc: ''
-updated: 1653120073649
+updated: 1653121532783
 created: 1653119467904
 ---
 
@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=ywshx1HPZU4
 - Phases that change attack patterns
   - Dramatic Arc
 
-    ![Dramatic Arc](assets/dramatic-arc.png)
+    ![Dramatic Arc](assets/images/dramatic-arc.png)
   - Give variety
   - Escalate stakes
   - Gives player many victories throughout the fight
