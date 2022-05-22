@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1653123467808
+updated: 1653132292366
 created: 1650984376016
 ---
 
@@ -29,6 +29,19 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 ## Use great fonts
 - Check the fonts of great designs
 - Have a collection of great fonts
+
+## Use great images
+
+- Free high quality stock photos
+  - https://unsplash.com/
+  - https://www.pexels.com/
+
+
+## Use HSL for colors
+- It's very intuitive compared to RGB
+- You can easily make boring colors more interesting by adjusting their hue
+- Make color less overpowering/visible by reducing saturation
+
 
 ## Design principles
 
