@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1652661056815
+updated: 1653387185956
 created: 1650289758802
 ---
 
@@ -14,9 +14,9 @@ Media I'm currently engaged with...
 - The Ragamuffin Gospel (Brennan Manning)
 - Design Patterns: Elements of Reusable Object-Oriented Software ("The Gang of Four")
 - [[reference.literature-notes.austin-kleon-steal-like-an-artist]]
+- [[reference.literature-notes.david-allen-getting-things-done]] (Re-read)
 
 ### Paused
-- Getting Things Done (David Allen) - Re-Read
 - When I don't desire God (John Piper)
 
 ## Currently watching
@@ -27,9 +27,9 @@ Media I'm currently engaged with...
 - Chimu Dondon
 - Summertime Rendering
 - Neon Genesis Evangelion - Re-Watch
+- Scrubs
 
 ### Paused
-- Scrubs
 - Boruto
 
 ## Currently playing
