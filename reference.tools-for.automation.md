@@ -1,12 +1,14 @@
 ---
 id: iaccsozb47rj6s0n7ylec29
-title: Hammerspoon
+title: Automation
 desc: ''
-updated: 1649439632424
+updated: 1653389217873
 created: 1649439536230
 ---
 
-# Hammerspoon
+# Automation
+
+## Hammerspoon
 
 http://www.hammerspoon.org/
 

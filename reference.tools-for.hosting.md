@@ -1,13 +1,15 @@
 ---
-id: y2dgotpgslf6o916z737s4s
-title: Vercel
+id: 81153eox9rgqbbsrvmlrba0
+title: Hosting
 desc: ''
-updated: 1652191971538
-created: 1652191891067
+updated: 1653389072676
+created: 1653389032946
 ---
 
-# Vercel
+# Hosting
 
+## Vercel
 https://vercel.com/
 
 All-in-one frontend workflow + deploy + quick accessibility + serverless functions
+
