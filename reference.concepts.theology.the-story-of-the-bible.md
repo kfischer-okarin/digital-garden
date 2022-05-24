@@ -2,7 +2,7 @@
 id: sfwjuh3wtk172vzhu7hma0v
 title: The Story of the Bible
 desc: ''
-updated: 1650501248281
+updated: 1653396545136
 created: 1650500958331
 ---
 
@@ -12,6 +12,8 @@ Possible source: https://www.thegospelcoalition.org/essay/the-story-and-message-
 
 ## Creation
 - God is the creator of all things and all things he created are good
+- He created humans and gave them
+  [[authority over creation|reference.concepts.theology.humans-have-authority-over-creation]]
 
 ## Fall
 - Total Depravity
