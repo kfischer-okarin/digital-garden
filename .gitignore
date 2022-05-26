@@ -1,5 +1,6 @@
 .DS_Store
 
-.dendron.cache.*
+.dendron.*
 node_modules
 docs
+.next
