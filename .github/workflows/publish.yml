@@ -10,15 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout publish branch
+    - name: Checkout
       uses: actions/checkout@v2
       with:
-        ref: 'publish'
-        fetch-depth: 0
-    - name: Checkout source
-      uses: actions/checkout@v2
-      with:
-        path: vault
         fetch-depth: 0
     - name: Restore Node modules cache
       uses: actions/cache@v2
@@ -43,7 +37,7 @@ jobs:
     - name: Export notes
       run: yarn dendron publish export --target github --yes
     - name: Generate Atom Feed
-      run: ruby build_rss_feed.rb vault > docs/feed.xml
+      run: ruby build_rss_feed.rb notes > docs/feed.xml
     - name: Copy Google site verification file
       run: cp google*.html docs/
     - name: Deploy site
