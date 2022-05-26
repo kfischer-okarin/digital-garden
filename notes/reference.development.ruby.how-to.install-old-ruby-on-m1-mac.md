@@ -2,7 +2,7 @@
 id: fey4n6m4vb2lxp9yw9x4f5w
 title: Install old Ruby on M1 Mac
 desc: ''
-updated: 1653559878954
+updated: 1653577791817
 created: 1653559847175
 ---
 
