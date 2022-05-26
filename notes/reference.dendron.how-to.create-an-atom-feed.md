@@ -2,7 +2,7 @@
 id: t1sez74d9glnkg06z2ffli7
 title: Create an Atom Feed
 desc: ''
-updated: 1652535652558
+updated: 1653577550654
 created: 1652369652003
 ---
 
@@ -19,7 +19,7 @@ Usign this ruby script I wrote you can turn your most recent git 10 commits to y
 ## Steps
 
 ### 1. Add the script
-Add [this ruby script](https://github.com/kfischer-okarin/digital-garden/blob/publish/build_rss_feed.rb)
+Add [this ruby script](https://github.com/kfischer-okarin/digital-garden/blob/main/build_rss_feed.rb)
 next to your `dendron.yml`
 
 ### 2. Call the script between export and deploy
@@ -35,6 +35,9 @@ Assuming you followed the instructions to publish to
 
 If your vault happens to be in a different folder than `vault` then make sure to replace the folder name in the step
 above.
+
+**Note:** If you are using [Self Contained Vaults](https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/) then you
+have to specify the notes folder inside the vault, not the vault folder.
 
 ### 3. (Optional) Add a custom header with the link to the feed
 
