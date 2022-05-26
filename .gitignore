@@ -2,3 +2,4 @@
 
 .dendron.cache.*
 node_modules
+docs
