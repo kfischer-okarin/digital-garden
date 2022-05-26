@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1653132292366
+updated: 1653568940324
 created: 1650984376016
 ---
 
@@ -25,6 +25,12 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 
 ![Spacing example](assets/images/spacing.png)
 
+## Placement of UI Controls - Locality!
+- Put UI controls on where they effect the change
+  - Delete button **on** the email it deletes
+- Put UI Controls that act on a group of elements in an area above those elements
+  - Search bar on top of page searches the whole page
+  - Checkbox over table will select all rows
 
 ## Use great fonts
 - Check the fonts of great designs
@@ -36,16 +42,22 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
   - https://unsplash.com/
   - https://www.pexels.com/
 
-
-## Use HSL for colors
+## Use HSB for colors
 - It's very intuitive compared to RGB
-- You can easily make boring colors more interesting by adjusting their hue
+- You can easily make boring colors more interesting by adjusting their hue slightly
+  - For example boring blue to a slightly more purplish hue
 - Make color less overpowering/visible by reducing saturation
 
+### Theme color and variations
+- Choose a theme color
+- Light variation: Increase brightness, decrease saturation
+- Dark variation: Decrease brightness, increase saturation
+- You can make a secondary theme color that feels related to the first one by strongly adjusting brightness/saturation
+  while keeping the hue same
 
-## Design principles
+## Example design guidelines/directions
 
-## Playfulness
+### Playfulness
 - Pastel colors (i.e. less saturation and more brightness)
 - Scattered elements in the background (to break up the "grid")
 - Fonts with imperfect kerning (space between letters) or stroke-weights make things quirky
