@@ -22,7 +22,9 @@ commands:
 workspace:
     enableFullHierarchyNoteTitle: false
     vaults:
-        - fsPath: vault
+        - fsPath: .
+          name: digital-garden
+          selfContained: true
     journal:
         dailyDomain: daily
         name: journal

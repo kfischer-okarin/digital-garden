@@ -1,7 +1,8 @@
 {
   "folders": [
     {
-      "path": "vault"
+      "path": "notes",
+      "name": "digital-garden",
     }
   ],
   "settings": {
