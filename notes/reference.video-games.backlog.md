@@ -2,7 +2,7 @@
 id: yvwp53ehvfjhpvuc9rap1wf
 title: Backlog
 desc: ''
-updated: 1650008863301
+updated: 1654095980443
 created: 1650004878650
 ---
 
@@ -14,9 +14,9 @@ created: 1650004878650
 - Xenoblade Chronicles DE
 - 13 Sentinels: Aegis Rim
 - Hades
-- Summer in Mara
-- Final Fantasy Tactics
-- Breath of Fire 4
+- Summer in Mara (owned)
+- Final Fantasy Tactics (owned)
+- Breath of Fire 4 (owned)
 - Horizon: Forbidden West
 - Super Mario Odyssey
 - Kirby and the Forgotten Land
@@ -24,7 +24,21 @@ created: 1650004878650
 - The longest journey / Dreamfall
 - Rimworld
 - Mass Effect Legendary Edition
-- The Forgotten City
+
 - Eternal Cylinder
 - Castlevania: Symphony of the Night
-- Earthbound / Mother 3
+- Earthbound (Nintendo Online) / Mother 3
+
+## Knowledge Puzzle / Metroidbrainia / Outer Wilds-itch
+- The Forgotten City
+- Return of the Obra Dinn
+- The Sinking City
+- Sherlock Holmes
+- Heaven's Vault
+- Her Story (owned)
+- Telling Lies
+- Sorcery!
+- Overboard!
+- FEZ
+- The Witness (owned)
+- Riven
