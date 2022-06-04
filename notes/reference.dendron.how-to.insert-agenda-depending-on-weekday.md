@@ -2,7 +2,7 @@
 id: bjccjlfn0yonezff3yhauoa
 title: Insert Agenda depending on weekday
 desc: ''
-updated: 1654091488740
+updated: 1654311956768
 created: 1654067080283
 ---
 
@@ -92,7 +92,7 @@ module.exports = async function({ note }) {
 const getShortWeekday = (year, month, day) => {
   // Adjust month since Date uses 0-index month
   const date = new Date(year, Number(month) - 1, day);
-  return date.toLocaleString('default', { weekday: 'short'});
+  return date.toLocaleString('en-US', { weekday: 'short'});
 }
 
 const buildAgenda = (agendaItems) => {
