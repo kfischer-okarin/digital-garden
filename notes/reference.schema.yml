@@ -7,10 +7,10 @@ schemas:
     children:
       - pattern: bible
         namespace: true
-        template: templates.bible-book
+        template: template.bible-book
         children:
           - pattern: '?([0-9])?([0-9])[0-9]'
-            template: templates.bible-chapter
+            template: template.bible-chapter
       - pattern: literature-notes
         namespace: true
-        template: templates.literature-note
+        template: template.literature-note
