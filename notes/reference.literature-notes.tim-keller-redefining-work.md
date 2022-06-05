@@ -2,7 +2,7 @@
 id: 9n77qmexjixj539cn4ldvxq
 title: Tim Keller - Redefining Work | TGC13
 desc: ''
-updated: 1652006679996
+updated: 1654436655813
 created: 1649719417430
 ---
 
@@ -10,8 +10,6 @@ created: 1649719417430
 
 ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
 [Tim Keller | Redefining Work | TGC13](https://www.youtube.com/watch?v=fGH5bhUwMB4)
-
-Current timestamp: 18:32
 
 ## The Great Commission needs cultural engagement (2:07-2:52)
 - Isn't the job of the church simply to preach the word and bring people to Christ? Do we really need cultural
@@ -71,6 +69,26 @@ Current timestamp: 18:32
 - We cannot participate in a sneering attitude towards people working in service or other simple jobs
 - Doing work as a Christian means first and foremost doing good work
 - Even if you have a job that's not really exciting you can know that your work matters
+
+## Faith gives you a moral compass without which work could corrupt you (18:44 - 21:49)
+- In many professions there's a lot of pressure to do whatever it takes to turn a profit
+- The world (college) tells you that morality is relative
+  - (but then again you will be mercilessly judged and canceled or worse if you get caught doing something immoral
+    during your job)
+- We as Christians have an immovable strong moral compass to stand solid in this kind of headwind
+
+## Faith gives you a worldview without which work could master and use you (21:53 - 23:56)
+- In some vocations your worldview determines everything about how you approach your job:
+  - Teacher: What should a human being be like?
+  - Playwrights: What is right and wrong? Where should we going as a society?
+
+
+## Faith gives you hope that everything is not futile (24:00 - )
+- Because of the fall our work and our efforts are often so frustrating, so little and so imperfect no matter how hard
+  we try - it's all thorns and thistles
+  - It's as if we were a painter who tries to paint a tree for all his life and in the end after much work only gets out
+    a little leaf
+  - But there will be a perfect future, there will be perfect beauty, perfect justice, a perfect city in heaven
 
 ## Quotes
 - > Your work will make no sense to you unless you put it into some kind of story

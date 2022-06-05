@@ -2,7 +2,7 @@
 id: ixa6m1vstszidty3zktj5kj
 title: Faith and Work
 desc: ''
-updated: 1650679596083
+updated: 1654438445046
 created: 1649152995710
 ---
 # Faith and Work
@@ -25,3 +25,6 @@ created: 1649152995710
   - They have a whole Bible Commentary with that focus
 - [The Washington Institute for Faith, Vocation, and Culture](https://washingtoninst.org/)
   > The Washington Institute for Faith, Vocation, and Culture provides a place where Christians think carefully about issues worth pondering. We want our authors to delve into questions that we had not quite thought to ask, or to ask in that way, but that we wish we had asked.
+
+- Every Good Endeavor
+- Garden City
