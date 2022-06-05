@@ -2,7 +2,7 @@
 id: yvwp53ehvfjhpvuc9rap1wf
 title: Backlog
 desc: ''
-updated: 1654095980443
+updated: 1654434968308
 created: 1650004878650
 ---
 
@@ -28,6 +28,8 @@ created: 1650004878650
 - Eternal Cylinder
 - Castlevania: Symphony of the Night
 - Earthbound (Nintendo Online) / Mother 3
+
+- Stanley Parable: Ultra Deluxe
 
 ## Knowledge Puzzle / Metroidbrainia / Outer Wilds-itch
 - The Forgotten City
