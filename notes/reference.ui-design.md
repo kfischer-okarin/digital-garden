@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1653568940324
+updated: 1654525450471
 created: 1650984376016
 ---
 
@@ -11,6 +11,8 @@ created: 1650984376016
 Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 
 [5 Practical Exercises to Learn UI Design (For Free)](https://learnui.design/blog/5-practical-exercises-learn-ui-design-free.html)
+
+[50 UI Design Tips](https://twitter.com/erikdkennedy/status/1328771593934290944)
 
 ## Alignment
 
@@ -55,9 +57,30 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 - You can make a secondary theme color that feels related to the first one by strongly adjusting brightness/saturation
   while keeping the hue same
 
-## Example design guidelines/directions
+## Light comes from the sky
+- Top of things are bright, Shadows are cast below them
+  - Checkboxes are darker than the surrounding part and cast shadows
+
+    ![](assets/images/checkbox-shadow-example.png)
+  - Content cards are brighter than the background
+  - Input fields are darker than the surrounding surface
+
+## Design Motifs
+- Use a common theme/motif throughout your design to make it more interesting
+  - Hexagonal logo and a triangle grid over the main page image
+  - Use the same color or color gradient across the site
+
+## Tiny Underlines
+- Tiny underlines make otherwise boring text more interesting
+
+![](assets/images/tiny-underlines-example.jpeg){ height: 400px }
+
+## Example design guidelines/directions/motif
 
 ### Playfulness
 - Pastel colors (i.e. less saturation and more brightness)
 - Scattered elements in the background (to break up the "grid")
 - Fonts with imperfect kerning (space between letters) or stroke-weights make things quirky
+
+### Hexagon Logo and scattered triangles
+
