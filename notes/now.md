@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1653387185956
+updated: 1654481810571
 created: 1650289758802
 ---
 
@@ -41,6 +41,7 @@ Media I'm currently engaged with...
 - Dragon Quest 11
 - Steins;Gate Elite
 - Breath of Fire 3
+- Terraria
 
 ### Paused
 - Breath of the Wild
