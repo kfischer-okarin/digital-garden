@@ -2,7 +2,7 @@
 id: bjccjlfn0yonezff3yhauoa
 title: Insert Agenda depending on weekday
 desc: ''
-updated: 1654311956768
+updated: 1654651651589
 created: 1654067080283
 ---
 
@@ -47,7 +47,7 @@ agenda_items_by_weekday:
     - Code Review
   Wed:
     - Daily
-    - [[work.areas.project-a]] Meeting
+    - '[[work.areas.project-a]] Meeting'
     - Code Review
   Thu:
     - Daily
