@@ -2,7 +2,7 @@
 id: k7c8i691pq6lk126eczprm9
 title: Create Note References
 desc: ''
-updated: 1652839683418
+updated: 1655044664481
 created: 1652839482225
 ---
 
@@ -17,4 +17,12 @@ created: 1652839482225
 
 ```markdown
 ![[demo.embed.block#head1:#*]]
+```
+
+## Line offset
+
+Skips one line (i.e. the header)
+
+```markdown
+![[some.note#header,1]]
 ```
