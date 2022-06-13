@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1655081786207
+updated: 1655126108376
 created: 1650984376016
 ---
 
@@ -13,6 +13,10 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 [5 Practical Exercises to Learn UI Design (For Free)](https://learnui.design/blog/5-practical-exercises-learn-ui-design-free.html)
 
 [50 UI Design Tips](https://twitter.com/erikdkennedy/status/1328771593934290944)
+
+
+## Topics
+- [[reference.ui-design.colors]]
 
 ## Alignment
 
@@ -34,6 +38,25 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
   - Search bar on top of page searches the whole page
   - Checkbox over table will select all rows
 
+
+## Alternatives to separating with lines
+- Using whitespace (see [Placement of UI Controls - Locality!](#placement-of-ui-controls---locality))
+- Using background color to highlight something
+- Using shadows to separate elements
+
+## USE LOTS OF WHITESPACE
+
+## Everything should be visible in proportion to its importance
+- Borders of a table are less important than the information inside
+
+## Table Design tips
+- Make table lines less visible
+- Combine columns
+  - But only if you don't need to sort separately by those pieces of information
+  - Works well with columns where most rows don't have an interesting value
+- Don't use colored text - but rather a tag like appearance
+- Right-align and monospace number columns for easier comparability
+
 ## Use great fonts
 - Check the fonts of great designs
 - Have a collection of great fonts
@@ -44,18 +67,6 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
   - https://unsplash.com/
   - https://www.pexels.com/
 
-## Use HSB for colors
-- It's very intuitive compared to RGB
-- You can easily make boring colors more interesting by adjusting their hue slightly
-  - For example boring blue to a slightly more purplish hue
-- Make color less overpowering/visible by reducing saturation
-
-### Theme color and variations
-- Choose a theme color
-- Light variation: Increase brightness, decrease saturation
-- Dark variation: Decrease brightness, increase saturation
-- You can make a secondary theme color that feels related to the first one by strongly adjusting brightness/saturation
-  while keeping the hue same
 
 ## Light comes from the sky
 - Top of things are bright, Shadows are cast below them
