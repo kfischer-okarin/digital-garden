@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1654525450471
+updated: 1655081786207
 created: 1650984376016
 ---
 
@@ -74,6 +74,15 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 - Tiny underlines make otherwise boring text more interesting
 
 ![](assets/images/tiny-underlines-example.jpeg){ height: 400px }
+
+## Text on Images
+- Text on images usually looks good!
+- But if the image could be anything (like an user-uploaded profile picture), readability can be a problem
+- Some solutions:
+  - Use a dark box around the text
+  - Floor Fade - Use a black gradient on the bottom of the picture
+  - Tint the whole picture
+  - Text shadow (sometimes unreliable)
 
 ## Example design guidelines/directions/motif
 
