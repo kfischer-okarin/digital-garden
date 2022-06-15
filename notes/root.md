@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1652193961202
+updated: 1655304920941
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -25,7 +25,7 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 
 
 ## Interests
-- Game Development
+- [[Game Development|areas.gamedev]]
   - DragonRuby
   - AI & Deep Simulations
   - Time Travel mechanics
