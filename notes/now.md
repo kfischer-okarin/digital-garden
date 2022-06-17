@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1655424562991
+updated: 1655472304925
 created: 1650289758802
 ---
 
@@ -26,7 +26,6 @@ Media I'm currently engaged with...
 - Thermae Romae Novae (2022 anime)
 - Chimu Dondon
 - Summertime Rendering
-- Neon Genesis Evangelion - Re-Watch
 - Scrubs
 
 ### Paused

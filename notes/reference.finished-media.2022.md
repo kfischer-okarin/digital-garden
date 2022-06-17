@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1655424612206
+updated: 1655472363226
 created: 1649253863905
 ---
 
@@ -42,3 +42,6 @@ created: 1649253863905
 ## 2022-05-06 Super Mario Sunshine
 
 ## 2022-06-15 Rewatch: Jojo's Bizzare Adventure - Part 4
+
+## 2022-06-16 Neon Genesis Evangelion (Re-Watch)
+- Also End of Evangelion and the first three movies of the new movie series - that's enough for now
