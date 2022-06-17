@@ -2,7 +2,7 @@
 id: p6jaqlbef3uq7zaq25m97jc
 title: 'Matthew 12'
 desc: ''
-updated: 1654474310587
+updated: 1655428613466
 created: 1654473131930
 nav_order: 12
 bible_passage:
@@ -43,7 +43,7 @@ bible_passage:
   - Then talks about a driven out spirit (?)
 - Jesus calls all fellow believers his brothers and sisters
 
-## Difficult passages
+## Open questions / Difficult passages
 - Blaspheming the Holy Spirit (v 31-32)
 - Driven out spirit returning to the human from where it was driven out and brings seven other spirits with it (v 43-45)
   - Is this talking about the empty religiousness of the pharisees that leaves them worse off in the end than if they
