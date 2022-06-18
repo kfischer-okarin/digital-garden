@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1655304920941
+updated: 1655531866502
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -11,24 +11,21 @@ Hey, everyone!
 
 I'm Kevin and this page is my own shot at a Digital Garden[^1].
 
-This is a low-barrier[^2] experiment for myself to organize my thoughts and publish content and maybe find like-minded individuals to connect with.
+This is a low-barrier[^2] experiment for myself to organize my thoughts and publish content and maybe find like-minded
+individuals to connect with.
 
 This space will slowly evolve over time. Feel free to [[contact_me]] if you want to get in touch.
 
 
-## Topics recently on my mind
+## Topics
+- [[Game Development|areas.gamedev]]
 - [[reference.faith-and-work]]
-  - Taking notes on [[reference.literature-notes.tim-keller-redefining-work]]
 - ADHD
 - [[reference.spiritual-abuse]] in churches
 - [[Personal Knowledge Management (PKM)|areas.pkm]]
 
 
 ## Interests
-- [[Game Development|areas.gamedev]]
-  - DragonRuby
-  - AI & Deep Simulations
-  - Time Travel mechanics
 - Software Development
   - Software Design & Architecture
   - Clean Code & maintainable human readable source code

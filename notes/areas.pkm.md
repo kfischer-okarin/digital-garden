@@ -2,7 +2,7 @@
 id: z15jupogn6mgigc55dm5nmf
 title: Personal Knowledge Management (PKM)
 desc: ''
-updated: 1652195067996
+updated: 1655532763627
 created: 1648979932986
 ---
 
@@ -26,7 +26,20 @@ practicable for myself in the long run.
 which takes away a bit of the stress in case I go on one of my re-organization sprees again.
 
 
-## Methods that I find interesting and am evaluating
+## My methods/workflows
+
+## Always extract "How To" notes from actual work
+Every time I create something during my work or hobby development that could be described in more general terms I
+quickly create a "How To" note from it in the respective development reference hierarchy. That way my memory of how I
+did this is still fresh and I can leave it behind for future reference.
+
+### Project journal notes referenced from daily journal notes
+Ongoing projects have a chronological journal with a header per day I worked on that project. Then in my daily work
+journals I use [[Dendron Note References|reference.dendron.how-to.create-note-references]] to embed the respective parts
+of the project journal in that day's journal, too.
+
+
+## Other people's methods that I find interesting and am evaluating
 - Learning in Public[^1]
 - Linking Your Thinking[^2]
 - Evergreen notes[^3]

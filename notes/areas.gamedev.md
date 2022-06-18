@@ -1,12 +1,15 @@
 ---
 id: 6l8bkr9dd1y2gki01z3t80e
-title: Gamedev
+title: Game Development
 desc: ''
-updated: 1655303814979
+updated: 1655533551800
 created: 1649587038136
 ---
 
-# Gamedev
+# Game Development
+
+## Used Engines & Tools
+- [[reference.dragonruby]]
 
 ## My Motivation
 ![[areas.gamedev.my-motivation#^main-line]]
@@ -21,4 +24,8 @@ Independent and not necessarily related or having to be used together
 - "Floating" islands on pillars (**that** project)
 - Kirby RPG
 - The extraordinary hidden in plain sight / parallel magic/fantasy society (Harry Potter and others)
-- Intelligent agents
+- Intelligent agents, AI, especially symbolic AI
+
+## Game seeds/ideas
+
+- [[areas.gamedev.the-perfect-time-travel-game]]
