@@ -10,4 +10,4 @@ created: 1651135175824
 
 Works with `datetime.date` and `datetime.time` using the `strftime` method.
 
-![[reference.development.python.strftime-format-codes]]
+![[reference.dev.python.strftime-format-codes]]
