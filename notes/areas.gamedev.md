@@ -9,7 +9,7 @@ created: 1649587038136
 # Game Development
 
 ## Used Engines & Tools
-- [[reference.dragonruby]]
+- [[areas.gamedev.dragonruby]]
 
 ## My Motivation
 ![[areas.gamedev.my-motivation#^main-line]]
