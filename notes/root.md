@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1655531866502
+updated: 1655543408062
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -18,7 +18,8 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 
 
 ## Topics
-- [[Game Development|areas.gamedev]]
+- [[areas.gamedev]]
+- [[areas.software-development]]
 - [[reference.faith-and-work]]
 - ADHD
 - [[reference.spiritual-abuse]] in churches
@@ -26,15 +27,10 @@ This space will slowly evolve over time. Feel free to [[contact_me]] if you want
 
 
 ## Interests
-- Software Development
-  - Software Design & Architecture
-  - Clean Code & maintainable human readable source code
-  - Developer productivity, automation
+
 - Christian faith and Creativity/Art/Media
 - Communicating the Christian faith in foreign cultures (especially in Asia & Japan)
 - Machine Learning
-- Personal Knowledge Management & Productivity
-
 
 ## Media I enjoy
 - 🇯🇵 Anime/Manga
