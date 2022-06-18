@@ -16,7 +16,7 @@ This digital garden is basically my [open garage](https://notes.andymatuschak.or
 During my work (and hobby activities) as a software developer I often google many things related to the tools/languages
 I use. Often times I find myself looking for the same things many times over and again (as my browser history tells me).
 This seems to be a bit of wasted effort, so it would be nice if I can collect snippets of things and methods I can refer
-to later (probably similar to [[inbox.reading.development.jbranchaud-til]]).
+to later (probably similar to [[areas.software-development.inbox.jbranchaud-til]]).
 
 ### Don't be a burden
 I'm a person prone to re-ordering my note taking system regularly and I want to find something that sticks and is

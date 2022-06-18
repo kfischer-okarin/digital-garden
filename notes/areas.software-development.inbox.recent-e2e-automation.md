@@ -2,7 +2,7 @@
 id: 8g0jeggpf33ot1lbzvvev6y
 title: 人類よ！これが最近のE2Eテスト自動化だ！ 開発スピードと品質を両立するアジャイルテスティングの旅
 desc: ''
-updated: 1649435819002
+updated: 1655542139948
 created: 1649435314697
 ---
 
