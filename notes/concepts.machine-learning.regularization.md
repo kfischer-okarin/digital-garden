@@ -8,7 +8,7 @@ created: 1653397309244
 
 # Regularization
 
-A method to deal with ![[Overfitting|reference.concepts.machine-learning.overfitting]].
+A method to deal with ![[concepts.machine-learning.overfitting]].
 
 Intuition: Penalize high values of model parameters $\theta_j$, to get a "simpler model"
 

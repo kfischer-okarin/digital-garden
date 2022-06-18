@@ -8,7 +8,7 @@ created: 1653396955563
 
 # Normal Equation
 
-Analytic solution for [[reference.concepts.machine-learning.linear-regression]]
+Analytic solution for [[concepts.machine-learning.linear-regression]]
 
 Assuming you have these training data points:
 
