@@ -2,7 +2,7 @@
 id: ixa6m1vstszidty3zktj5kj
 title: Faith and Work
 desc: ''
-updated: 1654438445046
+updated: 1655683058814
 created: 1649152995710
 ---
 # Faith and Work
@@ -28,3 +28,4 @@ created: 1649152995710
 
 - Every Good Endeavor
 - Garden City
+- The Call (Os Guiness)
