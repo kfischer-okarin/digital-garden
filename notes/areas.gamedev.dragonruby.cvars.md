@@ -2,7 +2,7 @@
 id: fk99xdwpvi4d4yjtbai8dt6
 title: Cvars
 desc: ''
-updated: 1650004753662
+updated: 1655796832869
 created: 1649948443416
 ---
 
@@ -34,6 +34,12 @@ $gtk.register_cvar varname, description, type, default_value
 - type: `:string`, `:int`, `:uint`, `:bool`
 
 ## Default Cvars
+
+```rb
+$args.cvars.each do |name, var|
+  puts "#{name}: #{var.value} (#{var.description}. Type: #{var.type}. Locked? #{var.locked})"
+end
+```
 
 ```
 log.stdout_color: true (True if we should colorize logs sent to stdout)
