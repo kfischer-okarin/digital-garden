@@ -2,7 +2,7 @@
 id: k7c8i691pq6lk126eczprm9
 title: Create Note References
 desc: ''
-updated: 1655044664481
+updated: 1656050780292
 created: 1652839482225
 ---
 
@@ -17,6 +17,14 @@ created: 1652839482225
 
 ```markdown
 ![[demo.embed.block#head1:#*]]
+```
+
+## An arbitrary block inside a note
+
+Embeds a block/paragraph with marked `^block_id` behind it
+
+```markdown
+![[demo.embed.block#^block_id]]
 ```
 
 ## Line offset
