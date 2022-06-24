@@ -2,7 +2,7 @@
 id: tuxfl9vy5d9c7db4ei5lsrx
 title: Four Types of Documentation
 desc: ''
-updated: 1656050534806
+updated: 1656079726390
 created: 1653234342982
 ---
 
