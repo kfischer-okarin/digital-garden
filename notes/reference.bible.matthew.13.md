@@ -2,7 +2,7 @@
 id: cxvy6st4n712p53eyhnrs86
 title: 'Matthew 13'
 desc: ''
-updated: 1655428810390
+updated: 1656290917970
 created: 1655426722497
 nav_order: 12
 bible_passage:
@@ -15,7 +15,9 @@ bible_passage:
 [ESV](https://www.biblegateway.com/passage/?search=Matthew+13&version=ESV)
 
 ## My Summary
-- Jesus tells the parable of the sower and the 4 types of soil, and explains it later
+Jesus tells a lot of parables about the kingdom of God
+
+- The parable of the sower and the 4 types of soil (with explanation later)
   - The seed is the word of God and the soils are ways how people will take and apply the word in their life
   - The soils are:
     - The path where birds eat the seed
@@ -27,19 +29,43 @@ bible_passage:
         for the kingdom
     - Good soil
       - People who take the word, apply it and bring fruit
+- The parable about another farmer, who planted wheat but an enemy mixed weeds into the same field. His servants ask
+  him whether they should pull out the weeds but the tells them to wait until harvest time otherwise the wheat will
+  also be damaged (with explanation later)
+  - It seems that those particular weeds and wheat look very similar when young (Source? I heard that often said
+    in sermons)
+  - This is a parable about believers and unbelievers as Jesus explains later. Jesus brings the good news to the people
+    but Satan has put his children among them. God might not remove/judge them right away - but in the end that sorting
+    will be done by his angels at judgement day.
+- The parable of the mustard seed
+  - It's a tiny seed but turns into a huge tree
+  - The kingdom also starts small and invisibly but has a huge influence
+- The parable of the leaven
+  - Leaven is small compared to the whole dough but it takes just a little time for it all to become leavened
+  - Similar meaning as the one with the mustard seed
+- The parable of the hidden treasure
+  - The man who stumbled across the treasure sold everything to buy the land as fast as he could
+  - Giving up everything to gain eternal life, enter the kingdom
+- The parable of the pearl
+  - The merchant actively looked for the pearl, he also sold everything he had to buy it
+  - Both seekers and people who find Jesus by accident have the same reaction
+- The parable of the fisher's net
+  - Good fish and bad fish are caught, they are sorted in the end
+
+Some other content
+- Matthew mentioned that this use of parables is a fulfillment of
+  [Psalm 78:2](https://www.biblegateway.com/passage/?search=Psalm+78%3A2&version=ESV)
+  ([[Psalm 78|reference.bible.psalms.078]])
 - The disciples ask Jesus why he speaks in parables and he answers that it is to hide the truth from those "to whom it
   has not been given to know the secrets of the kingdom"
     - He quotes [Isaiah 6:9-10](https://www.biblegateway.com/passage/?search=Isaiah+6%3A9-10&version=ESV)
       ([[Isaiah 6|reference.bible.isaiah.06]])
-- Jesus tells another parable about about another farmer, who planted wheat but an enemy mixed weeds into the same
-  field. His servants ask him whether they should pull out the weeds but the tells them to wait until harvest time
-  otherwise the wheat will also be damaged
-  - It seems that those particular weeds and wheat look very similar when young (Source? I heard that often said
-    in sermons)
-  - This seems to be a parable about believers and unbelievers. God might not remove/judge people who will never
-    believe right away - but in the end that sorting will be done at judgement day.
-- (TODO: Second half)
-
+- Jesus says that scribes who enter the kingdom have lots of blessings to give
+  - probably speaking about the deep  knowledge of the Old Testament and the old covenant showing its true value once
+    you see it in light of Jesus
+  - And being able to help other believers with your expertise
+- Finally Jesus is teaching in his hometown Nazareth but is rejected and not taken seriously there
+  - He didn't do a lot of miracles there because of their unbelief
 
 ## Open questions / Difficult passages
 - > For to the one who has, more will be given, and he will have an abundance, but from the one who has not, even what
@@ -55,4 +81,4 @@ bible_passage:
     - This could be like the hardening of the Pharaoh's heart? (Which is a difficult topic, too)
 - Does the parable of the weed contain practical wisdom/instruction for churches/communities?
   - It it mainly an encouragement/description of how God will eventually handle everything and therefore we do not
-    need to judge/exclude/be disappointed too much about unbelievers or maybe even believers with seemingly no fruit?
+    need to judge/exclude/be disappointed too much about unbelievers?
