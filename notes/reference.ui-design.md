@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1655126108376
+updated: 1656428185352
 created: 1650984376016
 ---
 
@@ -38,13 +38,18 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
   - Search bar on top of page searches the whole page
   - Checkbox over table will select all rows
 
+**Source:** Design Hacks - My favorite usability principle NO ONE talks about
+
 
 ## Alternatives to separating with lines
 - Using whitespace (see [Placement of UI Controls - Locality!](#placement-of-ui-controls---locality))
 - Using background color to highlight something
 - Using shadows to separate elements
 
+**Source:** Design Hacks - Brazilian jiu-jitsu & the art of interface design
+
 ## USE LOTS OF WHITESPACE
+**Source:** Design Hacks - One reason devs make worse UI designs (+ how to fix it)
 
 ## Everything should be visible in proportion to its importance
 - Borders of a table are less important than the information inside
@@ -57,6 +62,8 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 - Don't use colored text - but rather a tag like appearance
 - Right-align and monospace number columns for easier comparability
 
+**Source:** Design Hacks - 5 quick design tips for data tables
+
 ## Use great fonts
 - Check the fonts of great designs
 - Have a collection of great fonts
@@ -67,6 +74,14 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
   - https://unsplash.com/
   - https://www.pexels.com/
 
+## "Frame breaking" can be interesting
+Letting an image outside of its frame like
+- a mountain top extending over the menu bar
+- A logo/an illustration disappearing partly behind photo elements
+
+Basically letting the photo world and the design element/illustion world overlap
+
+**Source:** Design Hacks - How this pro designer thinks outside the rectangle
 
 ## Light comes from the sky
 - Top of things are bright, Shadows are cast below them
@@ -75,6 +90,8 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
     ![](assets/images/checkbox-shadow-example.png)
   - Content cards are brighter than the background
   - Input fields are darker than the surrounding surface
+
+**Source:** Design Hacks - An important but *NON-obvious* law of UI 🔥
 
 ## Design Motifs
 - Use a common theme/motif throughout your design to make it more interesting
@@ -95,12 +112,28 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
   - Tint the whole picture
   - Text shadow (sometimes unreliable)
 
-## Example design guidelines/directions/motif
+**Source:** Design Hacks - Why I’m jealous of graphic designers
+
+## Example design guidelines/directions/motif/brand feel
 
 ### Playfulness
 - Pastel colors (i.e. less saturation and more brightness)
 - Scattered elements in the background (to break up the "grid")
 - Fonts with imperfect kerning (space between letters) or stroke-weights make things quirky
+
+### Friendly Design
+- Squishy shapes, rounded corners
+- Cheerful bright pastel colors
+- Font: Simple geometric forms, rounded, not much difference in stroke weight
+
+**Source:** Design Hacks - Fiverr vs. Chanel
+
+### Fancy designs
+- Thin stroke, crisp corner icons/images
+- Grayscale, gold, black colors
+- Font: Delicate serif
+
+**Source:** Design Hacks - Fiverr vs. Chanel
 
 ### Hexagon Logo and scattered triangles
 
