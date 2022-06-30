@@ -1,8 +1,8 @@
 ---
 id: cx9iiu2cyzain9id40qhhec
-title: 'Genesis 39'
+title: 'Genesis 40'
 desc: ''
-updated: 1655685278853
+updated: 1656549127152
 created: 1655684848645
 nav_order: 40
 bible_passage:
