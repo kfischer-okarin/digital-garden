@@ -2,7 +2,7 @@
 id: 5ebv209rx9xwuqrm58y6tr6
 title: 'Genesis 41'
 desc: ''
-updated: 1656549619398
+updated: 1656981315955
 created: 1656549100730
 nav_order: 41
 bible_passage:
@@ -12,7 +12,7 @@ bible_passage:
 
 # Genesis 41
 
-[ESV](https://www.biblegateway.com/passage/?search=genesis+41&version=ESV)
+[ESV](https://www.biblegateway.com/passage/?search=Genesis+41&version=ESV)
 
 ## My Summary
 - Two years after the cupbearer was released the Pharao began had two dreams: 7 fat cows followed by 7 thin cows who
@@ -29,3 +29,15 @@ bible_passage:
 - Then the famine years came and Joseph began to sell the stored grain to the Egyptians and also to foreigners
 
 ## Central verses
+
+> And Pharaoh said to Joseph, “I have had a dream, and there is no one who can interpret it. I have heard it said of you
+  that when you hear a dream you can interpret it.” Joseph answered Pharaoh, “It is not in me; God will give Pharaoh a
+  favorable answer.”
+
+[Genesis 41:15-16](https://www.biblegateway.com/passage/?search=Genesis+41%3A15-16&version=ESV)
+
+> Joseph called the name of the firstborn Manasseh. “For,” he said, “God has made me forget all my hardship and all my
+  father's house.” The name of the second he called Ephraim, “For God has made me fruitful in the land of my
+  affliction.”
+
+[Genesis 41:51-52](https://www.biblegateway.com/passage/?search=Genesis+41%3A51-52&version=ESV)
