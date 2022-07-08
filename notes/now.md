@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1655472304925
+updated: 1657246796323
 created: 1650289758802
 ---
 
@@ -11,7 +11,6 @@ created: 1650289758802
 Media I'm currently engaged with...
 
 ## Currently reading
-- The Ragamuffin Gospel (Brennan Manning)
 - Design Patterns: Elements of Reusable Object-Oriented Software ("The Gang of Four")
 - [[reference.literature-notes.austin-kleon-steal-like-an-artist]]
 - [[reference.literature-notes.david-allen-getting-things-done]] (Re-read)
@@ -22,13 +21,10 @@ Media I'm currently engaged with...
 ## Currently watching
 - DS9
 - JoJo's Bizarre Adventure - Part 5 - Re-Watch
-- Spy x Family
 - Thermae Romae Novae (2022 anime)
 - Chimu Dondon
 - Summertime Rendering
 - Scrubs
-
-### Paused
 - Boruto
 
 ## Currently playing
