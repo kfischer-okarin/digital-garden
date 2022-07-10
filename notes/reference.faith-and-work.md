@@ -9,7 +9,7 @@ created: 1649152995710
 
 ## Resources
 - TGC13 Faith at Work Post-Conference
-  - [[reference.literature-notes.tim-keller-redefining-work]]
+  - [[reference.literature-notes.videos.tim-keller-redefining-work]]
 - TGC Course - A Practical Theology of Work
   - https://www.thegospelcoalition.org/course/practical-theology-work/
 
