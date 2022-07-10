@@ -2,7 +2,7 @@
 id: 9n77qmexjixj539cn4ldvxq
 title: Tim Keller - Redefining Work | TGC13
 desc: ''
-updated: 1657442533255
+updated: 1657443466235
 created: 1649719417430
 ---
 
@@ -10,6 +10,17 @@ created: 1649719417430
 
 ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
 [Tim Keller | Redefining Work | TGC13](https://www.youtube.com/watch?v=fGH5bhUwMB4)
+
+## My Summary
+- Doing excellent work is part our service for God
+- Faith helps us to
+  - keep our self-worth independent of our ability to work
+  - see the inherent dignity of all work
+  - keep our integrity even during temptations
+  - have hope that it will bear fruit even if we don't see it right away (or ever during our life)
+  - be a light and salt in our sphere of influence
+
+---
 
 ## The Great Commission needs cultural engagement (2:07-2:52)
 - Isn't the job of the church simply to preach the word and bring people to Christ? Do we really need cultural
@@ -106,3 +117,9 @@ created: 1649719417430
 - > The way to do work as a Christian is to do it well
 
   16:50
+
+---
+
+## My Questions, Thoughts, Comments
+- I think this is a point of view that must be heard more clearly in many evangelical churches, where people in
+  "worldly" jobs somehow often feel as second-class citizens in the Kingdom of God.
