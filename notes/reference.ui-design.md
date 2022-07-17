@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1656428185352
+updated: 1657895264763
 created: 1650984376016
 ---
 
@@ -125,15 +125,27 @@ Basically letting the photo world and the design element/illustion world overlap
 - Squishy shapes, rounded corners
 - Cheerful bright pastel colors
 - Font: Simple geometric forms, rounded, not much difference in stroke weight
+  - 45 degree terminals (the ends of the c) convey subtle friendliness
 
-**Source:** Design Hacks - Fiverr vs. Chanel
+**Source:**
+  - Design Hacks - Fiverr vs. Chanel
+  - Design Hacks - I made a 1-question personality test for fonts
 
-### Fancy designs
+### Fancy/Elegant designs
 - Thin stroke, crisp corner icons/images
 - Grayscale, gold, black colors
 - Font: Delicate serif
+  - For sans-serif: near vertical terminals (the ends of the c) convey subtle elegance
 
-**Source:** Design Hacks - Fiverr vs. Chanel
+**Source:**
+  - Design Hacks - Fiverr vs. Chanel
+  - Design Hacks - I made a 1-question personality test for fonts
+
+### Crisp, clear cut impression
+- Font: horizontal terminals (the ends of the c) convey subtle crispness
+
+**Source:**
+  - Design Hacks - I made a 1-question personality test for fonts
 
 ### Hexagon Logo and scattered triangles
 
