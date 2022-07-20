@@ -2,7 +2,7 @@
 id: cxvy6st4n712p53eyhnrs86
 title: 'Matthew 13'
 desc: ''
-updated: 1656290917970
+updated: 1658277667526
 created: 1655426722497
 nav_order: 12
 bible_passage:
@@ -43,12 +43,18 @@ Jesus tells a lot of parables about the kingdom of God
 - The parable of the leaven
   - Leaven is small compared to the whole dough but it takes just a little time for it all to become leavened
   - Similar meaning as the one with the mustard seed
-- The parable of the hidden treasure
-  - The man who stumbled across the treasure sold everything to buy the land as fast as he could
-  - Giving up everything to gain eternal life, enter the kingdom
-- The parable of the pearl
-  - The merchant actively looked for the pearl, he also sold everything he had to buy it
-  - Both seekers and people who find Jesus by accident have the same reaction
+- Parables about treasures
+  - The parable of the hidden treasure
+    - The man who stumbled across the treasure sold everything to buy the land as fast as he could
+  - The parable of the pearl
+    - The merchant actively looked for the pearl, he also sold everything he had to buy it
+  - Both are often interpreted as teaching that believers should be willing to give up everything to gain eternal life,
+    enter the kingdom
+    - But considering the other parables about "found" things (coins, sheep, son) have God as the person seeking the
+      lost, it would make sense that God is the protagonist in this parable too
+    - God giving up everything, i.e. his only Son so humans could be reconciled with him... We are so precious to God.
+      That seems to fit the gospel message more than a kind of holy pressure to sacrifice everything to get inside the
+      kingdom
 - The parable of the fisher's net
   - Good fish and bad fish are caught, they are sorted in the end
 
