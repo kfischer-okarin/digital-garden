@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1657895264763
+updated: 1658328817909
 created: 1650984376016
 ---
 
@@ -17,6 +17,7 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 
 ## Topics
 - [[reference.ui-design.colors]]
+- [[reference.ui-design.text]]
 
 ## Alignment
 
@@ -40,7 +41,6 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 
 **Source:** Design Hacks - My favorite usability principle NO ONE talks about
 
-
 ## Alternatives to separating with lines
 - Using whitespace (see [Placement of UI Controls - Locality!](#placement-of-ui-controls---locality))
 - Using background color to highlight something
@@ -63,10 +63,6 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 - Right-align and monospace number columns for easier comparability
 
 **Source:** Design Hacks - 5 quick design tips for data tables
-
-## Use great fonts
-- Check the fonts of great designs
-- Have a collection of great fonts
 
 ## Use great images
 
@@ -103,16 +99,18 @@ Basically letting the photo world and the design element/illustion world overlap
 
 ![](assets/images/tiny-underlines-example.jpeg){ height: 400px }
 
-## Text on Images
-- Text on images usually looks good!
-- But if the image could be anything (like an user-uploaded profile picture), readability can be a problem
-- Some solutions:
-  - Use a dark box around the text
-  - Floor Fade - Use a black gradient on the bottom of the picture
-  - Tint the whole picture
-  - Text shadow (sometimes unreliable)
+## Good "No Result" pages
+- Give you an action you could take to add the missing data
+- Give you the option to remove filters if any are applied
+- Show example/popular searches to show the kinds of things they can search for
+- Possibly also do fuzzy matching to offer a "Did you mean... ?"
 
-**Source:** Design Hacks - Why I’m jealous of graphic designers
+**Source:** Design Hacks - 4 quick tips for awesome “No Results” pages
+
+## Don't use obvious labels
+- "Description" can stand without label if the text style is clear enough
+- Titles/Names can just be headings
+- Think about using tag-like displays
 
 ## Example design guidelines/directions/motif/brand feel
 
@@ -144,8 +142,7 @@ Basically letting the photo world and the design element/illustion world overlap
 ### Crisp, clear cut impression
 - Font: horizontal terminals (the ends of the c) convey subtle crispness
 
-**Source:**
-  - Design Hacks - I made a 1-question personality test for fonts
+**Source:** Design Hacks - I made a 1-question personality test for fonts
 
 ### Hexagon Logo and scattered triangles
 

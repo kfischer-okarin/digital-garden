@@ -2,7 +2,7 @@
 id: kewisue7e4ornf02rqrfy97
 title: Colors
 desc: ''
-updated: 1657895535604
+updated: 1658329684422
 created: 1655124831115
 ---
 
@@ -54,3 +54,12 @@ One warm and one cool looks usually good
 - Don't do straight gradients in RGB space
 - Do them in HCL, HSB or HSL
 - Useful Tool: https://www.learnui.design/tools/gradient-generator.html
+
+## Muted Palette
+- Calm, restrained, sometimes retro vibe
+- Orangish reds (little saturation), Goldish yellow, yellowish greens
+- Shift everything towards orange
+
+![](assets/images/muted-palette.png)
+
+**Source:** Design Hacks - On color palettes and MacGuffins
