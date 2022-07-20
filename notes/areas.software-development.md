@@ -9,7 +9,7 @@ created: 1655541876900
 # Software Development
 
 ## Documentation
-- [[area.software-development.four-types-of-documentation]]
+- [[areas.software-development.four-types-of-documentation]]
 - Documentation Checklist
   - When explaining several bigger topics it's good to first list them up in the introductory text and then follow up
     with sub-sections using the same name as title
