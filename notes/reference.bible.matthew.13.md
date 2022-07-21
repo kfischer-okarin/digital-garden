@@ -2,11 +2,11 @@
 id: cxvy6st4n712p53eyhnrs86
 title: 'Matthew 13'
 desc: ''
-updated: 1658277667526
+updated: 1658363554320
 created: 1655426722497
-nav_order: 12
+nav_order: 13
 bible_passage:
-  book: MAT 13
+  book: MAT
   chapter: 13
 ---
 
