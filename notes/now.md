@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1657246796323
+updated: 1658674476046
 created: 1650289758802
 ---
 
@@ -21,7 +21,6 @@ Media I'm currently engaged with...
 ## Currently watching
 - DS9
 - JoJo's Bizarre Adventure - Part 5 - Re-Watch
-- Thermae Romae Novae (2022 anime)
 - Chimu Dondon
 - Summertime Rendering
 - Scrubs
@@ -31,7 +30,6 @@ Media I'm currently engaged with...
 - Super Mario Galaxy
 - Stardew Valley
 - Fortnite
-- It takes two
 - Robotics;Notes Elite
 - Dragon Quest 11
 - Steins;Gate Elite
@@ -41,6 +39,7 @@ Media I'm currently engaged with...
 ### Paused
 - Breath of the Wild
 - Ni no Kuni
+- It takes two
 
 ## Currently listening to
 - The Stand (Stephen King)

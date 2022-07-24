@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1655472363226
+updated: 1658674458902
 created: 1649253863905
 ---
 
@@ -45,3 +45,7 @@ created: 1649253863905
 
 ## 2022-06-16 Neon Genesis Evangelion (Re-Watch)
 - Also End of Evangelion and the first three movies of the new movie series - that's enough for now
+
+## 2022-07-23 Thermae Romae Novae
+
+## 2022-07-24 Boku no Daisuki na Tsuma
