@@ -2,7 +2,7 @@
 id: kewisue7e4ornf02rqrfy97
 title: Colors
 desc: ''
-updated: 1658329684422
+updated: 1658538590409
 created: 1655124831115
 ---
 
@@ -13,6 +13,14 @@ created: 1655124831115
 - You can easily make boring colors more interesting by adjusting their hue slightly
   - For example boring blue to a slightly more purplish hue
 - Make color less overpowering/visible by reducing saturation
+
+## Fixing clashing colors
+![Clashing Colors](assets/images/clashing-colors.png)
+- They have too similar "luminosity"
+- To fix, do one of:
+  - Raise the luminosity of one: Raise Brightness, Lower Saturation
+  - Lower the luminosity of one: The opposite
+  - Raise one, lower the other
 
 ## Theme color and variations
 - Choose a theme color
