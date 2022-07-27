@@ -4,6 +4,6 @@
   "repository": "git@github.com:kfischer-okarin/digital-garden.git",
   "author": "Kevin Fischer <kfischer_okarin@yahoo.co.jp>",
   "devDependencies": {
-    "@dendronhq/dendron-cli": "0.99.0"
+    "@dendronhq/dendron-cli": "0.105.0"
   }
 }
