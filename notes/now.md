@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1658674476046
+updated: 1658970349710
 created: 1650289758802
 ---
 
@@ -12,6 +12,7 @@ Media I'm currently engaged with...
 
 ## Currently reading
 - Design Patterns: Elements of Reusable Object-Oriented Software ("The Gang of Four")
+- [[reference.literature-notes.implementing-domain-driven-design]]
 - [[reference.literature-notes.austin-kleon-steal-like-an-artist]]
 - [[reference.literature-notes.david-allen-getting-things-done]] (Re-read)
 
@@ -20,11 +21,11 @@ Media I'm currently engaged with...
 
 ## Currently watching
 - DS9
-- JoJo's Bizarre Adventure - Part 5 - Re-Watch
 - Chimu Dondon
 - Summertime Rendering
 - Scrubs
 - Boruto
+- Cells at Work!
 
 ## Currently playing
 - Super Mario Galaxy

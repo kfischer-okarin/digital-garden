@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1658674458902
+updated: 1658970372401
 created: 1649253863905
 ---
 
@@ -49,3 +49,5 @@ created: 1649253863905
 ## 2022-07-23 Thermae Romae Novae
 
 ## 2022-07-24 Boku no Daisuki na Tsuma
+
+## 2022-07-28 Rewatch: Jojo's Bizzare Adventure - Part 5
