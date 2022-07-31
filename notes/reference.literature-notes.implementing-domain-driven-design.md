@@ -2,7 +2,7 @@
 id: pr8dcxzqvr6g8t5gjdty590
 title: Implementing Domain Driven Design
 desc: ''
-updated: 1658277242700
+updated: 1659279736007
 created: 1657942831470
 ---
 
@@ -83,6 +83,17 @@ created: 1657942831470
 - Persistence style stores
   - Explicit save calls
 - Collection style is preferable but not always feasible
+
+## Integrating Bounded Contexts
+- When using message services - make your event handlers idempotent if any possible - since a message could always be
+  delivered several times
+
+## UI
+- Should manipulate **one** aggregate at a time (aggregate == transaction boundary)
+- Might need several aggregates for context
+- When you use Rest Resources (or any kind of data representation for the UI) then design them around use cases **not**
+  around the actual aggregates
+  - Keep UI and data structures decoupled
 
 ---
 
