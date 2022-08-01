@@ -2,7 +2,7 @@
 id: 8ibsbx74seaqalt8quejc2g
 title: UI Design
 desc: ''
-updated: 1658328817909
+updated: 1659327020519
 created: 1650984376016
 ---
 
@@ -111,6 +111,15 @@ Basically letting the photo world and the design element/illustion world overlap
 - "Description" can stand without label if the text style is clear enough
 - Titles/Names can just be headings
 - Think about using tag-like displays
+
+## Avoid Dropdowns if possible
+- Dropdowns require two clicks and hide the possible options
+- Possible replacements:
+  - Some Type selection that changes the form -> Tab
+  - Date/Time -> Use text fields with date/time pickers
+  - Boolean values -> Toggles
+
+**Source:** Design Hacks - 4 quick “before/after” designs 💅
 
 ## Example design guidelines/directions/motif/brand feel
 
