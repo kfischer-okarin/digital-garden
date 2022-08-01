@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Kevin Fischer</name>
+  </author>
+  <id>https://kfischer-okarin.github.io/digital-garden/feed.xml</id>
+  <link href="https://kfischer-okarin.github.io/digital-garden"
+    rel="alternate"/>
+  <link href="https://kfischer-okarin.github.io/digital-garden/feed.xml"
+    rel="self"/>
+  <subtitle>Kevin Fischer's Digital Garden.</subtitle>
+  <title>My Digital Garden</title>
+  <updated>2022-08-01T14:45:12+00:00</updated>
+  <entry>
+    <id>47790393c775d63ded60c90c39661f275559b2c0:notes/reference.ui-design.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/8ibsbx74seaqalt8quejc2g"/>
+    <title>UI Design</title>
+    <updated>2022-08-01T14:45:12+00:00</updated>
+    <dc:date>2022-08-01T14:45:12+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>3253aff595a5e8dc1eaf063a37cfdc9d90917a6b:notes/reference.bible.genesis.43.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/z9bj637kd9uu7b5tdg0rot6"/>
+    <title>Genesis 42</title>
+    <updated>2022-08-01T00:05:29+00:00</updated>
+    <dc:date>2022-08-01T00:05:29+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>09f9772a1c9fd7a55e92702c3cc144b78e3ab5df:notes/reference.literature-notes.implementing-domain-driven-design.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/pr8dcxzqvr6g8t5gjdty590"/>
+    <title>Implementing Domain Driven Design</title>
+    <updated>2022-07-31T15:02:39+00:00</updated>
+    <dc:date>2022-07-31T15:02:39+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>f5f32349bf7a6ac9baf5126d25eae1cf21044879:notes/inbox.technologies.crafting-interpreters.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/6abi85y1z73l9al09jlg2j7"/>
+    <title>Crafting Interpreters</title>
+    <updated>2022-07-29T16:04:45+00:00</updated>
+    <dc:date>2022-07-29T16:04:45+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>f5f32349bf7a6ac9baf5126d25eae1cf21044879:notes/inbox.technologies.framer-animation-library.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/iwpv2heezwsug1o685k92zt"/>
+    <title>Framer Animation Library</title>
+    <updated>2022-07-29T16:04:45+00:00</updated>
+    <dc:date>2022-07-29T16:04:45+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>f5f32349bf7a6ac9baf5126d25eae1cf21044879:notes/reference.dev.lua.ternary-operator.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/a9fgwdmjhljan58gj63zjel"/>
+    <title>Ternary Operator</title>
+    <updated>2022-07-29T16:04:45+00:00</updated>
+    <dc:date>2022-07-29T16:04:45+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>31f9abdf32206e174439297b6fa060e1275bb9a4:notes/concepts.misc.play-according-to-callois.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/wzzzwjmaf5x1yhuw7563h7c"/>
+    <title>Play According to Callois</title>
+    <updated>2022-07-28T15:02:09+00:00</updated>
+    <dc:date>2022-07-28T15:02:09+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>3204c30401480d82e244a8c9269b1d278241bbc7:notes/now.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/tu102fn6psvc3ef33p2jl5p"/>
+    <title>Now</title>
+    <updated>2022-07-28T01:51:36+00:00</updated>
+    <dc:date>2022-07-28T01:51:36+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>3204c30401480d82e244a8c9269b1d278241bbc7:notes/reference.dev.react.component-libraries.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ys9ndey7zw3puy3rxjh57og"/>
+    <title>Component Libraries</title>
+    <updated>2022-07-28T01:51:36+00:00</updated>
+    <dc:date>2022-07-28T01:51:36+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>3204c30401480d82e244a8c9269b1d278241bbc7:notes/reference.dev.vue.component-libraries.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/qth8qinx740q10li927mvbx"/>
+    <title>Component Libraries</title>
+    <updated>2022-07-28T01:51:36+00:00</updated>
+    <dc:date>2022-07-28T01:51:36+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>3204c30401480d82e244a8c9269b1d278241bbc7:notes/reference.finished-media.2022.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/b228ry0ggta9x148xpr29lk"/>
+    <title>2022</title>
+    <updated>2022-07-28T01:51:36+00:00</updated>
+    <dc:date>2022-07-28T01:51:36+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>f226d3a975c50f296a2f0ad2d004d13e67773749:notes/reference.assets.photos.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/7imjnpj58ll8i44livob20t"/>
+    <title>Photos</title>
+    <updated>2022-07-27T02:41:26+00:00</updated>
+    <dc:date>2022-07-27T02:41:26+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>f226d3a975c50f296a2f0ad2d004d13e67773749:notes/reference.dev.bash.logic-operators.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/nqxz1c1019482xyypky1ucs"/>
+    <title>Logic Operators</title>
+    <updated>2022-07-27T02:41:26+00:00</updated>
+    <dc:date>2022-07-27T02:41:26+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>f226d3a975c50f296a2f0ad2d004d13e67773749:notes/reference.tools-for.converting-files.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/q3qv6kk9hjha5t2iyv1pxas"/>
+    <title>Converting Files</title>
+    <updated>2022-07-27T02:41:26+00:00</updated>
+    <dc:date>2022-07-27T02:41:26+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>f226d3a975c50f296a2f0ad2d004d13e67773749:notes/reference.tools-for.creating-temporary-mail-addresses.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/6eog56mgccnoserktrkle6x"/>
+    <title>Creating Temporary Mail Addresses</title>
+    <updated>2022-07-27T02:41:26+00:00</updated>
+    <dc:date>2022-07-27T02:41:26+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>efa3151e885e65c9fa494b4c16fd7778d0e2cbee:notes/reference.dev.ruby.libs.rails.how-to.test-file-uploads-in-request-specs.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/331duzsebe65k6rnur0xo6x"/>
+    <title>Test File Uploads in Request Specs</title>
+    <updated>2022-07-25T10:10:34+00:00</updated>
+    <dc:date>2022-07-25T10:10:34+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>efa3151e885e65c9fa494b4c16fd7778d0e2cbee:notes/reference.dev.ruby.libs.rails.how-to.test-flash-messages-in-request-specs.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/34rx4j30eiu49ajr62ilu29"/>
+    <title>Test Flash Messages in Request Specs</title>
+    <updated>2022-07-25T10:10:34+00:00</updated>
+    <dc:date>2022-07-25T10:10:34+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>110c57aba967e488dc9e9a6f8d07384cb693f545:notes/now.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/tu102fn6psvc3ef33p2jl5p"/>
+    <title>Now</title>
+    <updated>2022-07-24T15:03:33+00:00</updated>
+    <dc:date>2022-07-24T15:03:33+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>110c57aba967e488dc9e9a6f8d07384cb693f545:notes/reference.finished-media.2022.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/b228ry0ggta9x148xpr29lk"/>
+    <title>2022</title>
+    <updated>2022-07-24T15:03:33+00:00</updated>
+    <dc:date>2022-07-24T15:03:33+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>17127045efa0c575a634d6e1ff188aa542b0b8fd:notes/concepts.it.law-of-demeter.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/6qs65589c48zmti0dk37qzi"/>
+    <title>Law of Demeter</title>
+    <updated>2022-07-24T09:40:52+00:00</updated>
+    <dc:date>2022-07-24T09:40:52+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>17127045efa0c575a634d6e1ff188aa542b0b8fd:notes/reference.tools-for.password-protecting-a-static-website.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/zkc32ut5a6um43ck1nqy2ez"/>
+    <title>Password Protecting a Static Website</title>
+    <updated>2022-07-24T09:40:52+00:00</updated>
+    <dc:date>2022-07-24T09:40:52+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>17127045efa0c575a634d6e1ff188aa542b0b8fd:notes/reference.ui-design.colors.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/kewisue7e4ornf02rqrfy97"/>
+    <title>Colors</title>
+    <updated>2022-07-24T09:40:52+00:00</updated>
+    <dc:date>2022-07-24T09:40:52+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>17127045efa0c575a634d6e1ff188aa542b0b8fd:notes/reference.ui-design.text.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/jdq1espvg8fvmtupqfrhdg1"/>
+    <title>Text</title>
+    <updated>2022-07-24T09:40:52+00:00</updated>
+    <dc:date>2022-07-24T09:40:52+00:00</dc:date>
+  </entry>
+  <dc:date>2022-08-01T14:45:12+00:00</dc:date>
+</feed>

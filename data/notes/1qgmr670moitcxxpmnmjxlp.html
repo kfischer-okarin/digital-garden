@@ -1,0 +1,148 @@
+<h1 id="software-development"><a aria-hidden="true" class="anchor-heading icon-link" href="#software-development"></a>Software Development</h1>
+<h2 id="documentation"><a aria-hidden="true" class="anchor-heading icon-link" href="#documentation"></a>Documentation</h2>
+<ul>
+<li>
+<p><a href="/digital-garden/notes/tuxfl9vy5d9c7db4ei5lsrx">Four Types of Documentation</a></p>
+</li>
+<li>
+<p>Documentation Checklist</p>
+<ul>
+<li>
+<p>When explaining several bigger topics it's good to first list them up in the introductory text and then follow up
+with sub-sections using the same name as title</p>
+<pre class="language-md"><code class="language-md">There are two formats supported:
+<span class="token list punctuation">-</span> Text format (<span class="token code-snippet code keyword">`.txt`</span> extension)
+<span class="token list punctuation">-</span> Binary format (<span class="token code-snippet code keyword">`.prof`</span> extension)
+
+<span class="token title important"><span class="token punctuation">##</span> Text format (`.txt` extension)</span>
+
+...
+
+<span class="token title important"><span class="token punctuation">##</span> Binary format (`.prof` extension)</span>
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="topics-im-interested-in"><a aria-hidden="true" class="anchor-heading icon-link" href="#topics-im-interested-in"></a>Topics I'm interested in</h2>
+<ul>
+<li>Software Design &#x26; Architecture</li>
+<li>Clean Code &#x26; maintainable human readable source code</li>
+<li>Developer productivity, automation</li>
+</ul>
+<h2 id="toolbox"><a aria-hidden="true" class="anchor-heading icon-link" href="#toolbox"></a>Toolbox</h2>
+<h2 id="frontend"><a aria-hidden="true" class="anchor-heading icon-link" href="#frontend"></a>Frontend</h2>
+<ul>
+<li><a href="/digital-garden/notes/opuu0qsqju8wp97fxlzes7t">React Component Composition</a></li>
+<li>Use Storybook!</li>
+<li>Use Typescript!</li>
+</ul>
+<h2 id="try-out"><a aria-hidden="true" class="anchor-heading icon-link" href="#try-out"></a>Try out</h2>
+<h3 id="frontend-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#frontend-1"></a>Frontend</h3>
+<ul>
+<li>Testing with Storybook
+<ul>
+<li><a href="https://storybook.js.org/blog/test-component-interactions-with-storybook/">https://storybook.js.org/blog/test-component-interactions-with-storybook/</a></li>
+</ul>
+</li>
+<li>Data Fetching libraries
+<ul>
+<li>React: React Query, RTK Query, SWR, Apollo</li>
+</ul>
+</li>
+<li>Tailwind</li>
+</ul>
+<h2 id="software-design"><a aria-hidden="true" class="anchor-heading icon-link" href="#software-design"></a>Software Design</h2>
+<ul>
+<li>Build a Ubiquitous Language (共通言語)</li>
+<li>Separate <strong>WHAT</strong> from <strong>HOW</strong></li>
+<li>Public interfaces are important!
+<ul>
+<li>They should communicate <strong>WHAT</strong> not how - in their name</li>
+</ul>
+</li>
+<li>Single responsibility
+<ul>
+<li>If you cannot properly name it it probably has more than one responsibility</li>
+<li>One class - one thing</li>
+<li>One method - one thing</li>
+</ul>
+</li>
+</ul>
+<h2 id="testing-principles"><a aria-hidden="true" class="anchor-heading icon-link" href="#testing-principles"></a>Testing principles</h2>
+<h3 id="bdd"><a aria-hidden="true" class="anchor-heading icon-link" href="#bdd"></a>BDD</h3>
+<ul>
+<li>Use the domain language (The Ubiquitous Language)</li>
+<li>Drive Development with Executable Specifications</li>
+<li>Focus ond WHAT not HOW
+<ul>
+<li>Say nothing about HOW it does those things</li>
+<li>Only on WHAT it does</li>
+</ul>
+</li>
+<li>Make the code simple, easily readable!</li>
+<li>Test ONE thing</li>
+<li>Start tests with "Should do this thing"
+<ul>
+<li>The thing you are testing is the subject</li>
+</ul>
+</li>
+</ul>
+<h3 id="acceptance-tests--executable-specifications"><a aria-hidden="true" class="anchor-heading icon-link" href="#acceptance-tests--executable-specifications"></a>Acceptance Tests / Executable Specifications</h3>
+<p>Sources:</p>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=JDD5EEJgpHU"><img src="/digital-garden/assets/youtube-icon.svg" alt="Youtube Icon" style="height:1rem;"> Continuous Delivery - How To Write Acceptance Tests</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=knB4jBafR_M"><img src="/digital-garden/assets/youtube-icon.svg" alt="Youtube Icon" style="height:1rem;"> Continuous Delivery - Acceptance Testing with Executable Specifications</a></p>
+</li>
+<li>
+<p>Properties</p>
+<ul>
+<li>Life-like scenarios</li>
+<li>In Production like Test environments</li>
+</ul>
+</li>
+<li>
+<p>Executable Specifications</p>
+<ul>
+<li>Write them beforehand from the User Story</li>
+<li>It should be from the perspective of an external user of the system
+<ul>
+<li>Use the Ubiquitous language!</li>
+</ul>
+</li>
+<li>Separate What the system does from how it does it
+<ul>
+<li>Imagine replacing the system with something else that fulfills the same function - the test should still make
+sense!</li>
+</ul>
+</li>
+<li>Write them so clear that even the least technical person can understand it!</li>
+<li>Focus on what the user wants - link them to user stories
+<ul>
+<li>Find an underlying need, what the user wants to achieve</li>
+<li>Why are you making this change? Find that and focus on that in the acceptance test</li>
+</ul>
+</li>
+<li>Have at least one test for each acceptance criteria of your user stories</li>
+</ul>
+</li>
+<li>
+<p>Implementation: <a href="/digital-garden/notes/qhnsko8zwma7lmvkgxnnxh6">Acceptance Test Four Layer Architecture</a></p>
+</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/digital-garden/notes/qhnsko8zwma7lmvkgxnnxh6">Acceptance Test Four Layer Architecture</a></li>
+<li><a href="/digital-garden/notes/tuxfl9vy5d9c7db4ei5lsrx">Four Types of Documentation</a></li>
+<li><a href="/digital-garden/notes/icwk3xi0o8ixuyks5vw11yg">Inbox</a></li>
+<li><a href="/digital-garden/notes/hmz33wwmnmznosm3ku3u295">Japanese Terms</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/">Home</a></li>
+</ul>
