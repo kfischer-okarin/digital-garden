@@ -2,14 +2,13 @@
 id: bpo8wd2td0g2gjoaqsszbbd
 title: 'Genesis 38'
 desc: ''
-updated: 1654822307569
+updated: 1659312150714
 created: 1654821646124
 nav_order: 38
 bible_passage:
   book: GEN
   chapter: 38
 ---
-
 # Genesis 38
 
 [ESV](https://www.biblegateway.com/passage/?search=genesis+38&version=ESV)

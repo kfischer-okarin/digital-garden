@@ -2,14 +2,13 @@
 id: cxvy6st4n712p53eyhnrs86
 title: 'Matthew 13'
 desc: ''
-updated: 1658363554320
+updated: 1659312264784
 created: 1655426722497
 nav_order: 13
 bible_passage:
   book: MAT
   chapter: 13
 ---
-
 # Matthew 13
 
 [ESV](https://www.biblegateway.com/passage/?search=Matthew+13&version=ESV)

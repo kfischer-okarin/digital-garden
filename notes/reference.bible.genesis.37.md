@@ -2,14 +2,13 @@
 id: okadgfhcwa3xitdj9t0k5vn
 title: 'Genesis 36'
 desc: ''
-updated: 1654821643824
+updated: 1659312152949
 created: 1654821232222
 nav_order: 37
 bible_passage:
   book: GEN
   chapter: 37
 ---
-
 # Genesis 37
 
 [ESV](https://www.biblegateway.com/passage/?search=genesis+37&version=ESV)

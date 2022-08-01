@@ -2,14 +2,13 @@
 id: 8pgpt8hp65iibyzqtk2xv4d
 title: Psalm 9
 desc: ''
-updated: 1655080840257
+updated: 1659312215187
 created: 1655080320572
 nav_order: 9
 bible_passage:
   book: PSA
   chapter: 9
 ---
-
 # Psalm 9
 
 [ESV](https://www.biblegateway.com/passage/?search=Psalm+9&version=ESV)
@@ -21,8 +20,7 @@ Praise to God because he brings justice.
 - Evil people, those who oppose God and oppress others, will be judged by God
 - You can always find shelter and protection with God
 
-## Central verses
-
+## Central verses for me
 > The Lord is a stronghold for the oppressed,<br>
   &nbsp; &nbsp; a stronghold in times of trouble.<br>
   And those who know your name put their trust in you,<br>

@@ -2,20 +2,18 @@
 id: qrswb2efsmq2lhoaeg776vx
 title: Romans 1
 desc: ''
-updated: 1653110641146
+updated: 1659312285880
 created: 1653105115212
 nav_order: 1
 bible_passage:
   book: ROM
   chapter: 1
 ---
-
 # Romans 1
 
 [ESV](https://www.biblegateway.com/passage/?search=Romans+1&version=ESV)
 
 ## My Summary
-
 - Paul introduces himself as an apostle
   - His message about Jesus, the gospel of God, was predicted by the prophets and approved by the resurrection
   - He speaks about his burden he feels to bring the gospel to the Gentiles
@@ -27,7 +25,7 @@ bible_passage:
   - So God gave them up to all kinds of sins
 
 
-## Central verses
+## Central verses for me
 > For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes, to the Jew
   first and also to the Greek. For in it the righteousness of God is revealed from faith for faith, as it is written,
   “The righteous shall live by faith.”

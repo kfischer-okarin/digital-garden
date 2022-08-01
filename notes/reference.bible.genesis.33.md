@@ -2,14 +2,13 @@
 id: 49syz34k69qqmsqg5vnqu98
 title: Genesis 33
 desc: ''
-updated: 1652057199267
+updated: 1659312164442
 created: 1652056837440
 nav_order: 33
 bible_passage:
   book: GEN
   chapter: 33
 ---
-
 # Genesis 33
 
 [ESV](https://www.biblegateway.com/passage/?search=genesis+33&version=ESV)

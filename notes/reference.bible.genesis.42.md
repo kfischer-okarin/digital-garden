@@ -2,14 +2,13 @@
 id: 1f5rspmo26vai94mw6v7587
 title: 'Genesis 42'
 desc: ''
-updated: 1656981770762
+updated: 1659312130688
 created: 1656981083884
 nav_order: 42
 bible_passage:
   book: GEN
   chapter: 42
 ---
-
 # Genesis 42
 
 [ESV](https://www.biblegateway.com/passage/?search=Genesis+42&version=ESV)
@@ -24,7 +23,7 @@ bible_passage:
   them
 - At home though Jacob does not allow them to return and take Benjamin with them
 
-## Central verses
+## Central verses for me
 > Now Joseph was governor over the land. He was the one who sold to all the people of the land. And Joseph's brothers
 came and bowed themselves before him with their faces to the ground. [...] And Joseph remembered the dreams that he had
 dreamed of them.”

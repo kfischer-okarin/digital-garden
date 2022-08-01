@@ -2,14 +2,13 @@
 id: k8k5zrxbvxqjw3ewt8s82pf
 title: Genesis 34
 desc: ''
-updated: 1652228536893
+updated: 1659312162502
 created: 1652057304427
 nav_order: 34
 bible_passage:
   book: GEN
   chapter: 34
 ---
-
 # Genesis 34
 
 [ESV](https://www.biblegateway.com/passage/?search=genesis+34&version=ESV)

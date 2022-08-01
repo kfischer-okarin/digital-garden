@@ -2,14 +2,13 @@
 id: p6jaqlbef3uq7zaq25m97jc
 title: 'Matthew 12'
 desc: ''
-updated: 1655428613466
+updated: 1659312259423
 created: 1654473131930
 nav_order: 12
 bible_passage:
   book: MAT
   chapter: 12
 ---
-
 # Matthew 12
 
 [ESV](https://www.biblegateway.com/passage/?search=Matthew+12&version=ESV)

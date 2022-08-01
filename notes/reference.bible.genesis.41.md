@@ -2,14 +2,13 @@
 id: 5ebv209rx9xwuqrm58y6tr6
 title: 'Genesis 41'
 desc: ''
-updated: 1656981315955
+updated: 1659312138712
 created: 1656549100730
 nav_order: 41
 bible_passage:
   book: GEN
   chapter: 41
 ---
-
 # Genesis 41
 
 [ESV](https://www.biblegateway.com/passage/?search=Genesis+41&version=ESV)
@@ -28,8 +27,7 @@ bible_passage:
 - The events predicted by the dream came true and Joseph stored the surplus of grain in the 7 abundant years
 - Then the famine years came and Joseph began to sell the stored grain to the Egyptians and also to foreigners
 
-## Central verses
-
+## Central versesCentral/Favorite
 > And Pharaoh said to Joseph, “I have had a dream, and there is no one who can interpret it. I have heard it said of you
   that when you hear a dream you can interpret it.” Joseph answered Pharaoh, “It is not in me; God will give Pharaoh a
   favorable answer.”

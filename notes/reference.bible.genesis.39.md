@@ -2,14 +2,13 @@
 id: 6tbimdu9e3ptqc04r2upsdx
 title: 'Genesis 39'
 desc: ''
-updated: 1655685280403
+updated: 1659312146725
 created: 1655684648436
 nav_order: 39
 bible_passage:
   book: GEN
   chapter: 39
 ---
-
 # Genesis 39
 
 [ESV](https://www.biblegateway.com/passage/?search=genesis+39&version=ESV)

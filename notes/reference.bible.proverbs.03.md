@@ -2,14 +2,13 @@
 id: q475rezzaswpld7b2lewjw0
 title: Proverbs 3
 desc: ''
-updated: 1655167561332
+updated: 1659312235541
 created: 1655166865365
 nav_order: 3
 bible_passage:
   book: PRO
   chapter: 3
 ---
-
 # Proverbs 3
 
 [ESV](https://www.biblegateway.com/passage/?search=Proverbs+3&version=ESV)
@@ -23,8 +22,7 @@ bible_passage:
 - There's no need to envy people who do evil, God will give them what's due in time
   - And obviously don't do or plan evil yourself
 
-## Central verses
-
+## Central verses for me
 > Trust in the Lord with all your heart,<br>
   &nbsp; &nbsp; and do not lean on your own understanding.<br>
   In all your ways acknowledge him,<br>

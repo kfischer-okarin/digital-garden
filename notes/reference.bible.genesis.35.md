@@ -2,14 +2,13 @@
 id: otjdmuxjhj3qgqe7tal2k7u
 title: 'Genesis 35'
 desc: ''
-updated: 1653528574091
+updated: 1659312158741
 created: 1653528226947
 nav_order: 35
 bible_passage:
   book: GEN
   chapter: 35
 ---
-
 # Genesis 35
 
 [ESV](https://www.biblegateway.com/passage/?search=genesis+35&version=ESV)

@@ -2,14 +2,13 @@
 id: jouosi2umxmhk09vrt9w1r3
 title: 'Matthew 14'
 desc: ''
-updated: 1658363892760
+updated: 1659312271674
 created: 1658363522402
 nav_order: 14
 bible_passage:
   book: MAT
   chapter: 14
 ---
-
 # Matthew 14
 
 [ESV](https://www.biblegateway.com/passage/?search=Matthew+14&version=ESV)
@@ -26,7 +25,7 @@ bible_passage:
   - He has compassion with them and feeds 5000 men & their women and children with just 5 breads and 2 fish
 - (Todo second half)
 
-## Central verses
+## Central verses for me
 > When he went ashore he saw a great crowd, and he had compassion on them and healed their sick.
 
 [Matthew 14:14](https://www.biblegateway.com/passage/?search=Matthew+14%3A14&version=ESV)

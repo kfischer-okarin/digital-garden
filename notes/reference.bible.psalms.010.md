@@ -2,14 +2,13 @@
 id: jjekp1x9wuwhd14sg4v4dnf
 title: Psalm 10
 desc: ''
-updated: 1657758329493
+updated: 1659312223517
 created: 1657757176312
 nav_order: 10
 bible_passage:
   book: PSA
   chapter: 10
 ---
-
 # Psalm 10
 
 [ESV](https://www.biblegateway.com/passage/?search=Psalm+10&version=ESV)
@@ -20,7 +19,7 @@ or any consequences of what they do. We feel often frustrated about that and won
 But the truth is that God sees everything and in the end the evil people who don't repent will get their fair
 punishment. God will restore justice.
 
-## Central verses
+## Central verses for me
 > For the wicked boasts of the desires of his soul,<br/>
   &nbsp; &nbsp; and the one greedy for gain curses and renounces the Lord.<br>
   In the pride of his face the wicked does not seek him;<br/>

@@ -2,14 +2,13 @@
 id: cx9iiu2cyzain9id40qhhec
 title: 'Genesis 40'
 desc: ''
-updated: 1656549127152
+updated: 1659312143039
 created: 1655684848645
 nav_order: 40
 bible_passage:
   book: GEN
   chapter: 40
 ---
-
 # Genesis 39
 
 [ESV](https://www.biblegateway.com/passage/?search=genesis+40&version=ESV)

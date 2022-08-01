@@ -2,14 +2,13 @@
 id: mv8da020s9mmyii8kzf6zgq
 title: Matthew 11
 desc: ''
-updated: 1652059519723
+updated: 1659312253252
 created: 1651717516243
 nav_order: 11
 bible_passage:
   book: MAT
   chapter: 11
 ---
-
 # Matthew 11
 
 [ESV](https://www.biblegateway.com/passage/?search=Matthew+11&version=ESV)
