@@ -2,7 +2,7 @@
 id: 1qgmr670moitcxxpmnmjxlp
 title: Software Development
 desc: ''
-updated: 1657122756313
+updated: 1659503785301
 created: 1655541876900
 ---
 
@@ -45,7 +45,7 @@ created: 1655541876900
   - https://storybook.js.org/blog/test-component-interactions-with-storybook/
 - Data Fetching libraries
   - React: React Query, RTK Query, SWR, Apollo
-- Tailwind
+- Web Components
 
 
 ## Software Design
