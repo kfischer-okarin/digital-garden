@@ -2,7 +2,7 @@
 id: nxfcq9v8vlowfir73urd2sq
 title: Bible Chapter
 desc: ''
-updated: 1659311534401
+updated: 1659572183748
 created: 1652072407783
 nav_order: 1
 bible_passage:
@@ -15,4 +15,4 @@ bible_passage:
 
 ## My Summary
 
-## Central verses
+## Central verses for me
