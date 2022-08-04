@@ -1,15 +1,15 @@
 ---
 id: z9bj637kd9uu7b5tdg0rot6
-title: 'Genesis 42'
+title: 'Genesis 43'
 desc: ''
-updated: 1659312121779
+updated: 1659571772512
 created: 1659311502420
 nav_order: 43
 bible_passage:
   book: GEN
   chapter: 43
 ---
-# Genesis 42
+# Genesis 43
 
 [ESV](https://www.biblegateway.com/passage/?search=Genesis+43&version=ESV)
 
