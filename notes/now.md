@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1658970349710
+updated: 1659935352986
 created: 1650289758802
 ---
 
@@ -26,6 +26,7 @@ Media I'm currently engaged with...
 - Scrubs
 - Boruto
 - Cells at Work!
+- Brooklyn Nine Nine
 
 ## Currently playing
 - Super Mario Galaxy
