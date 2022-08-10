@@ -2,7 +2,7 @@
 id: 6l8bkr9dd1y2gki01z3t80e
 title: Game Development
 desc: ''
-updated: 1655533551800
+updated: 1660052505855
 created: 1649587038136
 ---
 
@@ -29,3 +29,4 @@ Independent and not necessarily related or having to be used together
 ## Game seeds/ideas
 
 - [[areas.gamedev.the-perfect-time-travel-game]]
+- [[areas.gamedev.massive-multiplayer-relaxed-ai-game]]
