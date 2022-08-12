@@ -2,7 +2,7 @@
 id: 6l8bkr9dd1y2gki01z3t80e
 title: Game Development
 desc: ''
-updated: 1660052505855
+updated: 1660306438894
 created: 1649587038136
 ---
 
@@ -30,3 +30,7 @@ Independent and not necessarily related or having to be used together
 
 - [[areas.gamedev.the-perfect-time-travel-game]]
 - [[areas.gamedev.massive-multiplayer-relaxed-ai-game]]
+
+## Articles/Texts about Game Development I like
+- [Amir Rajan - 7 lessons from 7 years of game development](https://www.producthunt.com/stories/7-lessons-from-7-years-of-game-development)
+- [Stuffed Wombat - The Small Game](http://stuffedwomb.at/the_small_game)

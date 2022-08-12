@@ -2,7 +2,7 @@
 id: yvwp53ehvfjhpvuc9rap1wf
 title: Backlog
 desc: ''
-updated: 1654434968308
+updated: 1660307553543
 created: 1650004878650
 ---
 
@@ -17,6 +17,7 @@ created: 1650004878650
 - Summer in Mara (owned)
 - Final Fantasy Tactics (owned)
 - Breath of Fire 4 (owned)
+- Suikoden 1+2
 - Horizon: Forbidden West
 - Super Mario Odyssey
 - Kirby and the Forgotten Land
