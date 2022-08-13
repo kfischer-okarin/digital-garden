@@ -12,7 +12,7 @@ Possible source: https://www.thegospelcoalition.org/essay/the-story-and-message-
 ## Creation
 - God is the creator of all things and all things he created are good
 - He created humans and gave them
-  [[authority over creation|ideas-thoughts-beliefs.humans-have-authority-over-creation]]
+  [[authority over creation|ideas-thoughts-beliefs.theologyhumans-have-authority-over-creation]]
 
 ## Fall
 - Total Depravity
