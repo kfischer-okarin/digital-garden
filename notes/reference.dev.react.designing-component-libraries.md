@@ -13,7 +13,7 @@ created: 1659665719842
 - Components should be blackboxes for the parents who use them
   - Props in -> Rendered content out
 - Design components with orthogonal props that allow to represent all valid display states
-  - If possible [[ideas-thoughts-belief.software-development.illegal-states-should-be-unrepresentable]]
+  - If possible [[ideas-thoughts-beliefs.software-development.illegal-states-should-be-unrepresentable]]
 - Don't extend base props - only offer the minimal real interface you need
   - This is also true for pass-through override props to modify internal subcomponents like `ButtonProps`
     - Offer minimal interfaces for them too, don't just use the original full props type

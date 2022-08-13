@@ -9,4 +9,4 @@ created: 1658328553068
 - Single Responsibility
   - Is the method/class responsible for one thing?
 - Data Structures
-  - Can the data structure represent illegal states? [[Why?|ideas-thoughts-belief.software-development.illegal-states-should-be-unrepresentable]]
+  - Can the data structure represent illegal states? [[Why?|ideas-thoughts-beliefs.software-development.illegal-states-should-be-unrepresentable]]
