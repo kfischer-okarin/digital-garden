@@ -2,7 +2,7 @@
 id: w4mxpqpj9ftyo6pw17k3wj6
 title: Home
 desc: ''
-updated: 1655543408062
+updated: 1660372010574
 created: 1648806032875
 ---
 # Welcome to my little corner of the internet
@@ -17,20 +17,14 @@ individuals to connect with.
 This space will slowly evolve over time. Feel free to [[contact_me]] if you want to get in touch.
 
 
-## Topics
+## Topics I care about
 - [[areas.gamedev]]
 - [[areas.software-development]]
-- [[reference.faith-and-work]]
-- ADHD
-- [[reference.spiritual-abuse]] in churches
+- Christian Faith and how it relates to several other areas
+  - [[reference.faith-and-work]]
+  - Faith and Creativity/Art/Media
+- [[reference.adhd]]
 - [[Personal Knowledge Management (PKM)|areas.pkm]]
-
-
-## Interests
-
-- Christian faith and Creativity/Art/Media
-- Communicating the Christian faith in foreign cultures (especially in Asia & Japan)
-- Machine Learning
 
 ## Media I enjoy
 - 🇯🇵 Anime/Manga
