@@ -2,7 +2,7 @@
 id: pr8dcxzqvr6g8t5gjdty590
 title: Implementing Domain Driven Design
 desc: ''
-updated: 1659279736007
+updated: 1660518909646
 created: 1657942831470
 ---
 
@@ -94,6 +94,18 @@ created: 1657942831470
 - When you use Rest Resources (or any kind of data representation for the UI) then design them around use cases **not**
   around the actual aggregates
   - Keep UI and data structures decoupled
+
+## Event Sourcing
+- Store your whole data only as a collection of events that happened and reconstruct your aggregates (or for that
+  matter any kind of read representation) by processing all events so far
+- Events are immutable
+- Reading data structures should be cached (for example every 100 events) and are freely disposable
+- For events that are also consumed as domain events by listeners (possibly from other contexts) it might be smart to
+  include additional properties in the published event that are not explicitly needed to reconstruct the state to avoid
+  secondary queries for more information
+- Is natural to implement with functional programming
+  - Aggregate + Event -> Aggregate
+  - Aggregate + Command -> Event[]
 
 ---
 
