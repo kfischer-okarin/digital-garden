@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1659935352986
+updated: 1660521596023
 created: 1650289758802
 ---
 
@@ -12,7 +12,7 @@ Media I'm currently engaged with...
 
 ## Currently reading
 - Design Patterns: Elements of Reusable Object-Oriented Software ("The Gang of Four")
-- [[reference.literature-notes.implementing-domain-driven-design]]
+- [[reference.literature-notes.kent-beck-cynthia-andres-extreme-programming-explained]]
 - [[reference.literature-notes.austin-kleon-steal-like-an-artist]]
 - [[reference.literature-notes.david-allen-getting-things-done]] (Re-read)
 
