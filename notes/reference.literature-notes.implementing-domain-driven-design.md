@@ -2,7 +2,7 @@
 id: pr8dcxzqvr6g8t5gjdty590
 title: Implementing Domain Driven Design
 desc: ''
-updated: 1660518909646
+updated: 1660926280035
 created: 1657942831470
 ---
 
@@ -94,6 +94,20 @@ created: 1657942831470
 - When you use Rest Resources (or any kind of data representation for the UI) then design them around use cases **not**
   around the actual aggregates
   - Keep UI and data structures decoupled
+
+## Application service
+- Used by the UI to actually do things
+- Uses domain services to realize the use cases
+- Think about outgoing interfaces:
+  - Do you want to expose domain models (i.e. add dependencies to it) as return types etc?
+  - Or do you want the overhead of DTOs?
+- Can be used to integrate several contexts for UI but if this is repeatedly happening and starting to contain some
+  logic you should think about possibly extracting a new downstream context
+
+## Infrastructure
+- Concrete implementations of interfaces for technical capabilities like storage, messaging etc
+- Injected into/passed to application services
+- Ports/Adapters in Hexagonal Design
 
 ## Event Sourcing
 - Store your whole data only as a collection of events that happened and reconstruct your aggregates (or for that

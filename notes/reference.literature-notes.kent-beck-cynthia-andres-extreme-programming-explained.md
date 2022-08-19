@@ -2,7 +2,7 @@
 id: dk5rocgcuw6t1gud7220rqd
 title: Extreme Programming Explained
 desc: ''
-updated: 1660521546062
+updated: 1660926184424
 created: 1657246824438
 ---
 
@@ -42,6 +42,28 @@ created: 1657246824438
     - What communication can you take in the future to avoiding getting into the same problem again?
 - Value 2: Simplicity
   - > What is the simplest thing that could possibly work?
+  - Improving communication can improve Simplicity by removing unneeded or not yet needed requirements
+  - Improving simplicity improves Communication since there's less to communicate about
+- Value 3: Feedback
+  - We don't know what is the "right" way to build things from the beginning - we need constant feedback
+  - Types of feedback
+    - opinions about an idea
+    - how the code looks
+    - whether tests are easy to write
+    - how it works
+  - Generate as quick and much feedback as you can handle
+  - if you can't handle feedback quickly enough you need to fix that first
+- Value 4: Courage
+  - Effective action in the face of fear
+    - speak truths pleasant or unpleasant to foster communication and trust
+    - discard failing solutions to get simplicity
+    - seek real concrete answers to get feedback
+    - not acting even though it seems serious and urgent to get to the foundation of an issue
+- Value 5: Respect
+  - caring for the other team members, the project and their work
+  - everyone on the team is important
+
+# Principles of XP
 
 ---
 
