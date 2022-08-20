@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1660521596023
+updated: 1660991661046
 created: 1650289758802
 ---
 
@@ -25,23 +25,24 @@ Media I'm currently engaged with...
 - Summertime Rendering
 - Scrubs
 - Boruto
-- Cells at Work!
 - Brooklyn Nine Nine
+- Stranger Things
 
 ## Currently playing
-- Super Mario Galaxy
-- Stardew Valley
-- Fortnite
-- Robotics;Notes Elite
-- Dragon Quest 11
 - Steins;Gate Elite
-- Breath of Fire 3
-- Terraria
+- Chaos Head: Noah replay
 
 ### Paused
+- Fortnite
+- Super Mario Galaxy
+- Stardew Valley
+- Robotics;Notes Elite
+- Dragon Quest 11
 - Breath of the Wild
+- Breath of Fire 3
+- Terraria
 - Ni no Kuni
 - It takes two
 
 ## Currently listening to
-- The Stand (Stephen King)
+
