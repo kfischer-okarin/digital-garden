@@ -2,7 +2,7 @@
 id: dk5rocgcuw6t1gud7220rqd
 title: Extreme Programming Explained
 desc: ''
-updated: 1661097251611
+updated: 1661572321928
 created: 1657246824438
 ---
 
@@ -142,6 +142,32 @@ Related values: Feedback, Courage
   - etc
 
 Related values: Feedback, Respect (for the customer to deliver defect free software)
+
+### Fail rather than do nothing
+- If you don't know how to do something well, try several ways even if they might fail
+
+Related values: Feedback, Courage
+
+### Never compromise on quality
+- Quality should never be a control variable, scope can be
+- Low quality will slow down predictable delivery
+- People will be demotivated if they deliver work they cannot be proud of
+- Don't use quality as an excuse for not acting, just do it the best way you know at the moment
+
+Related values: Courage (to cut down scope to not compromise on quality), Respect (for the customer you deliver to)
+
+### Make baby steps
+- > What is the least you could do that is recognisably in the right direction?
+
+Related values: Feedback
+
+### Accept responsibility and have authority
+- No one can assign responsibility to you, you can only accept it
+- Who is responsible should also have the ultimate say about how to do their work
+
+Related values: Communication, Respect
+
+## Practices
 
 ---
 
