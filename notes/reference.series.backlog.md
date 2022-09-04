@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Backlog
 desc: ''
-updated: 1655302861714
+updated: 1662261800703
 created: 1653890984882
 ---
 
@@ -10,8 +10,9 @@ created: 1653890984882
 
 - Star Trek Voyager
 - Better Call Saul
-- Stranger Things
-- Walking Dead (Re-watch and finish)
+- Dexter
+- Quantum Leap
+- The Expanse
 
 - Steven Universe
 - Adventure Time
@@ -20,7 +21,6 @@ created: 1653890984882
 
 - The Adventures of Sherlock Holmes (1984 series) - Jeremy Brett
 
-- Fairy Tail
 - One Piece
 - Jujutsu Kaisen
 - Please Save My Earth

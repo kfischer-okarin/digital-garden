@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1660991626071
+updated: 1662260831249
 created: 1649253863905
 ---
 
@@ -55,3 +55,5 @@ created: 1649253863905
 ## 2022-08-13 Cells at Work!
 
 ## 2022-08-20 The Stand (audiobook)
+
+## 2022-08-31 Stranger Things Season 1-4

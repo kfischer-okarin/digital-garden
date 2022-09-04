@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1660991661046
+updated: 1662260859507
 created: 1650289758802
 ---
 
@@ -26,7 +26,9 @@ Media I'm currently engaged with...
 - Scrubs
 - Boruto
 - Brooklyn Nine Nine
-- Stranger Things
+- The Walking Dead
+- Fairy Tail
+- Jojo Part 6
 
 ## Currently playing
 - Steins;Gate Elite
