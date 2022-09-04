@@ -2,16 +2,20 @@
 id: yvwp53ehvfjhpvuc9rap1wf
 title: Backlog
 desc: ''
-updated: 1660307553543
+updated: 1662276557414
 created: 1650004878650
 ---
 
 # Backlog
 
-- Dragon Quest 11
 - Persona 4
 - Persona 5 Royal
 - Xenoblade Chronicles DE
+- FF7 Remake (PS5)
+- Dark Souls
+- Elden Ring (PS5)
+- Tales of Vesperia
+- Yakuza: Like a Dragon
 - 13 Sentinels: Aegis Rim
 - Hades
 - Summer in Mara (owned)
