@@ -2,7 +2,7 @@
 id: dy808e92cikif47sa6uwar2
 title: Backlog
 desc: ''
-updated: 1662265457051
+updated: 1663421176783
 created: 1654440824025
 ---
 
@@ -21,3 +21,4 @@ created: 1654440824025
   - Antifragile: Things That Gain from Disorder
   - The Bed of Procrustes: Philosophical and Practical Aphorisms
   - Skin in the Game: Hidden Asymmetries in Daily Life
+- [The Story Solution: 23 Actions All Great Heroes Must Take](https://www.goodreads.com/book/show/12493044-the-story-solution)

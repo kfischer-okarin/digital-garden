@@ -2,7 +2,7 @@
 id: 1qgmr670moitcxxpmnmjxlp
 title: Software Development
 desc: ''
-updated: 1659503785301
+updated: 1663114616548
 created: 1655541876900
 ---
 
@@ -46,6 +46,10 @@ created: 1655541876900
 - Data Fetching libraries
   - React: React Query, RTK Query, SWR, Apollo
 - Web Components
+
+### Other
+- Matrix - An open network for secure, decentralized communication
+  - https://matrix.org/
 
 
 ## Software Design
