@@ -2,7 +2,7 @@
 id: dr-patterns-input-actions
 title: Input Actions
 desc: ''
-updated: 1663677265812
+updated: 1663682337448
 created: 1658656908090
 ---
 # Input Actions
@@ -56,6 +56,7 @@ end
 
 def process_inputs(inputs)
   input_actions = {}
+
   if inputs.keyboard.key_down.space || inputs.keyboard.key_down.up || inputs.keyboard.key_down.w
     input_actions[:jump] = true
   end
@@ -65,6 +66,8 @@ def process_inputs(inputs)
   elsif inputs.keyboard.key_held.right || inputs.keyboard.key_held.d
     input_actions[:movement] = { x: 1 }
   end
+
+  input_actions
 end
 ```
 
