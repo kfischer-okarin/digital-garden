@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1662260859507
+updated: 1664899134875
 created: 1650289758802
 ---
 
@@ -21,7 +21,7 @@ Media I'm currently engaged with...
 
 ## Currently watching
 - DS9
-- Chimu Dondon
+- Mai Agare
 - Summertime Rendering
 - Scrubs
 - Boruto

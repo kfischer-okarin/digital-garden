@@ -2,11 +2,13 @@
 id: 1qgmr670moitcxxpmnmjxlp
 title: Software Development
 desc: ''
-updated: 1663114616548
+updated: 1664874596481
 created: 1655541876900
 ---
 
 # Software Development
+
+[[areas.software-development.how-to-know-what-to-build]]
 
 ## Documentation
 - [[areas.software-development.four-types-of-documentation]]
@@ -34,7 +36,7 @@ created: 1655541876900
 
 ## Toolbox
 
-## Frontend
+### Frontend
 - [[React Component Composition|reference.dev.react.component-composition]]
 - Use Storybook!
 - Use Typescript!
