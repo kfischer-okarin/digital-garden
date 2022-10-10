@@ -2,15 +2,26 @@
 id: bhttuhvw0lmm3qgxa2fbfxp
 title: How to know what to build
 desc: ''
-updated: 1664876712958
+updated: 1665368100603
 created: 1664874567372
 ---
 # How to know what to build
 
-Source: ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
-[Agile Adria 2013 keynote / Gojko Adzic: Make Impacts Not Software](https://www.youtube.com/watch?v=GnK_n9Udhhs)
+## About User Stories
+Source: ![Youtube Icon](assets/youtube-icon.svg){height: 1rem} [YOW! 2014 Jeff Patton - User Story Mapping: Discover The Whole Story](https://www.youtube.com/watch?v=AzBuohuOU6g)
+
+- User Stories are not extensive complete documentation artifacts
+- They are conversation starters
+  - Write down the short idea of the feature and then go and have a conversation with the involved parties
+  - Have a collaborative visual workspace where you can build and document a common understanding (Whiteboard / Miro)
+  - It's like a holiday photo - you look at them and if you were there that's enough to remember all kinds of things
+    from the vacation - whereas it doesn't mean a lot to someone who wasn't there
+- For big stories map them out step by step from the user's point of view
 
 ## Four questions to find out what to build
+
+Source: ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
+[Agile Adria 2013 keynote / Gojko Adzic: Make Impacts Not Software](https://www.youtube.com/watch?v=GnK_n9Udhhs)
 
 ![](assets/images/four-questions-for-planning.png){ height: 200px }
 - Those questions map to certain elements of planning
@@ -27,7 +38,7 @@ Source: ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
   - What kind of behaviour in those people might help to achieve that goal?
   - How to achieve that behaviour change?
 
-## Example: Adding levels & achievements to a Facebook game
+### Example: Adding levels & achievements to a Facebook game
 (C)ustomer & (M)anager
 
 - C: We want to have levels and achievements for our game.
@@ -101,3 +112,20 @@ spam their friends. So making players post more about a stupid Facebook game doe
 
 It didn't work at first, but when they changed the mail template to make the invite button more visible and it actually
 helped
+
+## Questions to ask the customer:
+Source: ![Twitter Icon](assets/twitter-icon.svg){height: 1rem} [Twitter thread by Brian O'Connor](https://mobile.twitter.com/BrianFOConnor/status/1547910093143826434)
+
+- What's the hardest thing about doing this?
+  - Part of the problem that's frequent or painful enough to be worth solving
+  - Find out the current workflow
+- Tell me about the last time you encountered this problem
+  - Understand more about the context when this problem occurs
+- Why was that hard?
+  - Understand the why of the solution
+- What, if anything, have you done to solve this problem?
+  - Find out if it's worth solving
+  - What are the tools/processes the new solution will be compared with?
+  - If they haven't even tried solving it, then maybe the pain is not big enough in the first place?
+- What do you dislike about the solutions you have tried?
+  - Understand what kind of features might better solve the problem

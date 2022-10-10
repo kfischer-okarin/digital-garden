@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1664899134875
+updated: 1665391807063
 created: 1650289758802
 ---
 
@@ -22,7 +22,6 @@ Media I'm currently engaged with...
 ## Currently watching
 - DS9
 - Mai Agare
-- Summertime Rendering
 - Scrubs
 - Boruto
 - Brooklyn Nine Nine
@@ -33,6 +32,7 @@ Media I'm currently engaged with...
 ## Currently playing
 - Steins;Gate Elite
 - Chaos Head: Noah replay
+- Dragon Age: Origins
 
 ### Paused
 - Fortnite
