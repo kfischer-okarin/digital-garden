@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1665391825810
+updated: 1665450344604
 created: 1649253863905
 ---
 
@@ -57,5 +57,9 @@ created: 1649253863905
 ## 2022-08-20 The Stand (audiobook)
 
 ## 2022-08-31 Stranger Things Season 1-4
+
+## 2022-09-19 EXAPUNKS
+
+## 2022-10-04 Hacknet
 
 ## 2022-10-10 Summertime Rendering
