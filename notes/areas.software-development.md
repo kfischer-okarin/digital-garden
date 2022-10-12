@@ -100,3 +100,5 @@ Sources:
 
 - Implementation: [[areas.software-development.acceptance-test-four-layer-architecture]]
 
+## Articles to read regularly
+- [Professional Programming: The First 10 Years](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/)
