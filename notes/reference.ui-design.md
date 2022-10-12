@@ -17,6 +17,7 @@ Source: [Design Hacks Newsletter](https://learnui.design/newsletter.html)
 
 ## Topics
 - [[reference.ui-design.colors]]
+- [[reference.ui-design.fonts]]
 - [[reference.ui-design.text]]
 
 ## Alignment

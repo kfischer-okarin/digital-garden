@@ -7,14 +7,17 @@ created: 1658327154392
 ---
 # Text
 
-## Use great fonts
-- Check the fonts of great designs
-- Have a collection of great fonts
-- [[Tools for Finding Font Pairings|reference.tools-for.finding-font-pairings]]
+![[Fonts|reference.ui-design.fonts]]
 
-## Font Size
-- Not all font sizes work together well, use the calculator below to find sizes that work well together
-- [[Tools for Finding Font Sizes|reference.tools-for.finding-font-sizes]]
+## Write content first
+Write all the content before designing anything. The design should support the content not constrain it to make it
+fit the design.
+
+Source: [DesignAcademy - Why you need to write your content BEFORE you start designing — and how to do it effectively](https://www.designacademy.io/content-first)
+
+### Writing copy
+- https://www.designacademy.io/writing-copy-part-1
+- https://www.designacademy.io/writing-copy-part-2
 
 ## Line length
 - One line should be between 45-75 characters ideally.
@@ -40,14 +43,3 @@ created: 1658327154392
   - Text shadow (sometimes unreliable)
 
 **Source:** Design Hacks - Why I’m jealous of graphic designers
-
-
-## Font Recommendations
-- Fira Sans: clean/simple with a side of warmth/humanity
-- Inter: Un-opinionated and readable. If I found myself thinking “Man, I really want to use Helvetica here”,
-- Clear Sans
-  - squared-off feel, brands that are data-driven, scientific, masculine, or authoritative
-- Source Sans Pro
-  - neutral character, just a touch of humanist warmth, works great for user interfaces
-  - Has partner fonts: Source Serif, Source Code Pro (monospace) - but stands well on its own
-- PT Serif: more formal, knowledgeable, academic, official, or authoritative settings
