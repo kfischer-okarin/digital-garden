@@ -8,31 +8,28 @@ created: 1655541876900
 
 # Software Development
 
+## How to stay in Flow
+When you are about to be interrupted, dump your working memory as quick as possible... Write down what you are about to
+do next (next and next etc) - this way you know where to pick up when continuing to work
+
+> When you are going good, stop writing.
+
+Ernest Hemingway
+
+## Several Solutions
+Come up with three ways of solving a problem before committing to a solution.
+
+## When being interrupted
+Talk about following points before just doing what you're being told:
+- What is the impact of the work you're asking for? Can't do it if the impact is unclear
+- Do you have a spec that is agreed with stakeholders?
+- Make clear that you have to do your own estimate first
+- Explain clearly what the cost and consequences of dropping your current work are
+
 [[areas.software-development.how-to-know-what-to-build]]
 
 ## Documentation
 - [[areas.software-development.four-types-of-documentation]]
-- Documentation Checklist
-  - When explaining several bigger topics it's good to first list them up in the introductory text and then follow up
-    with sub-sections using the same name as title
-
-    ```md
-    There are two formats supported:
-    - Text format (`.txt` extension)
-    - Binary format (`.prof` extension)
-
-    ## Text format (`.txt` extension)
-
-    ...
-
-    ## Binary format (`.prof` extension)
-    ```
-
-## Topics I'm interested in
-- Software Design & Architecture
-- Clean Code & maintainable human readable source code
-- Developer productivity, automation
-
 
 ## Toolbox
 

@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1665391807063
+updated: 1666362022842
 created: 1650289758802
 ---
 
@@ -16,17 +16,20 @@ Media I'm currently engaged with...
 - [[reference.literature-notes.austin-kleon-steal-like-an-artist]]
 - [[reference.literature-notes.david-allen-getting-things-done]] (Re-read)
 
-### Paused
-- When I don't desire God (John Piper)
-
 ## Currently watching
-- DS9
 - Mai Agare
-- Scrubs
 - Boruto
 - Brooklyn Nine Nine
 - The Walking Dead
 - Fairy Tail
+- Urusei Yatsura (2022)
+- My Hero Academia
+- Bleach: Thousand-Year Blood War
+- Spy Family
+
+### Paused
+- DS9
+- Scrubs
 - Jojo Part 6
 
 ## Currently playing
