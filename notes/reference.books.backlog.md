@@ -20,6 +20,7 @@ created: 1654440824025
   - Two friends, often in love, never lovers, come together as creative partners in the world of video game design
 - https://en.wikipedia.org/wiki/Graham_Greene
 - Wallace Stegner: Crossing to Safety
+- Ender;s Game
 
 ## Non-Fiction
 - [Incerto Series by Nassim Nicholas Taleb](https://www.amazon.co.jp/dp/B07WZK6Z9N)
