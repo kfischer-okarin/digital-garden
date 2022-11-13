@@ -7,7 +7,7 @@ created: 1667563616343
 ---
 # Blend Modes
 
-Source: [Blending Modes - By Dan Hollick](https://typefully.com/DanHollick/KrBa0JP)
+Source: [Blending Modes - By Dan Hollick](https://typefully.com/DanHollick/KrBa0JP) ([Clipped in Joplin](joplin://x-callback-url/openNote?id=f87d74dc64e5487e836667b589c89404))
 
 ## Darkening and Lightening
 - Darken / Lighten:
