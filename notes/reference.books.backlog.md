@@ -2,13 +2,18 @@
 id: dy808e92cikif47sa6uwar2
 title: Backlog
 desc: ''
-updated: 1663421176783
+updated: 1668865122132
 created: 1654440824025
 ---
 
 # Backlog
 
 ## Theology / Christian
+- Misreading Scripture through Western Eyes
+- Jesus and John Wayne
+- The Making of Biblical Manhood and Womanhood
+- King Jesus Gospel
+- Paul the Biography (N.T. Wright)
 - Henri Nouwen
 - Rachel Held Evans
 - Arno Backhaus - Keine Panik, ehrliche Spiegel altern immer mit!: Meine Rück-Sicht auf Lust und Frust
@@ -20,7 +25,7 @@ created: 1654440824025
   - Two friends, often in love, never lovers, come together as creative partners in the world of video game design
 - https://en.wikipedia.org/wiki/Graham_Greene
 - Wallace Stegner: Crossing to Safety
-- Ender;s Game
+- Ender's Game
 
 ## Non-Fiction
 - [Incerto Series by Nassim Nicholas Taleb](https://www.amazon.co.jp/dp/B07WZK6Z9N)

@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1666362022842
+updated: 1668840581474
 created: 1650289758802
 ---
 
@@ -35,7 +35,11 @@ Media I'm currently engaged with...
 ## Currently playing
 - Steins;Gate Elite
 - Chaos Head: Noah replay
-- Dragon Age: Origins
+- Shenzhen IO
+
+### On and off
+- Cogmind
+- Nuclear Throne
 
 ### Paused
 - Fortnite
