@@ -2,11 +2,16 @@
 id: qc4nrll670okuctsgm4ubw1
 title: Linear Regression
 desc: ''
-updated: 1653396869492
+updated: 1668993377528
 created: 1653396808188
 ---
 
 # Linear Regression
+
+- Predict a continuous dependent variable with one or more independent variables
+- Their relationship must be linear (i.e. multiplying the variable directly with a factor)
+  - But you can add derive additional features and still use linear regression in the end
+- Image: fit a line through a set of points
 
 ## Model function (Hypothesis)
 $
@@ -15,6 +20,7 @@ $
 
 ### Trick for quickly computing several predicted values for one or several hypotheses
 Given house sizes: 2104, 1416, 1534, 852
+
 Given hypotheses:
 
 $
@@ -61,3 +67,6 @@ $
 
 - The Cost function is a convex function (bowl shaped) so it will only ever have one minimum
 - It uses all training samples in every step
+
+## Resources
+- [Machine Learning Mastery - Linear Regression for Machine Learning](https://machinelearningmastery.com/linear-regression-for-machine-learning/)
