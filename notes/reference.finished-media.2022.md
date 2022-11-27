@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1666362140199
+updated: 1669468053635
 created: 1649253863905
 ---
 
@@ -65,3 +65,5 @@ created: 1649253863905
 ## 2022-10-10 Summertime Rendering
 
 ## 2022-10-21 Ach du Schreck! AD(H)S (Arno Backhaus)
+
+## 2022-11-26 Coffee talk
