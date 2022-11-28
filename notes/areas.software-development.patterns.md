@@ -2,7 +2,7 @@
 id: mrbeopt2rixf1lhx6wo40gm
 title: Patterns
 desc: ''
-updated: 1659576364133
+updated: 1669599396022
 created: 1659574527255
 ---
 # Patterns
@@ -49,3 +49,24 @@ class ItemWithMenu
   end
 end
 ```
+
+## Constraint-based layout
+Flutter's layout algorith. See
+[Understanding constraints (Flutter Docs)](https://docs.flutter.dev/development/ui/layout/constraints)
+
+> Constraints go down. Sizes go up. Parent sets position
+
+1. Parent asks child component how big it wants to be given dimension constraints (min/max width/height)
+2. Child returns size inside constraints
+3. Parent places child inside itself
+
+```rb
+def layout_children
+  children.each do |child|
+    # calc constraints for child
+    child.update_dimensions(min_w:, max_w:, min_h:, max_h:)
+    child.x = ...
+    child.y = ...
+    child.layout_children
+  end
+end
