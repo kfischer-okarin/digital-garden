@@ -1,12 +1,13 @@
 ---
-id: e8aatbzjgam6dyfukfa3w6b
-title: Mirru's Palettes
+id: i61j43ah7pp87wqsjtiqc3v
+title: Pixelart Palettes
 desc: ''
-updated: 1654433730946
-created: 1654433690948
+updated: 1669647120319
+created: 1668944932393
 ---
+# Pixelart Palettes
 
-# Mirru's Palettes
+## Mirru's Palettes
 
 ![](assets/images/mirru-pixelart-palettes.png)
 
