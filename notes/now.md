@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1668840581474
+updated: 1669942459304
 created: 1650289758802
 ---
 
@@ -19,7 +19,6 @@ Media I'm currently engaged with...
 ## Currently watching
 - Mai Agare
 - Boruto
-- Brooklyn Nine Nine
 - The Walking Dead
 - Fairy Tail
 - Urusei Yatsura (2022)

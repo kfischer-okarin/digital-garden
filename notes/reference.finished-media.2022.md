@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1669468053635
+updated: 1669942465499
 created: 1649253863905
 ---
 
@@ -67,3 +67,7 @@ created: 1649253863905
 ## 2022-10-21 Ach du Schreck! AD(H)S (Arno Backhaus)
 
 ## 2022-11-26 Coffee talk
+
+## 2022-11-28 The Final Empire (Audiobook)
+
+## 2022-11-30 Brooklyn Nine Nine
