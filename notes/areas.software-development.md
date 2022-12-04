@@ -2,7 +2,7 @@
 id: 1qgmr670moitcxxpmnmjxlp
 title: Software Development
 desc: ''
-updated: 1664874596481
+updated: 1670027477576
 created: 1655541876900
 ---
 
@@ -15,6 +15,8 @@ do next (next and next etc) - this way you know where to pick up when continuing
 > When you are going good, stop writing.
 
 Ernest Hemingway
+
+Source: ![Twitter Icon](assets/twitter-icon.svg){height: 1rem}[Interruptible Workflow Thread by Wisen Tanasa](https://twitter.com/ceilfors/status/1583397713357307904) ([Clipped Article (Private Joplin)](joplin://x-callback-url/openNote?id=002c453dbd69478e9f6974dfe787a2d6))
 
 ## Several Solutions
 Come up with three ways of solving a problem before committing to a solution.
