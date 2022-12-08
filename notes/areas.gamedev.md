@@ -2,17 +2,18 @@
 id: 6l8bkr9dd1y2gki01z3t80e
 title: Game Development
 desc: ''
-updated: 1660306438894
+updated: 1670495369239
 created: 1649587038136
 ---
 
 # Game Development
 
-## Used Engines & Tools
-- [[areas.gamedev.dragonruby]]
-
 ## My Motivation
 ![[areas.gamedev.my-motivation#^main-line]]
+
+## Articles/Texts about Game Development I like
+- [Amir Rajan - 7 lessons from 7 years of game development](https://www.producthunt.com/stories/7-lessons-from-7-years-of-game-development)
+- [Stuffed Wombat - The Small Game](http://stuffedwomb.at/the_small_game)
 
 ## Dream Game Elements / Inspirations
 
@@ -31,6 +32,12 @@ Independent and not necessarily related or having to be used together
 - [[areas.gamedev.the-perfect-time-travel-game]]
 - [[areas.gamedev.massive-multiplayer-relaxed-ai-game]]
 
-## Articles/Texts about Game Development I like
-- [Amir Rajan - 7 lessons from 7 years of game development](https://www.producthunt.com/stories/7-lessons-from-7-years-of-game-development)
-- [Stuffed Wombat - The Small Game](http://stuffedwomb.at/the_small_game)
+## Topics
+- [[areas.gamedev.juice-and-polish]]
+- [[areas.gamedev.boss-design]]
+- [[areas.gamedev.narrative-design]]
+- [[areas.gamedev.platformer-physics]]
+- [[areas.gamedev.types-of-popular-games]]
+
+## Used Engines & Tools
+- [[areas.gamedev.dragonruby]]

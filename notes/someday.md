@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1670489942751
+updated: 1670495146453
 created: 1653890984882
 ---
 
@@ -25,8 +25,6 @@ created: 1653890984882
 - Horizon: Forbidden West
 - Super Mario Odyssey
 - Kirby and the Forgotten Land
-- Beneath a Steel Sky / Beyond a Steel Sky
-- The longest journey / Dreamfall
 - Rimworld
 - Mass Effect Legendary Edition
 
@@ -49,6 +47,22 @@ created: 1653890984882
 - FEZ
 - The Witness (owned)
 - Riven
+
+## Old games
+- Caesar 2-3
+- Deus Ex
+- Half-Life 2
+
+### Point-and-Click
+- Baphomets Fluch 1-2.5
+- The longest journey / Dreamfall
+- Beneath a Steel Sky / Beyond a Steel Sky
+- Bifi Action in Hollywood
+- Telekommando 2
+- Simon the Sorcerer 1/2
+
+### RTS
+- Command and Conquer
 
 # Books
 
