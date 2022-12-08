@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1670489844767
+updated: 1670489942751
 created: 1653890984882
 ---
 
@@ -49,6 +49,35 @@ created: 1653890984882
 - FEZ
 - The Witness (owned)
 - Riven
+
+# Books
+
+## Theology / Christian
+- Jesus and John Wayne
+- The Making of Biblical Manhood and Womanhood
+- King Jesus Gospel
+- Paul the Biography (N.T. Wright)
+- Henri Nouwen
+- Rachel Held Evans
+- Arno Backhaus - Keine Panik, ehrliche Spiegel altern immer mit!: Meine Rück-Sicht auf Lust und Frust
+
+## Fiction
+- [The Licanius Trilogy by James Islington](https://www.goodreads.com/series/136308-the-licanius-trilogy)
+  - Time Travel, Magic, found on Joschuas Garden
+- Tomorrow, and Tomorrow, and Tomorrow
+  - Two friends, often in love, never lovers, come together as creative partners in the world of video game design
+- https://en.wikipedia.org/wiki/Graham_Greene
+- Wallace Stegner: Crossing to Safety
+- Ender's Game
+
+## Non-Fiction
+- [Incerto Series by Nassim Nicholas Taleb](https://www.amazon.co.jp/dp/B07WZK6Z9N)
+  - Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets
+  - The Black Swan: The Impact of the Highly Improbable
+  - Antifragile: Things That Gain from Disorder
+  - The Bed of Procrustes: Philosophical and Practical Aphorisms
+  - Skin in the Game: Hidden Asymmetries in Daily Life
+- [The Story Solution: 23 Actions All Great Heroes Must Take](https://www.goodreads.com/book/show/12493044-the-story-solution)
 
 # TV Series
 
