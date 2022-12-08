@@ -2,9 +2,19 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1670495146453
+updated: 1670506192029
 created: 1653890984882
 ---
+
+# Gamedev
+- [[areas.gamedev.narrative-generation]]
+
+## Procgen
+- ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
+  [Painting a Landscape with Maths](https://www.youtube.com/watch?v=BFld4EBO2RE)
+
+## Math
+- [3D Math Primer for Game Dev (Online Book)](https://gamemath.com/book/intro.html)
 
 # Video Games
 
@@ -128,3 +138,8 @@ created: 1653890984882
 - Demon Slayer
 - Shaman King
 - Please Save My Earth
+
+# Lectures, Courses
+
+- Math. Analysis: On [![Youtube Icon](assets/youtube-icon.svg){height: 1rem} YouTube](https://www.youtube.com/watch?v=PiaPIleRhgQ&ab_channel=UniversityofNottingham)
+- [Design Fundamentals Course](https://www.designacademy.io/courses/design-fundamentals/)

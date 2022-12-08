@@ -2,7 +2,7 @@
 id: 6l8bkr9dd1y2gki01z3t80e
 title: Game Development
 desc: ''
-updated: 1670495369239
+updated: 1670505990255
 created: 1649587038136
 ---
 
@@ -35,7 +35,7 @@ Independent and not necessarily related or having to be used together
 ## Topics
 - [[areas.gamedev.juice-and-polish]]
 - [[areas.gamedev.boss-design]]
-- [[areas.gamedev.narrative-design]]
+- [[areas.gamedev.narrative-generation]]
 - [[areas.gamedev.platformer-physics]]
 - [[areas.gamedev.types-of-popular-games]]
 
