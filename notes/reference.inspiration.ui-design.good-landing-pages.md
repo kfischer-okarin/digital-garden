@@ -2,7 +2,7 @@
 id: pbdjc2kaf0dpfrwdtjci1nw
 title: Good Landing Pages
 desc: ''
-updated: 1665594574892
+updated: 1670487607283
 created: 1665594574892
 ---
 # Good Landing Pages
@@ -12,7 +12,7 @@ created: 1665594574892
 - https://land-book.com/
 - https://www.lapa.ninja/
 - https://dribbble.com/
--
+- https://saaspages.xyz/
 
 ## Concrete Examples
 
@@ -25,5 +25,3 @@ https://obsidian.md/
 ### Deepdwn itch.io page
 
 https://billiam.itch.io/deepdwn
-
-##
