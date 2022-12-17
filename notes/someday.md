@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1670506192029
+updated: 1671062457520
 created: 1653890984882
 ---
 
@@ -143,3 +143,21 @@ created: 1653890984882
 
 - Math. Analysis: On [![Youtube Icon](assets/youtube-icon.svg){height: 1rem} YouTube](https://www.youtube.com/watch?v=PiaPIleRhgQ&ab_channel=UniversityofNottingham)
 - [Design Fundamentals Course](https://www.designacademy.io/courses/design-fundamentals/)
+
+## Math for Machine Learning
+- [Seeing Theory](https://seeing-theory.brown.edu/)
+  > An interactive website that takes you through some of the most critical probabilities and statistics concepts
+- [Statistics 110: Probability](https://youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
+  > If you are looking to get a more advanced overview of Probabilities and Statistics, this course from Harvard
+    University is an excellent introduction to probability as a language and a set of tools for understanding
+    statistics, science, risk, and randomness.
+- [Essence of Linear Algebra](https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  > a refresher in Linear Algebra
+- [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+  > This is MIT Course 18.06, taught by Profesor Gilbert Strang. Definitely one of the best linear algebra courses that
+    you’ll ever find. Prof. Gilbert makes the subject ridiculously simple and engaging.
+- [Essence of Calculus](https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+  > A series of videos that are informative and make calculus feel like something you could have discovered yourself.
+- [Multivariate Calculus](https://coursera.org/learn/multivariate-calculus-machine-learning)
+  > This is a free, beginner-friendly introductory course to building your confidence and introduce you to the
+    multivariate calculus required to build many common machine learning techniques.

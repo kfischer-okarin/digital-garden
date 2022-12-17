@@ -2,7 +2,7 @@
 id: b228ry0ggta9x148xpr29lk
 title: '2022'
 desc: ''
-updated: 1669942465499
+updated: 1671295879411
 created: 1649253863905
 ---
 
@@ -71,3 +71,5 @@ created: 1649253863905
 ## 2022-11-28 The Final Empire (Audiobook)
 
 ## 2022-11-30 Brooklyn Nine Nine
+
+## 2022-12-18 JoJo's Bizarre Adventure - Part 6

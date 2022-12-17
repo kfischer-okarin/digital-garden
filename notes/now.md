@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1670489574548
+updated: 1671295844392
 created: 1650289758802
 ---
 
@@ -36,18 +36,18 @@ Media I'm currently engaged with...
 ### Paused
 - DS9
 - Scrubs
-- Jojo Part 6
 
 ## Currently playing
 - Steins;Gate Elite
-- Chaos Head: Noah replay
 - Earthbound
+- Dwarf Fortress
 
 ### On and off
 - Cogmind
 - Nuclear Throne
 
 ### Paused
+- Chaos Head: Noah replay
 - Fortnite
 - Super Mario Galaxy
 - Stardew Valley
