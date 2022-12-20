@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1671295844392
+updated: 1671455980321
 created: 1650289758802
 ---
 
@@ -32,6 +32,7 @@ Media I'm currently engaged with...
 - Bleach: Thousand-Year Blood War
 - Spy Family
 - One Day at a Time
+- Rick and Morty (Season 6)
 
 ### Paused
 - DS9

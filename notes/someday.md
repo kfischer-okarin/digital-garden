@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1671062457520
+updated: 1671535497054
 created: 1653890984882
 ---
 
@@ -15,6 +15,10 @@ created: 1653890984882
 
 ## Math
 - [3D Math Primer for Game Dev (Online Book)](https://gamemath.com/book/intro.html)
+
+# Other Dev
+- [DreamBerd programming language](https://github.com/TodePond/DreamBerd)
+  > Crazy (theoretical) programming language by Lu Wilson
 
 # Video Games
 
@@ -123,6 +127,10 @@ created: 1653890984882
 - Star Trek: Strange New Worlds
 
 ## Comedy / Sitcom
+- Parks and Rec
+- 30 Rock
+- Superstore
+- New Girl
 - Coupling (UK)
 - Resident Alien
 
