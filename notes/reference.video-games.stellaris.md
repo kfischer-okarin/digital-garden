@@ -2,7 +2,7 @@
 id: 9ave25uulfqnw4aopjy7qya
 title: Stellaris
 desc: ''
-updated: 1671721022461
+updated: 1671805805174
 created: 1671458867840
 ---
 # Stellaris
@@ -18,6 +18,7 @@ created: 1671458867840
 - Expansion is good for grabbing new space - good for more aggressive play
 - Ascension Perks
   - Technological Ascendancy is a good first one
+- Supremacy and Unyielding (DLC) are good for fighting
 
 ## Research
 - Material sciences is a good focus in the beginning
@@ -42,3 +43,16 @@ created: 1671458867840
 - Trave value is collected from Starports with tradehubs (1 Range per tradehub) - or from same system without anything
 - Trade policy decides what Trade Value is being converted into
 - Trade routes attract pirates which can be kept away with fleets patrolling along the route
+
+## Diplomacy
+- Have rivalries with unfriendly empires to get more influence!!!
+
+## War
+- Build lots of Defense platforms at chokepoints
+- Put your ships at the front line before war
+- Defensive buildings - all of them are good but Disruption field generator
+- Claim systems to get the Conquer War Goal
+
+## Ship design
+- Usually it's good to have a good mix of armor and shield
+- Try to get power down to 0

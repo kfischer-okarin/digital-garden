@@ -2,7 +2,7 @@
 id: sofg3p2jgof8lmhz9xq94d4
 title: Misreading Scripture with Western Eyes
 desc: ''
-updated: 1671717611695
+updated: 1671806747413
 created: 1671716670412
 ---
 
@@ -30,8 +30,15 @@ created: 1671716670412
   - Playing billard is seen as very sinful among some Indonesian Christians
 - Because of that we might interpret Biblical stories differently, like Sodom and Gomorrah
   - For Westerners the sin is obviously sodomy
-  - For Indonesians it's inhospitality
-
+  - For Indonesians it's inhospitality, they use Ezekiel 16:49 as support
+    > Now this was the sin of your sister Sodom: She and her daughters were arrogant, overfed and unconcerned; they did
+      not help the poor and needy.
+- For Westerners marriage (and sex within marriage) is preferable to singleness (and celibacy)
+  - In India where the apostle Thomas preached the Gospel according to tradition, the message of celibacy was eagerly
+    received since they were already influenced by Hinduism's ascetism
+  - We would think it a misapplication of the gospel to talk an engaged couple out of marriage - but is that really so?
+  - The Bible calls both marriage and singleness good - none is itself better than the other
+  - Paul
 
 ---
 
