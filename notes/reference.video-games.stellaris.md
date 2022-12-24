@@ -2,7 +2,7 @@
 id: 9ave25uulfqnw4aopjy7qya
 title: Stellaris
 desc: ''
-updated: 1671805805174
+updated: 1671895611250
 created: 1671458867840
 ---
 # Stellaris
@@ -52,6 +52,15 @@ created: 1671458867840
 - Put your ships at the front line before war
 - Defensive buildings - all of them are good but Disruption field generator
 - Claim systems to get the Conquer War Goal
+- Ways to end a war
+  - War exhaustion reaches 100% - other party can decide the terms of the peace
+  - Achieve all war goals
+  - Surrender
+  - Make a settlement of the current status quo
+- Tactics
+  - Don't move your fleet in node systems where enemies could come from many sides - let a science ship go there first
+    to explore
+- After war there will be definitely 10 years of peace and open borders
 
 ## Ship design
 - Usually it's good to have a good mix of armor and shield
