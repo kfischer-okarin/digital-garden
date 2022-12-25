@@ -2,7 +2,7 @@
 id: sofg3p2jgof8lmhz9xq94d4
 title: Misreading Scripture with Western Eyes
 desc: ''
-updated: 1671806747413
+updated: 1671976118684
 created: 1671716670412
 ---
 
@@ -38,7 +38,12 @@ created: 1671716670412
     received since they were already influenced by Hinduism's ascetism
   - We would think it a misapplication of the gospel to talk an engaged couple out of marriage - but is that really so?
   - The Bible calls both marriage and singleness good - none is itself better than the other
-  - Paul
+  - Paul was considering Roman mores about sexual morality in [[reference.bible.1-corinthians.07]]
+    ![[reference.bible.1-corinthians.07#background]]
+- Westerners consider wealth an unlimited resource which can be accumulated without moral problems if you are successful
+  enough, whereas in non Western cultures wealth is seen as limited and you live at the expense of others when you're
+  richt
+
 
 ---
 
