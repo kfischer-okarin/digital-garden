@@ -2,7 +2,7 @@
 id: sofg3p2jgof8lmhz9xq94d4
 title: Misreading Scripture with Western Eyes
 desc: ''
-updated: 1671976118684
+updated: 1672310164542
 created: 1671716670412
 ---
 
@@ -39,10 +39,15 @@ created: 1671716670412
   - We would think it a misapplication of the gospel to talk an engaged couple out of marriage - but is that really so?
   - The Bible calls both marriage and singleness good - none is itself better than the other
   - Paul was considering Roman mores about sexual morality in [[reference.bible.1-corinthians.07]]
-    ![[reference.bible.1-corinthians.07#background]]
+    ![[reference.bible.1-corinthians.07#background,1]]
 - Westerners consider wealth an unlimited resource which can be accumulated without moral problems if you are successful
-  enough, whereas in non Western cultures wealth is seen as limited and you live at the expense of others when you're
-  richt
+  enough
+  - Many would even go so far and say if you don't have wealth then it's because you're lazy and not determined enough
+  - In non Western cultures wealth is seen as limited and you live at the expense of others when you're rich
+    - There's no good reason to accumulate more than you need and thus destroy others
+- We Westerners tend to misread lessons about economic & social modesty as lessons about sexual modesty
+  - Paul's admonition to women in 1 Cor 11 to cover their hair
+    ![[reference.bible.1-corinthians.11#background,1]]
 
 
 ---

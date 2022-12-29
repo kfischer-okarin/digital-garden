@@ -2,16 +2,24 @@
 id: 9ave25uulfqnw4aopjy7qya
 title: Stellaris
 desc: ''
-updated: 1671895611250
+updated: 1672309075176
 created: 1671458867840
 ---
 # Stellaris
+
+## Building Species
+- Roleplaying Style
+  - Make up a kind of species you like to be
+- Min Max Style
+  - Totally focus on one thing with traits and civics (e.g. Engineering research)
+- Random Species
+- Challenge Run
 
 ## Exploration
 - 2-4 Science ships in the beginning
 - Leave anomalies in the beginning and focus on finding your neighbors
 - Capture chokepoint systems
-  - Keeping neutral dangers (alive in those systems can be a good defense
+  - Keeping neutral dangers alive in those systems can be a good defense
 
 ## Traditions
 - usually Discovery / Expansion is good in the beginning
@@ -22,8 +30,11 @@ created: 1671458867840
 
 ## Research
 - Material sciences is a good focus in the beginning
-- Get flat research bonuses first
-- Also getting Population growth is usually good
+- Recommended Techs
+  - Get flat research bonuses first
+  - Also getting Population growth is usually good
+  - Destroyer
+  - Starhold
 
 ## Planet Management
 - Don't build more than you need/can work
@@ -35,8 +46,13 @@ created: 1671458867840
 - Jobs
   - Don't produce too many specialist/ruler jobs since pops will promote themselves readily but will only very slowly
     demote themselves again
+- Gene Clininics is a good first building
+
+## Starbases
+- Have Hydroponic Farms where ever possible
 
 ## Policies
+- Liberation Wars allows you to wage war to change an enemy ethic
 - Economic policy gives you either an advantage in consumer goods or in alloys
 
 ## Trade
@@ -61,6 +77,12 @@ created: 1671458867840
   - Don't move your fleet in node systems where enemies could come from many sides - let a science ship go there first
     to explore
 - After war there will be definitely 10 years of peace and open borders
+- If you set Ground Army vessels to aggressive stance they will follow your naval vessels and automatically conquer
+  planets if they think they can win
+- If you incorporate new species/planets
+  - Make sure to build precinct houses to decrease crime
+  - Give them only residence rights if their ethics are too different so they cannot have too much political influence
+  - Suppress factions with contrary ethics
 
 ## Ship design
 - Usually it's good to have a good mix of armor and shield
