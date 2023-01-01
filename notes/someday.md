@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1671535497054
+updated: 1672467011716
 created: 1653890984882
 ---
 
@@ -31,7 +31,7 @@ created: 1653890984882
 - Tales of Vesperia
 - Yakuza: Like a Dragon
 - 13 Sentinels: Aegis Rim
-- Hades
+- Hades (owned)
 - Summer in Mara (owned)
 - Final Fantasy Tactics (owned)
 - Breath of Fire 4 (owned)
@@ -41,6 +41,10 @@ created: 1653890984882
 - Kirby and the Forgotten Land
 - Rimworld
 - Mass Effect Legendary Edition
+- Tactics Ogre Reborn
+- Triangle Strategy
+- Live a Live (Switch)
+- Chained Echoes
 
 - Eternal Cylinder
 - Castlevania: Symphony of the Night
@@ -51,6 +55,7 @@ created: 1653890984882
 ## Knowledge Puzzle / Metroidbrainia / Outer Wilds-itch
 - The Forgotten City
 - Return of the Obra Dinn
+- The case of the golden idol
 - The Sinking City
 - Sherlock Holmes
 - Heaven's Vault
