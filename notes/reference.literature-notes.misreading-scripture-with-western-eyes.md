@@ -2,7 +2,7 @@
 id: sofg3p2jgof8lmhz9xq94d4
 title: Misreading Scripture with Western Eyes
 desc: ''
-updated: 1672310164542
+updated: 1672569325445
 created: 1671716670412
 ---
 
@@ -45,9 +45,26 @@ created: 1671716670412
   - Many would even go so far and say if you don't have wealth then it's because you're lazy and not determined enough
   - In non Western cultures wealth is seen as limited and you live at the expense of others when you're rich
     - There's no good reason to accumulate more than you need and thus destroy others
-- We Westerners tend to misread lessons about economic & social modesty as lessons about sexual modesty
-  - Paul's admonition to women in 1 Cor 11 to cover their hair
-    ![[reference.bible.1-corinthians.11#background,1]]
+  - We Westerners tend to misread lessons about economic & social modesty as lessons about sexual modesty
+    - Paul's admonition to women in 1 Cor 11 to cover their hair
+      ![[reference.bible.1-corinthians.11#background,1]]
+  - In 18th century New England people rented pews with their tithes... the social and financial hierarchy was clearly
+    on display inside the church
+  - Are we acting economically modest on Sundays? Do we display status and riches in the way we dress or display luxury
+    goods to others around us?
+- Different cultures have different "culturally edible" food
+  - In Indonesia there's dog and rat meat, and they find the thought of us taking baby cow food and letting it go bad
+    until it molds - cheese - appalling
+  - For people growing up with certain cultural mores about food, this is not just a theological debate or a small thing
+    - Asking a orthodox Jew or a Muslim to eat pork could be as repulsive as asking Westerners to eat cockroaches
+  - This has practical implications too - how could a Jew share a table with someone whose breath stank of pig fat?
+- How can we avoid these kind of instinctive interpretations distorting our interpretation of a Bible text?
+  - When looking at a text go through these steps:
+    - Clearly this passage is saying .... is right/wrong?
+    - Is this really what is condemned?
+    - Am I adding/removing elements
+  - Look for clues in the text: Repeated words
+  - Read Bible texts with Christians from other cultures
 
 
 ---
