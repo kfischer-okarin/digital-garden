@@ -2,7 +2,7 @@
 id: sofg3p2jgof8lmhz9xq94d4
 title: Misreading Scripture with Western Eyes
 desc: ''
-updated: 1672569325445
+updated: 1672654309035
 created: 1671716670412
 ---
 
@@ -65,7 +65,18 @@ created: 1671716670412
     - Am I adding/removing elements
   - Look for clues in the text: Repeated words
   - Read Bible texts with Christians from other cultures
+  - Read books of Christians from other cultures or time periods
 
+## Chapter 2 - The Bible in Color (Race and Ethnicity)
+- White children are more expensive to adopt in the US than children of color - even in Christian adoption agencies
+- Nowadays Western culture starts to be "colorblind"
+  - Since we don't want to make value statements about ethnicities - we hesitate to make any statements or distinctions
+    at all
+  - We want to make things simple by believing that ethnic differences don't matter at all - effectively that will mean
+    that we believe that everyone should be treated as members of the majority culture
+  - But that is naive and can result in serious misunderstanding - There are differences in dialect, worship style,
+    dress, cuisine, prejudices etc
+- For first century Romans it was totally fine to say: "He does such-and-such because he is a Jew"
 
 ---
 
