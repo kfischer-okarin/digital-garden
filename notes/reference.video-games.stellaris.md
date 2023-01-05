@@ -2,7 +2,7 @@
 id: 9ave25uulfqnw4aopjy7qya
 title: Stellaris
 desc: ''
-updated: 1672567498759
+updated: 1672738886018
 created: 1671458867840
 ---
 # Stellaris
@@ -44,9 +44,15 @@ created: 1671458867840
   - You can remove blockers during colonizing!
 - Good first buildings: Gene Clininics, Robot Factory
 - Clerks are not very good
-- Tech World Designation is quite useless: Researcher upkeep is too little to be worth it, better boost your secondary
+- Designations
+  - Urban World is good because it reduces building upkeep (including special resources for advanced buildings)
+  - Mining World not only boosts mining but also Special Resources
+  - Factory/Forge world forces industry districts to only have jobs of their type instead of 1 Artisan and 1
+    Metallurgist
+  - Tech World Designation is quite useless: Researcher upkeep is too little to be worth it, better boost your secondary
   infrastructure on Research worlds
 - Don't build more than you need/can work
+  - But: New Colonies have high immigration pull (until 10 pops) so it's might be worth to have 5-6 open jobs
 - Districts
   - City / Industry is unlimited
   - other districts depend on features
