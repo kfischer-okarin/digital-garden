@@ -2,7 +2,7 @@
 id: 6l8bkr9dd1y2gki01z3t80e
 title: Game Development
 desc: ''
-updated: 1670505990255
+updated: 1673198701887
 created: 1649587038136
 ---
 
@@ -31,6 +31,14 @@ Independent and not necessarily related or having to be used together
 
 - [[areas.gamedev.the-perfect-time-travel-game]]
 - [[areas.gamedev.massive-multiplayer-relaxed-ai-game]]
+
+## Narrative Tropes
+- Start the story in medias res - specifically having only a little bit left of a bigger project (the penultimate task
+  or only few more tasks)
+  - Example: Just having found the third of four magic crystals you need to find to save the world
+- A character was away from the main action for an extended amount of time and brings an unique perspective / hope on
+  a situation
+  - Example: Ant Man in Avengers: Endgame
 
 ## Topics
 - [[areas.gamedev.juice-and-polish]]
