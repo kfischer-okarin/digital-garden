@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1671967315817
+updated: 1673320851097
 created: 1650289758802
 ---
 
@@ -25,16 +25,15 @@ Media I'm currently engaged with...
 ## Currently watching
 - Mai Agare
 - Boruto
-- The Walking Dead
 - Fairy Tail
 - Urusei Yatsura (2022)
 - My Hero Academia
 - Bleach: Thousand-Year Blood War
-- One Day at a Time
 
 ### Paused
 - DS9
 - Scrubs
+- One Day at a Time
 
 ## Currently playing
 - Steins;Gate Elite
@@ -60,4 +59,4 @@ Media I'm currently engaged with...
 - Shenzhen IO
 
 ## Currently listening to
-- The Well of Ascension (Brian Sanderson)
+- The Alloy of Power (Brandon Sanderson)
