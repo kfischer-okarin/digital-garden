@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1673320851097
+updated: 1673518607058
 created: 1650289758802
 ---
 
@@ -59,4 +59,4 @@ Media I'm currently engaged with...
 - Shenzhen IO
 
 ## Currently listening to
-- The Alloy of Power (Brandon Sanderson)
+- The Alloy of Law (Brandon Sanderson)
