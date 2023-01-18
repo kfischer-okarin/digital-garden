@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1673518607058
+updated: 1673948849082
 created: 1650289758802
 ---
 
@@ -28,7 +28,6 @@ Media I'm currently engaged with...
 - Fairy Tail
 - Urusei Yatsura (2022)
 - My Hero Academia
-- Bleach: Thousand-Year Blood War
 
 ### Paused
 - DS9
@@ -36,15 +35,17 @@ Media I'm currently engaged with...
 - One Day at a Time
 
 ## Currently playing
-- Steins;Gate Elite
+- Stellaris
+- Vampire Survivors
 - Earthbound
-- Dwarf Fortress
 
 ### On and off
 - Cogmind
 - Nuclear Throne
+- Dwarf Fortress
 
 ### Paused
+- Steins;Gate Elite
 - Chaos Head: Noah replay
 - Fortnite
 - Super Mario Galaxy
@@ -59,4 +60,4 @@ Media I'm currently engaged with...
 - Shenzhen IO
 
 ## Currently listening to
-- The Alloy of Law (Brandon Sanderson)
+- Shadows of Self (Brandon Sanderson)

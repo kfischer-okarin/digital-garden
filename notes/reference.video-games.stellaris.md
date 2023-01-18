@@ -2,7 +2,7 @@
 id: 9ave25uulfqnw4aopjy7qya
 title: Stellaris
 desc: ''
-updated: 1672738886018
+updated: 1674003759278
 created: 1671458867840
 ---
 # Stellaris
@@ -16,7 +16,7 @@ created: 1671458867840
 - Challenge Run
 
 ## Exploration
-- 2-4 Science ships in the beginning
+- about 4-5 Science ships in the beginning
 - Research only anomalies at most 1 level above the scientist
 - If you need to expand quick, Leave anomalies in the beginning and focus on finding your neighbors
 - Capture chokepoint systems
@@ -26,7 +26,7 @@ created: 1671458867840
 - usually Discovery / Expansion is good in the beginning
 - Expansion is good for grabbing new space - good for more aggressive play
 - Ascension Perks
-  - Technological Ascendancy is a good first one
+  - Technological Ascendancy is a good first one (but it depends on your playstyle)
 - Supremacy and Unyielding (DLC) are good for fighting
 
 ## Research
@@ -42,8 +42,9 @@ created: 1671458867840
 ## Planet Management
 - Remove blockers to have more population growth
   - You can remove blockers during colonizing!
+  - Turn on Edit using Motes to speed up blocker removal
 - Good first buildings: Gene Clininics, Robot Factory
-- Clerks are not very good
+- Clerks are not very good in the beginning but can be useful when low on amenities
 - Designations
   - Urban World is good because it reduces building upkeep (including special resources for advanced buildings)
   - Mining World not only boosts mining but also Special Resources
@@ -63,6 +64,7 @@ created: 1671458867840
 
 ## Starbases
 - Have Hydroponic Farms where ever possible
+- Over colonies having a Transit Hub is good
 
 ## Policies
 - Liberation Wars allows you to wage war to change an enemy ethic
@@ -77,7 +79,6 @@ created: 1671458867840
 - Trade value is collected from Starports with tradehubs (1 Range per tradehub) - or from same system without anything
 - Trade policy decides what Trade Value is being converted into
 - Trade routes attract pirates which can be kept away with fleets patrolling along the route
-
 
 ## War
 - Build lots of Defense platforms at chokepoints

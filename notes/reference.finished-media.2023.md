@@ -2,7 +2,7 @@
 id: utm107gqx2mshpskkx6v7h7
 title: '2023'
 desc: ''
-updated: 1673318320886
+updated: 1673948281741
 created: 1672795492470
 ---
 # Finished in 2023
@@ -10,3 +10,7 @@ created: 1672795492470
 ## 2022-01-09 The Walking Dead
 
 ## 2022-01-10 The Hero of Ages (Brandon Sanderson, Audiobook)
+
+## 2022-01-13 Bleach: Thousand-Year Blood War (Part 1)
+
+## 2022-01-17 The Alloy of Law (Brandon Sanderson, Audiobook)
