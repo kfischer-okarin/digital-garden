@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1674090785380
+updated: 1674209074506
 created: 1653890984882
 ---
 
@@ -20,6 +20,8 @@ created: 1653890984882
 # Other Dev
 - [DreamBerd programming language](https://github.com/TodePond/DreamBerd)
   > Crazy (theoretical) programming language by Lu Wilson
+- NEAT Algorithm (Genetic Algorithm) ([Paper](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf))
+- C4 Model for visualizing Software Architecture: https://c4model.com/
 
 # Video Games
 
@@ -169,6 +171,7 @@ created: 1653890984882
 
 # Videos
 - [Metroid the movie](https://www.youtube.com/watch?v=efKq8n5bM-I) on Youtube (1 hour)
+- [Portfolio of Small Bets](https://vimeo.com/757823828/d6052d8b85) & [Q & A](https://vimeo.com/757832263/c35eb0679e)
 
 # Lectures, Courses
 - Writing Course by Brandon Sanderson
