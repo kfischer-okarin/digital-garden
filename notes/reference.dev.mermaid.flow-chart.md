@@ -2,7 +2,7 @@
 id: axa8sv6qxgdytoz8wbhyak9
 title: Flow Chart
 desc: ''
-updated: 1649326904941
+updated: 1674192334761
 created: 1649326166563
 ---
 
@@ -11,14 +11,14 @@ created: 1649326166563
 ````
 ```mermaid
 flowchart TD
-    node_a(Node name) --> node_b(Another node)
+    node_a[Node name] --> node_b["Node with (special) characters"]
     node_a --> node_c
 ```
 ````
 
 ```mermaid
 flowchart TD
-    node_a(Node name) --> node_b(Another node)
+    node_a[Node name] --> node_b["Node with (special) characters"]
     node_a --> node_c
 ```
 

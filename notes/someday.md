@@ -2,12 +2,13 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1672467011716
+updated: 1674090785380
 created: 1653890984882
 ---
 
 # Gamedev
 - [[areas.gamedev.narrative-generation]]
+- Nakama Multiplayer server library https://heroiclabs.com/opensource/
 
 ## Procgen
 - ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
@@ -82,8 +83,23 @@ created: 1653890984882
 
 ### RTS
 - Command and Conquer
+- Starcraft, Starcraft 2, Starcraft: Mass Recall (sc2 remake of SC campaign)
+
+## Little Games
+- https://cilerba.itch.io/tiny-talents
+  > Tiny Talents is a small game focused on growing your pet's various skills by feeding it candy.
 
 # Books
+
+## Gamedev
+- The Art of Game Design: A Book of Lenses, Third Edition
+- Game Feel: A Game Designer's Guide to Virtual Sensation
+- Rules of Play: Game Design Fundamentals
+- [The Story Solution: 23 Actions All Great Heroes Must Take](https://www.goodreads.com/book/show/12493044-the-story-solution)
+
+## Other Dev
+- A philosophy of software design
+- Agile estimating and planning
 
 ## Theology / Christian
 - Jesus and John Wayne
@@ -110,7 +126,6 @@ created: 1653890984882
   - Antifragile: Things That Gain from Disorder
   - The Bed of Procrustes: Philosophical and Practical Aphorisms
   - Skin in the Game: Hidden Asymmetries in Daily Life
-- [The Story Solution: 23 Actions All Great Heroes Must Take](https://www.goodreads.com/book/show/12493044-the-story-solution)
 
 # TV Series
 
@@ -152,8 +167,11 @@ created: 1653890984882
 - Shaman King
 - Please Save My Earth
 
-# Lectures, Courses
+# Videos
+- [Metroid the movie](https://www.youtube.com/watch?v=efKq8n5bM-I) on Youtube (1 hour)
 
+# Lectures, Courses
+- Writing Course by Brandon Sanderson
 - Math. Analysis: On [![Youtube Icon](assets/youtube-icon.svg){height: 1rem} YouTube](https://www.youtube.com/watch?v=PiaPIleRhgQ&ab_channel=UniversityofNottingham)
 - [Design Fundamentals Course](https://www.designacademy.io/courses/design-fundamentals/)
 
@@ -174,3 +192,9 @@ created: 1653890984882
 - [Multivariate Calculus](https://coursera.org/learn/multivariate-calculus-machine-learning)
   > This is a free, beginner-friendly introductory course to building your confidence and introduce you to the
     multivariate calculus required to build many common machine learning techniques.
+
+# Music
+- https://www.pornophonique.de/
+
+# Learning / New Hobbies
+- Piano
