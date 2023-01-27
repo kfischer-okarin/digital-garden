@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1673948849082
+updated: 1674660373582
 created: 1650289758802
 ---
 
@@ -36,7 +36,6 @@ Media I'm currently engaged with...
 
 ## Currently playing
 - Stellaris
-- Vampire Survivors
 - Earthbound
 
 ### On and off

@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1674209074506
+updated: 1674658822977
 created: 1653890984882
 ---
 
@@ -104,12 +104,13 @@ created: 1653890984882
 - Agile estimating and planning
 
 ## Theology / Christian
+- Gentle and Lowly: The Heart of Christ for Sinners and Sufferer
+- Rachel Held Evans
 - Jesus and John Wayne
 - The Making of Biblical Manhood and Womanhood
 - King Jesus Gospel
 - Paul the Biography (N.T. Wright)
 - Henri Nouwen
-- Rachel Held Evans
 - Arno Backhaus - Keine Panik, ehrliche Spiegel altern immer mit!: Meine Rück-Sicht auf Lust und Frust
 
 ## Fiction

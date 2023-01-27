@@ -2,7 +2,7 @@
 id: 9ave25uulfqnw4aopjy7qya
 title: Stellaris
 desc: ''
-updated: 1674003759278
+updated: 1674380952163
 created: 1671458867840
 ---
 # Stellaris
@@ -38,11 +38,12 @@ created: 1671458867840
   - Also getting Population growth is usually good
   - Destroyer
   - Starhold
+  - Star Fortress & Battleships will lead to Mega Engineering
 
 ## Planet Management
 - Remove blockers to have more population growth
   - You can remove blockers during colonizing!
-  - Turn on Edit using Motes to speed up blocker removal
+  - Turn on edict using Motes to speed up blocker removal
 - Good first buildings: Gene Clininics, Robot Factory
 - Clerks are not very good in the beginning but can be useful when low on amenities
 - Designations
@@ -51,7 +52,7 @@ created: 1671458867840
   - Factory/Forge world forces industry districts to only have jobs of their type instead of 1 Artisan and 1
     Metallurgist
   - Tech World Designation is quite useless: Researcher upkeep is too little to be worth it, better boost your secondary
-  infrastructure on Research worlds
+    infrastructure on Research worlds
 - Don't build more than you need/can work
   - But: New Colonies have high immigration pull (until 10 pops) so it's might be worth to have 5-6 open jobs
 - Districts
@@ -63,6 +64,7 @@ created: 1671458867840
     demote themselves again
 
 ## Starbases
+- Build Naval
 - Have Hydroponic Farms where ever possible
 - Over colonies having a Transit Hub is good
 
@@ -102,6 +104,7 @@ created: 1671458867840
   - Suppress factions with contrary ethics
 
 ## Ship design
+- Corvette: Brawler (main), Screen (support), Gunship (secondary)
 - You need better power first before you can use better shields
 - Usually it's good to have a good mix of armor and shield
 - Try to get power down to 0
@@ -113,3 +116,6 @@ created: 1671458867840
 
 ## Elections
 - Your leaders with high levels are tend to be chosen as candidates which will the scientists in many cases...
+
+## Enclaves
+- Artisan troop contracts give influence through events! Festivals give Happiness and Pop Growth for 5 years
