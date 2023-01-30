@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1674660373582
+updated: 1675101149430
 created: 1650289758802
 ---
 
@@ -59,4 +59,4 @@ Media I'm currently engaged with...
 - Shenzhen IO
 
 ## Currently listening to
-- Shadows of Self (Brandon Sanderson)
+- The Bands of Mourning (Brandon Sanderson)

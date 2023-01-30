@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1674658822977
+updated: 1674994358271
 created: 1653890984882
 ---
 
@@ -169,6 +169,23 @@ created: 1653890984882
 - Demon Slayer
 - Shaman King
 - Please Save My Earth
+
+# Articles
+- [Ink and Switch](https://www.inkandswitch.com/) projects
+  - Untangle: Solving problems with fuzzy constraints (2023)
+  - Inkbase: Programmable Ink (2022)
+  - Potluck: Dynamic documents as personal software (2022)
+  - Crosscut: Drawing dynamic models (2022)
+  - Peritext: A CRDT for Rich-Text Collaboration (2021)
+  - Backchannel: A relationship-based digital identity system (2021)
+  - Cambria: Translate your data with lenses (2020)
+  - Pushpin: Towards Production-Quality Peer-to-Peer Collaboration (2020)
+  - Local-first software: You own your data, in spite of the cloud (2019)
+  - End-user programming: Empowered computing (2019)
+  - Muse: Designing a studio for ideas (2019)
+  - Pixelpusher: Real-time peer-to-peer collaboration with React (2018)
+  - Capstone: A tablet for thinking (2018)
+  - Slow software: Observations on latency (2018)
 
 # Videos
 - [Metroid the movie](https://www.youtube.com/watch?v=efKq8n5bM-I) on Youtube (1 hour)

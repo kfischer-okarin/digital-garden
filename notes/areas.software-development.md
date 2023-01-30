@@ -2,7 +2,7 @@
 id: 1qgmr670moitcxxpmnmjxlp
 title: Software Development
 desc: ''
-updated: 1670027477576
+updated: 1674888427619
 created: 1655541876900
 ---
 
@@ -64,6 +64,9 @@ Talk about following points before just doing what you're being told:
   - One method - one thing
 
 ## Testing principles
+- Does Test Driven Design lead to good design? No - but it steers you away from bad design - when you feel how annoying
+  it is to write tests
+
 ### BDD
 - Use the domain language (The Ubiquitous Language)
 - Drive Development with Executable Specifications
