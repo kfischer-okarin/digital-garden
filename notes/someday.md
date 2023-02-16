@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1674994358271
+updated: 1675941697065
 created: 1653890984882
 ---
 
@@ -32,7 +32,8 @@ created: 1653890984882
 - Dark Souls
 - Elden Ring (PS5)
 - Tales of Vesperia
-- Yakuza: Like a Dragon
+- Yakuza Kiwami
+- Nier: Automata
 - 13 Sentinels: Aegis Rim
 - Hades (owned)
 - Summer in Mara (owned)
@@ -197,6 +198,8 @@ created: 1653890984882
 - [Design Fundamentals Course](https://www.designacademy.io/courses/design-fundamentals/)
 
 ## Math for Machine Learning
+- [Distill](https://distill.pub/)
+  > Visual Tutorials about Machine Learning
 - [Seeing Theory](https://seeing-theory.brown.edu/)
   > An interactive website that takes you through some of the most critical probabilities and statistics concepts
 - [Statistics 110: Probability](https://youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo)
