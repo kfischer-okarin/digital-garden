@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1675101149430
+updated: 1676993791958
 created: 1650289758802
 ---
 
@@ -11,7 +11,6 @@ created: 1650289758802
 Media I'm currently engaged with...
 
 ## Currently reading
-- David Farley - Modern Software Engineering
 - Brandon J. O'Brien, E. Randolph Richards - Misreading Scripture with Western Eyes: Removing Cultural Blinders to
   Better Understand the Bible
 ## Paused
@@ -24,19 +23,23 @@ Media I'm currently engaged with...
 
 ## Currently watching
 - Mai Agare
-- Boruto
 - Fairy Tail
-- Urusei Yatsura (2022)
 - My Hero Academia
+- Made in Abyss
 
 ### Paused
 - DS9
 - Scrubs
 - One Day at a Time
+- Boruto
+- Urusei Yatsura (2022)
 
 ## Currently playing
 - Stellaris
-- Earthbound
+- Danganronpa 2
+- Lufia 2
+- Freelancer
+- Mario vs Donkey Kong
 
 ### On and off
 - Cogmind
@@ -44,6 +47,7 @@ Media I'm currently engaged with...
 - Dwarf Fortress
 
 ### Paused
+- Earthbound
 - Steins;Gate Elite
 - Chaos Head: Noah replay
 - Fortnite
@@ -59,4 +63,4 @@ Media I'm currently engaged with...
 - Shenzhen IO
 
 ## Currently listening to
-- The Bands of Mourning (Brandon Sanderson)
+- The Lost Metal (Brandon Sanderson)

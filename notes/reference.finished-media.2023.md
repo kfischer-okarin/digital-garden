@@ -2,7 +2,7 @@
 id: utm107gqx2mshpskkx6v7h7
 title: '2023'
 desc: ''
-updated: 1675101175785
+updated: 1676993891828
 created: 1672795492470
 ---
 # Finished in 2023
@@ -18,3 +18,9 @@ created: 1672795492470
 ## 2022-01-23 Momodora: Reverie Under The Moonlight
 
 ## 2022-01-28 Shadows of Self (Brandon Sanderson, Audiobook)
+
+## 2022-02-10 The Bands of Mourning (Brandon Sanderson, Audiobook)
+
+## 2022-02-18 Arcanum Unbounded - Mistborn: Secret History (Brandon Sanderson, Audiobook)
+
+## 2022-02-19 David Farley - Modern Software Engineering
