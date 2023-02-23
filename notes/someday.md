@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1675941697065
+updated: 1677119396673
 created: 1653890984882
 ---
 
@@ -222,3 +222,7 @@ created: 1653890984882
 
 # Learning / New Hobbies
 - Piano
+
+# Tools to try out
+- Commit GPT: https://github.com/RomanHotsiy/commitgpt
+  Generate commit messages
