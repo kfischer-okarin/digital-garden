@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1677119396673
+updated: 1677416351501
 created: 1653890984882
 ---
 
@@ -55,6 +55,131 @@ created: 1653890984882
 - Mother 3
 
 - Stanley Parable: Ultra Deluxe
+- Skyrim
+
+## Misc Owned
+
+### Steam
+- Morrowind
+- Oblivion
+- 2064: ROM
+- Achron
+- Age of Empires 2
+- Day of the Tentacle
+- Deus Ex
+- Divinity Original Sin 2
+- Fahrenheit
+- Finding Paradise
+- FTL
+- GTA 4
+- Guacamelee
+- Hyperlight Drifter
+- Invisible Inc
+- The Last Remnant
+- Mushroom 11
+- No time to Explain
+- OneShot
+- Psychonauts
+- Papo and Yo
+- Sproggiwood
+- Vanishing of Ethan Carter
+
+### Epic
+- A Plague Tale
+- Adios
+- Alba
+- Aven Colony
+- Cities Skylines
+- City of Brass
+- City of Gangsters
+- Control
+- Crying Suns
+- Dandara
+- Death Stranding
+- Deponia
+- Dishonored
+- Duskers
+- Europa Universalis 4
+- Encased
+- Fallout
+- Filament
+- Galactic Civiliazations 3
+- Gamedec
+- Gloomhaven
+- Halcyon 6
+- Hitman
+- Idle Champions
+- Insurmountable
+- Into the Breach
+- Jotun
+- Jurassic World
+- Kerbal Space Program
+- Minit
+- Neon Abyss
+- Nioh
+- Pathfinder
+- Pine
+- Rebel Galaxy
+- Rise of the Tomb Raider
+- Rogue Legaxy
+- RPG in a Box
+- Sable
+- Salt and Sanctuary
+- Saints Row
+- Shadow Tactic
+- Shadow of the Tomb Raider
+- Shadowrun Hong Kong
+- Shadowrun Returns
+- Shadowrun Dragonfall
+- Sheltered
+- Shenmue 3
+- Spirit of the North
+- Star Wars Squadrons
+- Star Wars Battle Front
+- Submerged
+- Sunless Sea
+- Supraland
+- Surviving Mars
+- Tales of the Neon Sea
+- The Captain
+- The Escapists
+- The Fall
+- The First Tree
+- The Lion's Song
+- Sims 4
+- The Spectrum Retreat
+- Tomb Raider
+- Total War Wahrhammer
+- Warhammer Mechanicus
+- Windbound
+- Wonderboy
+- XCOM 2
+- Unrailed
+- Vampyr
+- Yooku's Island Express
+- Yooka Laylee
+
+### Itch.io
+- Jimmy and the Pulsating Mass
+- A Morticians Tale
+- Shattered Planet
+- Superhot
+- Inmost
+- Wandersong
+- Backbone
+- Odd Realm
+- Figment (Ukraine Bundle)
+- Ynglet (Ukraine Bundle)
+- A Short Hike
+- Long GOne Days (Ukraine Bundle)
+- Lenna's Inception (Ukraine Bundle)
+- Pyre
+- Danger Crew
+- Gutwhale
+- Stardrop
+- Oxenfree
+- Night in the Woods
+- Overland
 
 ## Knowledge Puzzle / Metroidbrainia / Outer Wilds-itch
 - The Forgotten City
@@ -191,6 +316,7 @@ created: 1653890984882
 # Videos
 - [Metroid the movie](https://www.youtube.com/watch?v=efKq8n5bM-I) on Youtube (1 hour)
 - [Portfolio of Small Bets](https://vimeo.com/757823828/d6052d8b85) & [Q & A](https://vimeo.com/757832263/c35eb0679e)
+- Psychonauts 2 Documentary
 
 # Lectures, Courses
 - Writing Course by Brandon Sanderson
