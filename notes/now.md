@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1676993791958
+updated: 1677639249784
 created: 1650289758802
 ---
 
@@ -26,6 +26,7 @@ Media I'm currently engaged with...
 - Fairy Tail
 - My Hero Academia
 - Made in Abyss
+- Danganronpa: The Animation
 
 ### Paused
 - DS9
@@ -36,10 +37,8 @@ Media I'm currently engaged with...
 
 ## Currently playing
 - Stellaris
-- Danganronpa 2
 - Lufia 2
 - Freelancer
-- Mario vs Donkey Kong
 
 ### On and off
 - Cogmind

@@ -2,7 +2,7 @@
 id: utm107gqx2mshpskkx6v7h7
 title: '2023'
 desc: ''
-updated: 1676993891828
+updated: 1677593317850
 created: 1672795492470
 ---
 # Finished in 2023
@@ -24,3 +24,7 @@ created: 1672795492470
 ## 2022-02-18 Arcanum Unbounded - Mistborn: Secret History (Brandon Sanderson, Audiobook)
 
 ## 2022-02-19 David Farley - Modern Software Engineering
+
+## 2022-02-23 Mario vs Donkey Kong (GBA)
+
+## 2022-02-28 Danganronpa 2

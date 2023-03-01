@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1677416351501
+updated: 1677593145735
 created: 1653890984882
 ---
 
@@ -57,11 +57,17 @@ created: 1653890984882
 - Stanley Parable: Ultra Deluxe
 - Skyrim
 
+
+## Replay
+- Terranigma
+- Chrono Trigger
+- Morrowind
+- Oblivion
+- Aquaria
+
 ## Misc Owned
 
 ### Steam
-- Morrowind
-- Oblivion
 - 2064: ROM
 - Achron
 - Age of Empires 2
@@ -226,6 +232,9 @@ created: 1653890984882
 - [The Story Solution: 23 Actions All Great Heroes Must Take](https://www.goodreads.com/book/show/12493044-the-story-solution)
 
 ## Other Dev
+- Working effectively with Legacy Code
+- Object Oriented Reengineering Patterns
+- xUnit Test patterns
 - A philosophy of software design
 - Agile estimating and planning
 
