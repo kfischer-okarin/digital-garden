@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1677593145735
+updated: 1677898347107
 created: 1653890984882
 ---
 
@@ -49,6 +49,7 @@ created: 1653890984882
 - Triangle Strategy
 - Live a Live (Switch)
 - Chained Echoes
+- Octopath Traveler 1 + 2
 
 - Eternal Cylinder
 - Castlevania: Symphony of the Night
@@ -164,6 +165,7 @@ created: 1653890984882
 - Vampyr
 - Yooku's Island Express
 - Yooka Laylee
+- Rise of Industry
 
 ### Itch.io
 - Jimmy and the Pulsating Mass
