@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1677898347107
+updated: 1678443494196
 created: 1653890984882
 ---
 
@@ -188,6 +188,9 @@ created: 1653890984882
 - Oxenfree
 - Night in the Woods
 - Overland
+- Stereogram by Daniel Linnsen
+- Tiny Talents: https://cilerba.itch.io/tiny-talents
+  > Tiny Talents is a small game focused on growing your pet's various skills by feeding it candy.
 
 ## Knowledge Puzzle / Metroidbrainia / Outer Wilds-itch
 - The Forgotten City
@@ -209,6 +212,27 @@ created: 1653890984882
 - Deus Ex
 - Half-Life 2
 
+### GBA
+- Golden Sun 1+2
+- Minish Cap
+- Castlevania Circle of the Moon
+- Castlevania Harmony of Dissonance
+- Castlevania Aria of Sorrow
+- Advance Wars 1+2
+- Super Dodgeball Advance
+- Metroid Fusion
+- Metroid Zero Mission
+- Boktai 1-3
+- Mother 3
+- Fire Emblem: The Binding Blade
+- Fire Emblem: The Blazing Blade
+- Fire Emblem: The Sacred Stones
+- Kirby & Amazing Mirror
+- Megaman Battle Network
+- Wario Ware
+- Legacy of Goku 1-3
+-
+
 ### Point-and-Click
 - Baphomets Fluch 1-2.5
 - The longest journey / Dreamfall
@@ -220,10 +244,6 @@ created: 1653890984882
 ### RTS
 - Command and Conquer
 - Starcraft, Starcraft 2, Starcraft: Mass Recall (sc2 remake of SC campaign)
-
-## Little Games
-- https://cilerba.itch.io/tiny-talents
-  > Tiny Talents is a small game focused on growing your pet's various skills by feeding it candy.
 
 # Books
 
@@ -258,6 +278,17 @@ created: 1653890984882
 - https://en.wikipedia.org/wiki/Graham_Greene
 - Wallace Stegner: Crossing to Safety
 - Ender's Game
+- Cosmere
+  - Warbreaker
+  - Words of Radiance
+  - Arcanum Unbounded: Stormlight parts
+  - Oathbringer
+  - Dawnshard
+  - Elantris (?)
+  - White Sand (?)
+  - Rhythm of War
+  - The Lost Metal (one more time)
+  - Tress of the Emerald Sea
 
 ## Non-Fiction
 - [Incerto Series by Nassim Nicholas Taleb](https://www.amazon.co.jp/dp/B07WZK6Z9N)
@@ -333,6 +364,8 @@ created: 1653890984882
 - Writing Course by Brandon Sanderson
 - Math. Analysis: On [![Youtube Icon](assets/youtube-icon.svg){height: 1rem} YouTube](https://www.youtube.com/watch?v=PiaPIleRhgQ&ab_channel=UniversityofNottingham)
 - [Design Fundamentals Course](https://www.designacademy.io/courses/design-fundamentals/)
+- Debunking Handbook
+- edX: Making Sense of Climate Science Denial
 
 ## Math for Machine Learning
 - [Distill](https://distill.pub/)

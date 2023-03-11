@@ -2,7 +2,7 @@
 id: wbk7j19vy9ebjyy02o3rd1n
 title: Keys
 desc: ''
-updated: 1678163533994
+updated: 1678263221506
 created: 1664432170138
 ---
 # Keys
@@ -32,7 +32,6 @@ created: 1664432170138
 - `C-y` Yank killed content
   - Then `M-y` Rotate through killed contents
 - `C-/` Undo
-
 
 ## Buffers
 - `C-x <LEFT>` / `C-x <RIGHT>` Previous/Next buffer
@@ -72,10 +71,25 @@ created: 1664432170138
 - `C-c C-j` Goto
 
 ### Todo & Clocking Time
+- `C-c C-c` Convenience key
+  - On Checkbox: Toggle
+  - On Clock: Re-calculate clock duration
+  - On TODO statistic: recalculate
+  - On TODO: Add tag
 - `C-c C-t` Change todo state
 - `C-c t` Show todo tree
 - `C-c C-x C-i` Clock in
 - `C-c C-x C-o` Clock out
+- `C-c C-x C-d` Show total times next to tasks
 - `C-c C-x C-q` Cancel clock
 - `C-c C-x e` Set effort for selected task
 - `C-c C-x C-e` Set effort for currently clocked task
+
+## Magit
+- `C-x g` Open Magit
+
+### In Magit buffer
+- `g` refresh
+- `n` / `p` next/previous hunk
+- `P u` push to upstream
+- `c c` commit (Confirm message with `C-c`)
