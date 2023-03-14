@@ -2,7 +2,7 @@
 id: dwsqaivcj2zki9afzp3z68d
 title: Juice and Polish
 desc: ''
-updated: 1660401745541
+updated: 1678790574761
 created: 1660399213428
 ---
 # Juice and Polish
@@ -33,6 +33,11 @@ created: 1660399213428
 - Death animation (slow fall and speed up again when on the floor)
 
 
+For Roguelike turns specifically [[areas.gamedev.juice-and-polish.roguelikes]]
+
 ## References
 - ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}[Vlambeer - The Art of Screenshake](https://www.youtube.com/watch?v=AJdEqssNZ-U)
 - ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}[Juicing your Cameras with Math](https://www.youtube.com/watch?v=tu-Qe66AvtY)
+
+### More References
+- [Designing Game Feel. A Survey](https://arxiv.org/pdf/2011.09201.pdf) (Clipped in Joplin)

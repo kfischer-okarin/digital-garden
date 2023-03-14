@@ -2,13 +2,16 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1678443494196
+updated: 1678802901806
 created: 1653890984882
 ---
 
 # Gamedev
 - [[areas.gamedev.narrative-generation]]
 - Nakama Multiplayer server library https://heroiclabs.com/opensource/
+- Gameideas
+  - Quantum Roguelike - Go up/down in scale almost indefinitely
+    - Katamary Damacy, Antman Quantumania
 
 ## Procgen
 - ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
@@ -166,6 +169,7 @@ created: 1653890984882
 - Yooku's Island Express
 - Yooka Laylee
 - Rise of Industry
+- Call of the Sea
 
 ### Itch.io
 - Jimmy and the Pulsating Mass
