@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1678802901806
+updated: 1679383453387
 created: 1653890984882
 ---
 
@@ -170,6 +170,7 @@ created: 1653890984882
 - Yooka Laylee
 - Rise of Industry
 - Call of the Sea
+- Gladius: Relics of War
 
 ### Itch.io
 - Jimmy and the Pulsating Mass
@@ -252,6 +253,7 @@ created: 1653890984882
 # Books
 
 ## Gamedev
+- Art and Fear (not directly gamedev but art)
 - The Art of Game Design: A Book of Lenses, Third Edition
 - Game Feel: A Game Designer's Guide to Virtual Sensation
 - Rules of Play: Game Design Fundamentals
@@ -282,6 +284,8 @@ created: 1653890984882
 - https://en.wikipedia.org/wiki/Graham_Greene
 - Wallace Stegner: Crossing to Safety
 - Ender's Game
+- Time Travel
+  - Replay - Ken Grimwood
 - Cosmere
   - Warbreaker
   - Words of Radiance
@@ -363,6 +367,10 @@ created: 1653890984882
 - [Metroid the movie](https://www.youtube.com/watch?v=efKq8n5bM-I) on Youtube (1 hour)
 - [Portfolio of Small Bets](https://vimeo.com/757823828/d6052d8b85) & [Q & A](https://vimeo.com/757832263/c35eb0679e)
 - Psychonauts 2 Documentary
+
+# Movies
+- Primer
+
 
 # Lectures, Courses
 - Writing Course by Brandon Sanderson
