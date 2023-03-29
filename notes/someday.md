@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1679383453387
+updated: 1679884239676
 created: 1653890984882
 ---
 
@@ -27,12 +27,10 @@ created: 1653890984882
 - C4 Model for visualizing Software Architecture: https://c4model.com/
 
 # Video Games
-
 - Persona 4
 - Persona 5 Royal
 - Xenoblade Chronicles DE
 - FF7 Remake (PS5)
-- Dark Souls
 - Elden Ring (PS5)
 - Tales of Vesperia
 - Yakuza Kiwami
@@ -60,6 +58,7 @@ created: 1653890984882
 
 - Stanley Parable: Ultra Deluxe
 - Skyrim
+- Spore
 
 
 ## Replay
@@ -215,7 +214,6 @@ created: 1653890984882
 ## Old games
 - Caesar 2-3
 - Deus Ex
-- Half-Life 2
 
 ### GBA
 - Golden Sun 1+2

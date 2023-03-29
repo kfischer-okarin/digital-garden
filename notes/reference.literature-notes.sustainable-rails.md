@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1679275486837
+updated: 1679879980993
 created: 1676853996211
 ---
 
@@ -75,7 +75,19 @@ created: 1676853996211
   - `bin/ci` - Run tests and other checks like `brakeman` and `bundle audit`
 - Manage runtime env consistently via UNIX Environment variables
   - Having all of `database.yml`, `credentials.yml.enc` and `master.key` to store environment is confusing
-  - Better delete all of them and use `dotenv` instead
+  - Better delete all of them
+  - Use `dotenv` for test/development
+    - can also be safely checked in
+    - Gitignore `.env` - if checked in its purpose is very unclear
+    - Gitignore `.env.*.local`
+  - Don't use `dotenv` in production
+- Write comments, about why libraries are there
+- `bin/setup` (written in Ruby)
+  - Reset local database regularly to remove old test data / production data for troubleshooting
+  - Add comments to each setup step explaining why
+  - Use some nice helpers like:
+    - `system!` abort when command fails
+    - `log` log with a prefix to know it was written by the script and not an executed command
 ---
 
 
