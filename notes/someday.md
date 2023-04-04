@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1679884239676
+updated: 1680615940823
 created: 1653890984882
 ---
 
@@ -170,6 +170,7 @@ created: 1653890984882
 - Rise of Industry
 - Call of the Sea
 - Gladius: Relics of War
+- Tunche
 
 ### Itch.io
 - Jimmy and the Pulsating Mass
@@ -295,6 +296,9 @@ created: 1653890984882
   - Rhythm of War
   - The Lost Metal (one more time)
   - Tress of the Emerald Sea
+- Ray Bradbury
+  - The October Country: Stories
+  - The Illustrated Man
 
 ## Non-Fiction
 - [Incerto Series by Nassim Nicholas Taleb](https://www.amazon.co.jp/dp/B07WZK6Z9N)

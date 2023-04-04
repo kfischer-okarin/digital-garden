@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1679879980993
+updated: 1680483072359
 created: 1676853996211
 ---
 
@@ -88,6 +88,17 @@ created: 1676853996211
   - Use some nice helpers like:
     - `system!` abort when command fails
     - `log` log with a prefix to know it was written by the script and not an executed command
+- `bin/ci`
+  - Run tests
+  - Run Brakeman & output to brakeman.html
+  - Run Bundle audit
+- Use `lograge` for logs
+  - Turns off coloring (though that can be done with the `colorize_logging` option too)
+  - Puts request logs on a simple 1 line format
+    ```
+    method=GET path=/jobs/833552.json format=json controller=JobsController  action=show status=200 duration=58.33 view=40.43 db=15.26
+    ```
+    - Requires you to properly set the logger formatter to get timestamps
 ---
 
 
