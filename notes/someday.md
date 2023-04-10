@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1680615940823
+updated: 1681124109656
 created: 1653890984882
 ---
 
@@ -12,6 +12,12 @@ created: 1653890984882
 - Gameideas
   - Quantum Roguelike - Go up/down in scale almost indefinitely
     - Katamary Damacy, Antman Quantumania
+- Languages that compile to C for C Extensions:
+  - [Crystal](https://crystal-lang.org/)
+  - [Nim](https://nim-lang.org/)
+  - [Zig](https://ziglang.org/)
+  - [D](https://dlang.org/)
+  - Rust
 
 ## Procgen
 - ![Youtube Icon](assets/youtube-icon.svg){height: 1rem}
@@ -171,6 +177,7 @@ created: 1653890984882
 - Call of the Sea
 - Gladius: Relics of War
 - Tunche
+- Shapez
 
 ### Itch.io
 - Jimmy and the Pulsating Mass

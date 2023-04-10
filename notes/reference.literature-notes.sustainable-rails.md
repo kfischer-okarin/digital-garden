@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1680483072359
+updated: 1681088697603
 created: 1676853996211
 ---
 
@@ -99,6 +99,23 @@ created: 1676853996211
     method=GET path=/jobs/833552.json format=json controller=JobsController  action=show status=200 duration=58.33 view=40.43 db=15.26
     ```
     - Requires you to properly set the logger formatter to get timestamps
+
+## Chapter 5 - Business Logic (Does Not Go In Active Records)
+- Rails is optimized for CRUD
+- Essential/necessary complexity: Everything on top of normal CRUD that makes your App Special
+  - Conditional updates, data formatting, calling 3rd party services
+- Accidental/unnecessary complexity: Architectural decisions that add complexity that didn't **have** to be there
+  - For example manage users in another app and manage via API calls rather than storing it the own database
+- Business logic is made up of both types of complexity
+- Business logic changes often = High churn
+- High complexity + High churn = A paradise for bugs
+- Fan out: How many other classes you call
+- Fan in: How often other modules/classes call you
+  - Classes with high fan in are most likely to cause system-wide bugs
+- To reduce system-wide bugs: Minimize the complexity and minimize the churn of high fan-in classes
+  - ActiveRecord classes are the most used classes in Rails apps
+  - Business logic has high complexity & high church
+  - Therefore: Keep business logic **out** of ActiveRecord classes
 ---
 
 

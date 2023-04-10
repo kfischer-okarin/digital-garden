@@ -2,10 +2,9 @@
 id: jxy5ckbdzxw3vyhx5qlt6s5
 title: Composite Pattern
 desc: ''
-updated: 1652612505005
+updated: 1680568102062
 created: 1652536799154
 ---
-
 # Composite Pattern
 
 - Objects arranged in tree-like hierarchies
@@ -15,18 +14,21 @@ created: 1652536799154
   - I personally think that's just another dimension/interface
 
 ```rb
+# Component - common interface
 class Item
   def weight
     raise NotImplementedError
   end
 end
 
+# Leaf
 class SolidItem < Item
   attr_reader :weight
 
   # ...
 end
 
+# Leaf
 class LiquidContainer < Item
   # ...
 

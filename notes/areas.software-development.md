@@ -2,7 +2,7 @@
 id: 1qgmr670moitcxxpmnmjxlp
 title: Software Development
 desc: ''
-updated: 1674888427619
+updated: 1680743628433
 created: 1655541876900
 ---
 
@@ -104,3 +104,22 @@ Sources:
 
 ## Articles to read regularly
 - [Professional Programming: The First 10 Years](https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/)
+
+## Events - The Real world
+- Model your application as a stream of events - to decouple it
+  - External:
+    - User actions
+    - An external data source publishes new data
+  - Internal:
+    - Calculation is finished
+- How to deal with events
+  - Finite State Machines
+    - Initial state
+    - Change state when receiving event, maybe execute code on state enter/exit or particular transition
+    - Can be expressed as data
+  - Observer pattern
+  - Pub / Sub
+  - Event Streams
+    - There are nice libraries (https://reactivex.io/) which treat event streams like collections and allow all
+      conveniences of Enumerables like filtering, zipping, mapping
+    - Time is not something that needs to be managed anymore - you do.. as it happens
