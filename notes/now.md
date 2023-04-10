@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1677639322670
+updated: 1681167436997
 created: 1650289758802
 ---
 
@@ -22,24 +22,22 @@ Media I'm currently engaged with...
 - Nassim Nicholas Taleb - Fooled by randomness: the hidden role of chance in life and in the markets
 
 ## Currently watching
-- Mai Agare
-- Fairy Tail
-- My Hero Academia
-- Made in Abyss
-- Danganronpa: The Animation
+- Ranman
+- Pokemon
 
 ### Paused
 - DS9
 - Scrubs
 - One Day at a Time
-- Boruto
 - Urusei Yatsura (2022)
 
 ## Currently playing
 - Stellaris
 - Lufia 2
-- Freelancer
-- Turnip Boy commits Tax Evasion
+- Golden Sun
+- FF14
+- Fortnite
+- Half Life 2
 
 ### On and off
 - Cogmind
@@ -50,7 +48,6 @@ Media I'm currently engaged with...
 - Earthbound
 - Steins;Gate Elite
 - Chaos Head: Noah replay
-- Fortnite
 - Super Mario Galaxy
 - Stardew Valley
 - Robotics;Notes Elite
@@ -63,4 +60,4 @@ Media I'm currently engaged with...
 - Shenzhen IO
 
 ## Currently listening to
-- The Lost Metal (Brandon Sanderson)
+- The Way of Kings (Brandon Sanderson)
