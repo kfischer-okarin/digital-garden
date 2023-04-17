@@ -2,7 +2,7 @@
 id: wbk7j19vy9ebjyy02o3rd1n
 title: Keys
 desc: ''
-updated: 1678263221506
+updated: 1681363964100
 created: 1664432170138
 ---
 # Keys
@@ -56,6 +56,8 @@ created: 1664432170138
 ## Meta
 - `C-u <N> <KEY>` Executes command of KEY N times
 - `C-g` Stop current command
+- `M-x` Execute command by name
+- `M-:` Eval Elisp
 
 ## Customization
 - `M-x add-dir-local-variable` Add customization for current directory

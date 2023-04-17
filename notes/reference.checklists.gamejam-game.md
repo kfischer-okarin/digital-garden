@@ -2,10 +2,12 @@
 id: aobp3v5dufjavxb0csvwjq7
 title: Gamejam Game
 desc: ''
-updated: 1660925309517
+updated: 1681485636192
 created: 1660925113481
 ---
 # Gamejam Game
+- [ ] Find an idea
+  - [[tools-for.generating-game-ideas]]
 - [ ] Find your gameplay loop - finish that ASAP
 - [ ] Give it people to play
 - [ ] Make stuff fun (!) and juicy

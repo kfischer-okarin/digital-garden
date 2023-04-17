@@ -2,7 +2,7 @@
 id: 6l8bkr9dd1y2gki01z3t80e
 title: Game Development
 desc: ''
-updated: 1673518641291
+updated: 1681485871857
 created: 1649587038136
 ---
 
@@ -47,6 +47,7 @@ Independent and not necessarily related or having to be used together
 - [[areas.gamedev.platformer-physics]]
 - [[areas.gamedev.types-of-popular-games]]
 - [[areas.gamedev.platformer-feel-tricks]]
+- [[areas.gamedev.tileset-structures]]
 
 ## Used Engines & Tools
 - [[areas.gamedev.dragonruby]]
