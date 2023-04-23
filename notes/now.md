@@ -2,7 +2,7 @@
 id: tu102fn6psvc3ef33p2jl5p
 title: Now
 desc: ''
-updated: 1681167436997
+updated: 1681972145978
 created: 1650289758802
 ---
 
@@ -32,14 +32,14 @@ Media I'm currently engaged with...
 - Urusei Yatsura (2022)
 
 ## Currently playing
-- Stellaris
 - Lufia 2
 - Golden Sun
 - FF14
 - Fortnite
-- Half Life 2
+- Yakuza Kiwami
 
 ### On and off
+- Stellaris
 - Cogmind
 - Nuclear Throne
 - Dwarf Fortress

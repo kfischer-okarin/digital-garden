@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1681088697603
+updated: 1681692778551
 created: 1676853996211
 ---
 
@@ -116,6 +116,17 @@ created: 1676853996211
   - ActiveRecord classes are the most used classes in Rails apps
   - Business logic has high complexity & high church
   - Therefore: Keep business logic **out** of ActiveRecord classes
+- Add a service layer between your Controllers and ActiveRecords
+  - Logic on Active Records
+    - `Product#search`, `Product#rate`, `Product#purchase`, `Product#purchase_by_tax`
+    - Every controller uses `Product`
+  - With a Service Layer in between
+    - Several service classes:
+      - `ProductPurchaser#purchase`, `ProductPurchaser#purchase_by_tax`
+      - `ProductRater#rate`
+      - `ProductSearch#search`
+    - Each of those new classes is only used by 1 or two controllers
+    - All complex business logic is contained in those classes
 ---
 
 
