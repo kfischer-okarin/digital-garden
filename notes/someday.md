@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1681124109656
+updated: 1683503253075
 created: 1653890984882
 ---
 
@@ -39,10 +39,9 @@ created: 1653890984882
 - FF7 Remake (PS5)
 - Elden Ring (PS5)
 - Tales of Vesperia
-- Yakuza Kiwami
+- Yakuza Series
 - Nier: Automata
 - 13 Sentinels: Aegis Rim
-- Hades (owned)
 - Summer in Mara (owned)
 - Final Fantasy Tactics (owned)
 - Breath of Fire 4 (owned)
@@ -178,6 +177,8 @@ created: 1653890984882
 - Gladius: Relics of War
 - Tunche
 - Shapez
+- Breathedge
+- Kao the Kangaroo
 
 ### Itch.io
 - Jimmy and the Pulsating Mass

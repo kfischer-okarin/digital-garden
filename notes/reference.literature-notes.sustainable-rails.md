@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1681692778551
+updated: 1682299228025
 created: 1676853996211
 ---
 
@@ -15,6 +15,8 @@ created: 1676853996211
 **Current position:** Chapter 1
 
 ## My Summary
+- Work with Rails not against it where possible
+  - Use default resource routes where possible - devs will know where the code is even years from now
 
 ---
 
@@ -127,6 +129,18 @@ created: 1676853996211
       - `ProductSearch#search`
     - Each of those new classes is only used by 1 or two controllers
     - All complex business logic is contained in those classes
+
+## Chapter 6 - Routes and URLs
+- Stick with Rails conventions for canonical routes, use `resources` where possible
+  - Developers will immediately know how the app is organized
+  - You won't have to make architectural decisions
+- Don't create unused routes (use `only:`)
+- Add custom routes as a separate section below normal routes as redirects to canonical urls
+  - Add a comment explaining why it's needed
+  - You can also use a normal `get` etc helper if you don't want any redirects
+- Prefer creating new resources rather than custom actions
+  - Rails works best when focused on resources + standard actions
+  - `resource :product_ratings, only: %i[create]` rather than `resource :products, only: %i[...., rate]`
 ---
 
 
