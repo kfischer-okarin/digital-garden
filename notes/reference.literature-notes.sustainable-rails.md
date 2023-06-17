@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1682299228025
+updated: 1685322738797
 created: 1676853996211
 ---
 
@@ -141,6 +141,18 @@ created: 1676853996211
 - Prefer creating new resources rather than custom actions
   - Rails works best when focused on resources + standard actions
   - `resource :product_ratings, only: %i[create]` rather than `resource :products, only: %i[...., rate]`
+- Prefer separate resources over nested resources.....
+  - Rails Guid recommends to only nest resources at most one level
+  - Only use a child resource if it's 100% clear that this can really only make sense and/or retrieved in the context
+    of the parent resource
+    - `product_rating` sounds like a good candidate for a nested resource... but what about querying all ratings of a
+      particular user?
+
+## Chapter 7 - HTML Templates
+- Build HTML views with the correct semantic tags
+  - This will result in easier to change views (tree of meaningful tags vs div hell)
+  - It will be easier to test since the semantic meaning of a page elemnt is more unlikely to change than a CSS class
+- Solve layout / appearance problems with added `div` / `span` tags and CSS
 ---
 
 
