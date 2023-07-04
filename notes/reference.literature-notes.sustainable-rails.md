@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1685322738797
+updated: 1688346828071
 created: 1676853996211
 ---
 
@@ -152,7 +152,13 @@ created: 1676853996211
 - Build HTML views with the correct semantic tags
   - This will result in easier to change views (tree of meaningful tags vs div hell)
   - It will be easier to test since the semantic meaning of a page elemnt is more unlikely to change than a CSS class
-- Solve layout / appearance problems with added `div` / `span` tags and CSS
+  - Solve layout / appearance problems with added `div` / `span` tags and CSS
+- Expose one instance variable per action (representing the resource) if possible
+  - Sometimes you need additional information like the current user or other context
+  - But avoid representing the resource with several variables
+  - If you add additional non-resource instance variables you have to go check the controller to know how it was
+    assigned
+  - Decorators/View Models are also no
 ---
 
 
