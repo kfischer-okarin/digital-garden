@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1688346828071
+updated: 1688951158402
 created: 1676853996211
 ---
 
@@ -154,11 +154,21 @@ created: 1676853996211
   - It will be easier to test since the semantic meaning of a page elemnt is more unlikely to change than a CSS class
   - Solve layout / appearance problems with added `div` / `span` tags and CSS
 - Expose one instance variable per action (representing the resource) if possible
-  - Sometimes you need additional information like the current user or other context
-  - But avoid representing the resource with several variables
+  - Avoid representing the resource with several variables
   - If you add additional non-resource instance variables you have to go check the controller to know how it was
     assigned
-  - Decorators/View Models are also no
+  - Decorators/View Models are also no good choice since they make code harder to understand
+  - Exceptions are things like `@current_user` and `@country_codes` or other UI state like `@current_tab`
+- Use only instance variables in views not helpers directly if possible
+  - You can generalize/abstract code at the controller level to make it DRY
+  - If you only use instance variables in views you know exactly where to check for their values - in the controller
+- Layouts should be used for global concerns like stylesheets or a sidewide navigation bar
+- Use Partials for only re-usable components
+  - Use only locals inside not instance variables to keep it re-usable in any situation
+  - Just use ERB (and not Haml or Slim etc) since it's closer to HTML and comes with Rails
+
+## Chapter 8 - Helpers
+-
 ---
 
 
