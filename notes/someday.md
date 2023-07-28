@@ -2,16 +2,12 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1689417494599
+updated: 1690521204687
 created: 1653890984882
 ---
 
 # Gamedev
 - [[areas.gamedev.narrative-generation]]
-- Nakama Multiplayer server library https://heroiclabs.com/opensource/
-- Gameideas
-  - Quantum Roguelike - Go up/down in scale almost indefinitely
-    - Katamary Damacy, Antman Quantumania
 - Languages that compile to C for C Extensions:
   - [Crystal](https://crystal-lang.org/)
   - [Nim](https://nim-lang.org/)
@@ -29,7 +25,6 @@ created: 1653890984882
 # Other Dev
 - [DreamBerd programming language](https://github.com/TodePond/DreamBerd)
   > Crazy (theoretical) programming language by Lu Wilson
-- NEAT Algorithm (Genetic Algorithm) ([Paper](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf))
 - C4 Model for visualizing Software Architecture: https://c4model.com/
 
 # Video Games
@@ -181,6 +176,8 @@ created: 1653890984882
 - Kao the Kangaroo
 - Dungeon of Naheulbeuk
 - Train Valley 2
+- Murder by numbers
+- The Elder Scrolls Online
 
 ### Itch.io
 - Jimmy and the Pulsating Mass
