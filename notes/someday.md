@@ -2,7 +2,7 @@
 id: ceagbmx4k3i5sokhd3n8iyf
 title: Someday
 desc: ''
-updated: 1690521204687
+updated: 1692010771111
 created: 1653890984882
 ---
 
@@ -92,6 +92,8 @@ created: 1653890984882
 - Papo and Yo
 - Sproggiwood
 - Vanishing of Ethan Carter
+- Jupiter Hell
+- Jack Move
 
 ### Epic
 - A Plague Tale
@@ -178,6 +180,7 @@ created: 1653890984882
 - Train Valley 2
 - Murder by numbers
 - The Elder Scrolls Online
+- Homeworld
 
 ### Itch.io
 - Jimmy and the Pulsating Mass
@@ -316,7 +319,6 @@ created: 1653890984882
   - Skin in the Game: Hidden Asymmetries in Daily Life
 
 # TV Series
-
 - Star Trek Voyager
 - Star Trek Enterprise
 - Star Trek Discovery
@@ -380,7 +382,6 @@ created: 1653890984882
 # Movies
 - Primer
 
-
 # Lectures, Courses
 - Writing Course by Brandon Sanderson
 - Math. Analysis: On [![Youtube Icon](assets/youtube-icon.svg){height: 1rem} YouTube](https://www.youtube.com/watch?v=PiaPIleRhgQ&ab_channel=UniversityofNottingham)
@@ -417,3 +418,8 @@ created: 1653890984882
 # Tools to try out
 - Commit GPT: https://github.com/RomanHotsiy/commitgpt
   Generate commit messages
+- Brainstorming tool: https://github.com/SolarLune/masterplan
+- UI Lib for Ruby: https://github.com/scarpe-team
+
+# Webcomic
+- https://www.peppercarrot.com/

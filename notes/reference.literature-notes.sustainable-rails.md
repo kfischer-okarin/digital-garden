@@ -2,7 +2,7 @@
 id: pdesskotvu61paia8tm5ugg
 title: Sustainable Rails
 desc: ''
-updated: 1688951158402
+updated: 1690765874910
 created: 1676853996211
 ---
 
@@ -168,7 +168,26 @@ created: 1676853996211
   - Just use ERB (and not Haml or Slim etc) since it's closer to HTML and comes with Rails
 
 ## Chapter 8 - Helpers
--
+- Helpers introduce lots of "global view code" which can be a problem for maintainability
+- Be careful to not put "view concerns" into helper functions which are actually domain concerns since they are not just
+  an incidental display format but the User relies on that in their daily job
+  - i.e. a specially formatted Item ID
+- Good users for helpers
+  - Global UI context like `current_user`
+  - Wrapping often used UI Component partials
+    - Directly rendering HTML to act as very simple small UI components is also ok!
+- Define UI Components helpers only in `application_helper.rb`
+  - Separation in several helper files does not really help the fact that all helpers are global
+  - It's better to express that fact by just writing everything in application_helper
+- Define global UI state that needs to access database (like `current_user`) as private `ApplicationController` methods
+  and turn it into a helper method with `helper :current_user` etc.
+- Alternative method: Presenters
+  - Wrap your domain object into an object that adds a few methods for views and delegates the rest to the domain object
+  - This unfortunately introduces inconsistencies and more design decisions you have to make (should I make a Prresenter
+    because it's everywhere even though I don't need it etc ?)
+  - it also makes it hard to exactly know the type an object has
+  - Few
+
 ---
 
 
