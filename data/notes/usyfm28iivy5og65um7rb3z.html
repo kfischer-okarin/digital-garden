@@ -1,0 +1,51 @@
+<h1 id="use-vue-i18n-with-toolbar">Use vue-i18n with toolbar<a aria-hidden="true" class="anchor-heading icon-link" href="#use-vue-i18n-with-toolbar"></a></h1>
+<p>Confirmed to work with:</p>
+<ul>
+<li>Storybook v6</li>
+<li>Vue 2</li>
+<li>Vue-I18n v7</li>
+</ul>
+<p>This was quite tricky since Storybook and the Single File Components for some reason use different vue-i18n instances.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">VueI18n</span></span> <span class="token keyword module">from</span> <span class="token string">'vue-i18n'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> i18n <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">VueI18n</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Setup toolbar like explained in https://storybook.js.org/docs/vue/essentials/toolbars-and-globals#advanced-usage</span>
+<span class="token keyword module">export</span> <span class="token keyword">const</span> globalTypes <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">locale</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'Locale'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">description</span><span class="token operator">:</span> <span class="token string">'Internationalization locale'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">defaultValue</span><span class="token operator">:</span> <span class="token string">'en'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">toolbar</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">icon</span><span class="token operator">:</span> <span class="token string">'globe'</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">items</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span> <span class="token literal-property property">value</span><span class="token operator">:</span> <span class="token string">'en'</span><span class="token punctuation">,</span> <span class="token literal-property property">right</span><span class="token operator">:</span> <span class="token string">'🇺🇸'</span><span class="token punctuation">,</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">'English'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span> <span class="token literal-property property">value</span><span class="token operator">:</span> <span class="token string">'ja'</span><span class="token punctuation">,</span> <span class="token literal-property property">right</span><span class="token operator">:</span> <span class="token string">'🇯🇵'</span><span class="token punctuation">,</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">'Japanese'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Locale Decorator</span>
+<span class="token keyword">const</span> <span class="token function-variable function"><span class="token maybe-class-name">Locale</span></span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">story<span class="token punctuation">,</span> context</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  i18n<span class="token punctuation">.</span><span class="token property-access">locale</span> <span class="token operator">=</span> context<span class="token punctuation">.</span><span class="token property-access">globals</span><span class="token punctuation">.</span><span class="token property-access">locale</span><span class="token punctuation">;</span>
+
+  <span class="token keyword control-flow">return</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">components</span><span class="token operator">:</span> <span class="token punctuation">{</span> story <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">created</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// https://github.com/dlucian/vuejs-storybook-i18n/issues/1#issuecomment-587607439</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">$root</span><span class="token punctuation">.</span><span class="token property-access">_i18n</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">$i18n</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">template</span><span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      &#x3C;story />
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+    i18n<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword module">export</span> <span class="token keyword">const</span> decorators <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token maybe-class-name">Locale</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre>

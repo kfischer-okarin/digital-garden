@@ -1,0 +1,7 @@
+<h1 id="search-partial-string-values">Search Partial String Values<a aria-hidden="true" class="anchor-heading icon-link" href="#search-partial-string-values"></a></h1>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> issues <span class="token keyword">WHERE</span> subject <span class="token operator">LIKE</span> <span class="token string">'2022-07%'</span>
+</code></pre>
+<ul>
+<li><code>%</code> matches arbitrary characters</li>
+<li>the <code>LIKE</code> clause must be wrapped in <strong>single</strong> quotes</li>
+</ul>

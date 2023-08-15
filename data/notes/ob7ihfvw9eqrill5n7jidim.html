@@ -1,0 +1,26 @@
+<h1 id="illegal-states-should-be-unrepresentable">Illegal states should be unrepresentable<a aria-hidden="true" class="anchor-heading icon-link" href="#illegal-states-should-be-unrepresentable"></a></h1>
+<p>When designing properties for an object, only use separate properties if those properties are actually orthogonal to
+each other.</p>
+<h2 id="example-1">Example <sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup><a aria-hidden="true" class="anchor-heading icon-link" href="#example-1"></a></h2>
+<p>A Component can only have a tooltip when it also has a label:</p>
+<p>Instead of defining a type like:</p>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">Props</span></span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  label<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  labelTooltip<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+
+  <span class="token comment">/* ... */</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>which would allow for a tooltip without a label.</p>
+<p>Use something like this:</p>
+<pre class="language-ts"><code class="language-ts"><span class="token keyword">type</span> <span class="token class-name"><span class="token maybe-class-name">Props</span></span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  label<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token operator">|</span> <span class="token punctuation">{</span> text<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span> tooltip<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup> <a href="https://www.gabe.pizza/notes-on-component-libraries/">Gabe's blog - Notes on maintaining an internal React component library</a></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/wk6t1838yfzonoo2n26g7n3">Code Quality</a></li>
+<li><a href="/digital-garden/notes/7nfzlz7xasxx9zgbvv4n7kl">Designing Component Libraries</a></li>
+</ul>

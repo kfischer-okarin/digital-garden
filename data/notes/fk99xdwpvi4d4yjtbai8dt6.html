@@ -1,0 +1,51 @@
+<h1 id="cvars">Cvars<a aria-hidden="true" class="anchor-heading icon-link" href="#cvars"></a></h1>
+<p>Variables you can set via the command line:</p>
+<pre class="language-sh"><code class="language-sh">./dragonruby game_folder --set veriable.name value
+</code></pre>
+<h2 id="accessing-cvars">Accessing Cvars<a aria-hidden="true" class="anchor-heading icon-link" href="#accessing-cvars"></a></h2>
+<pre class="language-rb"><code class="language-rb">args<span class="token punctuation">.</span>cvars<span class="token punctuation">[</span><span class="token string-literal"><span class="token string">'variable.name'</span></span><span class="token punctuation">]</span>
+</code></pre>
+<p>Available methods:</p>
+<ul>
+<li><code>name</code></li>
+<li><code>value</code></li>
+<li><code>value=</code> (only for non-locked variables)</li>
+<li><code>type</code></li>
+<li><code>description</code></li>
+<li><code>locked</code>: Variable can only be set on application start via the <code>--set</code> flag, not during runtime</li>
+</ul>
+<h2 id="register-cvars">Register Cvars<a aria-hidden="true" class="anchor-heading icon-link" href="#register-cvars"></a></h2>
+<pre class="language-rb"><code class="language-rb"><span class="token variable">$gtk</span><span class="token punctuation">.</span>register_cvar varname<span class="token punctuation">,</span> description<span class="token punctuation">,</span> type<span class="token punctuation">,</span> default_value
+</code></pre>
+<ul>
+<li>type: <code>:string</code>, <code>:int</code>, <code>:uint</code>, <code>:bool</code></li>
+</ul>
+<h2 id="default-cvars">Default Cvars<a aria-hidden="true" class="anchor-heading icon-link" href="#default-cvars"></a></h2>
+<pre class="language-rb"><code class="language-rb"><span class="token variable">$args</span><span class="token punctuation">.</span>cvars<span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>name<span class="token punctuation">,</span> var<span class="token operator">|</span>
+  puts <span class="token string-literal"><span class="token string">"</span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">name</span><span class="token delimiter punctuation">}</span></span><span class="token string">: </span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">var<span class="token punctuation">.</span>value</span><span class="token delimiter punctuation">}</span></span><span class="token string"> (</span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">var<span class="token punctuation">.</span>description</span><span class="token delimiter punctuation">}</span></span><span class="token string">. Type: </span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">var<span class="token punctuation">.</span>type</span><span class="token delimiter punctuation">}</span></span><span class="token string">. Locked? </span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">var<span class="token punctuation">.</span>locked</span><span class="token delimiter punctuation">}</span></span><span class="token string">)"</span></span>
+<span class="token keyword">end</span>
+</code></pre>
+<pre><code>log.stdout_color: true (True if we should colorize logs sent to stdout)
+log.subsystem: true (True if we should include the subsystem name in the log output)
+log.level_char: true (True if we should include the logging level character in the log output)
+log.timing: true (True if we should include the timing in the log output)
+log.stdout: true (True if we should write logs to stdout)
+log.filter_subsystems: '' (Comma-separated list of subsystems to ignore logging for [LOCKED])
+log.level: 'debug' (One of [spam, debug, info, warn, error, unfiltered, nothing]. Filter out everything less than. [LOCKED])
+log.filename: '(gameid).log' (filename to write log data to [LOCKED])
+renderstream.filename: '' (Filename to save render stream to. If empty, no stream is saved. [LOCKED])
+controller.config_ui: 0 (Use the controller config UI? 0==for unknown joysticks, 1==for all joysticks, -1==for no joysticks )
+game_metadata.vrmode: 0 (VR mode [LOCKED])
+game_metadata.packageid: 'org.(devid).(gameid)' (Package ID in reverse-domain format [LOCKED])
+game_metadata.compile_ruby: false (True if production builds cook Ruby source code [LOCKED])
+game_metadata.deployment: false (True if this is a production build [LOCKED])
+game_metadata.icon: 'metadata/icon.png' (Game's icon filename [LOCKED])
+game_metadata.version: '1.0.0' (Game's version number [LOCKED])
+game_metadata.gametitle: 'Game Title' (Actual game name [LOCKED])
+game_metadata.gameid: 'game-id' (Game ID (simple identifier) [LOCKED])
+game_metadata.devtitle: 'Full Name' (Actual developer name [LOCKED])
+game_metadata.devid: 'devid' (Developer ID (simple identifier) [LOCKED])
+renderer.vsync: true (True if we should sync-to-vblank when presenting)
+renderer.start_headless: false (True if we shouldn't show a window at startup)
+renderer.fullscreen: false (True if we should use the whole display)
+</code></pre>

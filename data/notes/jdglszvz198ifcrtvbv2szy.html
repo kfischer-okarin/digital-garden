@@ -1,0 +1,10 @@
+<h1 id="execute-code-on-hotload">Execute Code on Hotload<a aria-hidden="true" class="anchor-heading icon-link" href="#execute-code-on-hotload"></a></h1>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">module</span> <span class="token class-name">HotloadExtension</span>
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">on_load_succeeded</span></span><span class="token punctuation">(</span>file<span class="token punctuation">)</span>
+    <span class="token keyword">super</span>
+    puts <span class="token string-literal"><span class="token string">"RELOADED </span><span class="token interpolation"><span class="token delimiter punctuation">#{</span><span class="token content">file</span><span class="token delimiter punctuation">}</span></span><span class="token string">"</span></span> <span class="token comment"># Replace this with your cool logic</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+<span class="token constant">GTK</span><span class="token double-colon punctuation">::</span>Runtime<span class="token punctuation">.</span><span class="token keyword">prepend</span> HotloadExtension
+</code></pre>

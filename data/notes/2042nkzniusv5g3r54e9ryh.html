@@ -1,0 +1,33 @@
+<h1 id="run-long-sync-code-inside-async-function">Run Long Sync Code inside Async Function<a aria-hidden="true" class="anchor-heading icon-link" href="#run-long-sync-code-inside-async-function"></a></h1>
+<p>Use <code>spawn_blocking</code> on Tokio runtime.</p>
+<pre class="language-rs"><code class="language-rs">use tokio::task;
+
+// A long running sync function
+fn fib(n: u64) -> u64 {
+    match n {
+        0 => 1,
+        1 => 1,
+        n => fib(n - 1) + fib(n - 2),
+    }
+}
+
+// An async wrapper around the sync function
+async fn async_fib(n: u64) -> u64 {
+    // Spawn a blocking task that calls the sync function
+    let result = task::spawn_blocking(move || fib(n)).await;
+    result.unwrap()
+}
+
+#[tokio::main]
+async fn main() {
+    let n = async_fib(10).await;
+    println!("fib(10) = {}", n);
+}
+</code></pre>
+<ul>
+<li><code>spawn_blocking</code> is intended for non-async operations that eventually finish on their own.</li>
+<li>if you are using the single threaded runtime, spawn_blocking will still spawn additional threads for blocking
+operations. The current-thread scheduler’s single thread is only used for asynchronous code¹.</li>
+</ul>
+<p>Source: Conversation with Bing, 3/22/2023
+(1) spawn_blocking in tokio::task - Rust. <a href="https://docs.rs/tokio/latest/tokio/task/fn.spawn_blocking.html">https://docs.rs/tokio/latest/tokio/task/fn.spawn_blocking.html</a> Accessed 3/22/2023.</p>

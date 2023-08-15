@@ -1,0 +1,11 @@
+<h1 id="require-authentication-for-an-endpoint">Require Authentication for an Endpoint<a aria-hidden="true" class="anchor-heading icon-link" href="#require-authentication-for-an-endpoint"></a></h1>
+<p>Add the <code>permission_classes</code> decorator with the <code>IsAuthenticated</code> permission class to the view.</p>
+<pre class="language-py"><code class="language-py"><span class="token keyword">from</span> rest_framework<span class="token punctuation">.</span>decorators <span class="token keyword">import</span> api_view<span class="token punctuation">,</span> permission_classes
+<span class="token keyword">from</span> rest_framework<span class="token punctuation">.</span>permissions <span class="token keyword">import</span> IsAuthenticated
+
+
+<span class="token decorator annotation punctuation">@api_view</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">"GET"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token decorator annotation punctuation">@permission_classes</span><span class="token punctuation">(</span><span class="token punctuation">[</span>IsAuthenticated<span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">def</span> <span class="token function">my_authorized_view</span><span class="token punctuation">(</span>request<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># ...</span>
+</code></pre>

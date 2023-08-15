@@ -1,0 +1,30 @@
+<h1 id="setup-token-authentication">Setup Token Authentication<a aria-hidden="true" class="anchor-heading icon-link" href="#setup-token-authentication"></a></h1>
+<h2 id="settingspy"><code>settings.py</code><a aria-hidden="true" class="anchor-heading icon-link" href="#settingspy"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token comment"># settings.py</span>
+
+INSTALLED_APPS <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token comment"># ...</span>
+    <span class="token string">"rest_framework"</span><span class="token punctuation">,</span>
+    <span class="token string">"rest_framework.authtoken"</span><span class="token punctuation">,</span> <span class="token comment"># &#x3C;-- Add this</span>
+    <span class="token string">"djoser"</span><span class="token punctuation">,</span>
+    <span class="token comment"># ...</span>
+<span class="token punctuation">]</span>
+
+REST_FRAMEWORK <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">"DEFAULT_AUTHENTICATION_CLASSES"</span><span class="token punctuation">:</span> <span class="token punctuation">(</span>
+        <span class="token string">"rest_framework.authentication.TokenAuthentication"</span><span class="token punctuation">,</span> <span class="token comment"># &#x3C;-- Add this</span>
+        <span class="token comment"># ...</span>
+    <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="urlspy"><code>urls.py</code><a aria-hidden="true" class="anchor-heading icon-link" href="#urlspy"></a></h2>
+<pre class="language-py"><code class="language-py">urlpatterns <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token comment"># ...</span>
+    path<span class="token punctuation">(</span><span class="token string">"api/v1/"</span><span class="token punctuation">,</span> include<span class="token punctuation">(</span><span class="token string">"djoser.urls"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    path<span class="token punctuation">(</span><span class="token string">"api/v1/"</span><span class="token punctuation">,</span> include<span class="token punctuation">(</span><span class="token string">"djoser.urls.authtoken"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment"># &#x3C;-- Add this</span>
+    <span class="token comment"># ...</span>
+<span class="token punctuation">]</span>
+</code></pre>
+<p>This will add <code>api/v1/token/login/</code> and <code>api/v1/token/logout/</code> endpoints</p>
+<h2 id="references">References<a aria-hidden="true" class="anchor-heading icon-link" href="#references"></a></h2>
+<p><a href="https://saasitive.com/tutorial/token-based-authentication-django-rest-framework-djoser/">Token Based Authentication with Django Rest Framework and Djoser</a></p>

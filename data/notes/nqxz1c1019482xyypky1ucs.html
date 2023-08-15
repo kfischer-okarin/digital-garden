@@ -1,0 +1,23 @@
+<h1 id="logic-operators">Logic Operators<a aria-hidden="true" class="anchor-heading icon-link" href="#logic-operators"></a></h1>
+<h2 id="and">And<a aria-hidden="true" class="anchor-heading icon-link" href="#and"></a></h2>
+<p>Inside the test expression</p>
+<pre class="language-sh"><code class="language-sh">if [ "$1" = "run" -a "$2" != "" ]; then
+  # With run and an additional argument
+fi
+</code></pre>
+<p>Connecting test expressions</p>
+<pre class="language-sh"><code class="language-sh">if [ "$1" = "run" ] &#x26;&#x26; [ "$2" != "" ]; then
+  # With run and an additional argument
+fi
+</code></pre>
+<h2 id="or">Or<a aria-hidden="true" class="anchor-heading icon-link" href="#or"></a></h2>
+<p>Inside the test expression</p>
+<pre class="language-sh"><code class="language-sh">if [ "$1" = "-h" -o "$1" = "--help" ]; then
+  # When the argument is -h or --help
+fi
+</code></pre>
+<p>Connecting test expressions</p>
+<pre class="language-sh"><code class="language-sh">if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+  # When the argument is -h or --help
+fi
+</code></pre>

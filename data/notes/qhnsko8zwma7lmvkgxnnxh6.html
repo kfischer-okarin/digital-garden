@@ -1,0 +1,70 @@
+<h1 id="acceptance-test-four-layer-architecture">Acceptance Test Four Layer Architecture<a aria-hidden="true" class="anchor-heading icon-link" href="#acceptance-test-four-layer-architecture"></a></h1>
+<h2 id="test-case-executable-specification">Test Case (Executable Specification)<a aria-hidden="true" class="anchor-heading icon-link" href="#test-case-executable-specification"></a></h2>
+<ul>
+<li>Uses the DSL to describe an usage example and assertions about it</li>
+<li>Created from User Stories</li>
+</ul>
+<h3 id="example">Example<a aria-hidden="true" class="anchor-heading icon-link" href="#example"></a></h3>
+<ul>
+<li>Go to the Store</li>
+<li>Search for a Book with Title "X"</li>
+<li>Put the Book in your shopping basket</li>
+<li>Go to the checkout</li>
+<li>Pay for the book</li>
+<li>Now you own the book</li>
+</ul>
+<pre class="language-rb"><code class="language-rb">scenario <span class="token string-literal"><span class="token string">'should buy a book'</span></span> <span class="token keyword">do</span>
+  go_to_store
+  search_for_book title<span class="token operator">:</span> <span class="token string-literal"><span class="token string">'X'</span></span>
+  select_book author<span class="token operator">:</span> <span class="token string-literal"><span class="token string">'Mr. Y'</span></span>
+  add_selected_item_to_shopping_basket
+  check_out item<span class="token operator">:</span> <span class="token string-literal"><span class="token string">'X'</span></span>
+  assert_item_purchased item<span class="token operator">:</span> <span class="token string-literal"><span class="token string">'X'</span></span>
+<span class="token keyword">end</span>
+</code></pre>
+<h2 id="dsl-domain-specific-language">DSL (Domain Specific Language)<a aria-hidden="true" class="anchor-heading icon-link" href="#dsl-domain-specific-language"></a></h2>
+<ul>
+<li>Shared between test cases</li>
+<li>Simple to read &#x26; uses the words of the domain</li>
+<li>Has lots of optional parameters so you can describe at the level of detail (or lack of thereof) you need in a
+particular case</li>
+</ul>
+<h3 id="example-1">Example<a aria-hidden="true" class="anchor-heading icon-link" href="#example-1"></a></h3>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">def</span> <span class="token method-definition"><span class="token function">check_out</span></span><span class="token punctuation">(</span><span class="token symbol">item</span><span class="token operator">:</span> <span class="token keyword">nil</span><span class="token punctuation">,</span> <span class="token symbol">card</span><span class="token operator">:</span> <span class="token keyword">nil</span><span class="token punctuation">)</span>
+  driver<span class="token punctuation">.</span>check_out<span class="token punctuation">(</span>
+    <span class="token symbol">item</span><span class="token operator">:</span> item <span class="token operator">||</span> default_item<span class="token punctuation">,</span>
+    <span class="token symbol">card</span><span class="token operator">:</span> card <span class="token operator">||</span> default_card
+  <span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+</code></pre>
+<h2 id="protocol-driver">Protocol Driver<a aria-hidden="true" class="anchor-heading icon-link" href="#protocol-driver"></a></h2>
+<ul>
+<li>Translate Domain Language into actual interactions with system under test</li>
+<li>Only layer that actually understands <strong>HOW</strong> to do things</li>
+<li>This is where capybara, selenium, etc is used</li>
+<li>Can be pluggable to support different types of interactions
+<ul>
+<li>API</li>
+<li>UI</li>
+<li>Local Stub</li>
+<li>Plug in a spec printer which prints out the steps in natural language / in a foreign language</li>
+</ul>
+</li>
+</ul>
+<h3 id="example-2">Example<a aria-hidden="true" class="anchor-heading icon-link" href="#example-2"></a></h3>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">class</span> <span class="token class-name">ExampleDriver</span>
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">check_out</span></span><span class="token punctuation">(</span><span class="token symbol">item</span><span class="token operator">:</span><span class="token punctuation">,</span> <span class="token symbol">card</span><span class="token operator">:</span><span class="token punctuation">)</span>
+    checkbox <span class="token operator">=</span> find_all_checkboxes<span class="token punctuation">.</span>find <span class="token punctuation">{</span> <span class="token operator">|</span>box<span class="token operator">|</span> box<span class="token punctuation">.</span>label <span class="token operator">==</span> item <span class="token punctuation">}</span>
+    checkbox<span class="token punctuation">.</span>check
+
+    select card<span class="token punctuation">,</span> <span class="token symbol">from</span><span class="token operator">:</span> <span class="token string-literal"><span class="token string">'#card_selection'</span></span>
+
+    find<span class="token punctuation">(</span><span class="token string-literal"><span class="token string">'#submit'</span></span><span class="token punctuation">)</span><span class="token punctuation">.</span>click
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+</code></pre>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/1qgmr670moitcxxpmnmjxlp">Software Development</a></li>
+</ul>

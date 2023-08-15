@@ -1,0 +1,65 @@
+<h1 id="patterns">Patterns<a aria-hidden="true" class="anchor-heading icon-link" href="#patterns"></a></h1>
+<h2 id="injection-context-menu-rendering">Injection: Context menu rendering<a aria-hidden="true" class="anchor-heading icon-link" href="#injection-context-menu-rendering"></a></h2>
+<h3 id="problem">Problem:<a aria-hidden="true" class="anchor-heading icon-link" href="#problem"></a></h3>
+<p>You want to render a context menu deep in your UI but:</p>
+<ul>
+<li>you don't want to pass down all the listeners/handlers all the way down to the actual thing with a context menu</li>
+<li>you don't want the top level component that knows how to <strong>do</strong> the actions know how to <strong>render</strong> the menu (the
+low level UI component will know that)</li>
+</ul>
+<h3 id="elements">Elements<a aria-hidden="true" class="anchor-heading icon-link" href="#elements"></a></h3>
+<ul>
+<li><code>MenuItemRenderer</code>: Knows how to render menu items &#x26; related elements</li>
+<li><code>MenuGenerator</code>: Knows what kind of menu items a particular component needs. Receives data of the Component needing an
+context menu and a <code>MenuItemRenderer</code> and then renders the actual menu</li>
+<li><code>UIController</code>: Something at the top building a <code>MenuGenerator</code> and providing it to the UI components below it</li>
+<li><code>Component</code>: This is the thing in need of a context menu. It receives the provided <code>MenuGenerator</code> it builds or has
+access to a <code>MenuItemRenderer</code> and its own data. It calls the <code>MenuGenerator</code> with those.</li>
+</ul>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">class</span> <span class="token class-name">MenuItemRenderer</span>
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">render_item</span></span><span class="token punctuation">(</span>label<span class="token punctuation">,</span> on_click<span class="token punctuation">)</span>
+    <span class="token comment"># ...</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MenuGenerator</span>
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">render_menu</span></span><span class="token punctuation">(</span>item_data<span class="token punctuation">,</span> render_context<span class="token punctuation">)</span>
+    <span class="token comment"># if item_data ....</span>
+    render_context<span class="token punctuation">.</span>render_item<span class="token punctuation">(</span><span class="token string-literal"><span class="token string">'Item A'</span></span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token punctuation">{</span> do_something <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    render_context<span class="token punctuation">.</span>render_item<span class="token punctuation">(</span><span class="token string-literal"><span class="token string">'Item B'</span></span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token punctuation">{</span> do_something <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+<span class="token comment"># Menu renderer is somehow passed down here - Injection?</span>
+<span class="token keyword">class</span> <span class="token class-name">ItemWithMenu</span>
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">render</span></span>
+    render_context <span class="token operator">=</span> <span class="token class-name">RenderContextForItem</span><span class="token punctuation">.</span><span class="token keyword">new</span>
+    menu_generator <span class="token operator">=</span> MenuGeneratorContext<span class="token punctuation">.</span>get
+    <span class="token variable">@items</span><span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>item<span class="token operator">|</span>
+      menu_generator<span class="token punctuation">.</span>render_menu<span class="token punctuation">(</span>item<span class="token punctuation">,</span> render_context<span class="token punctuation">)</span>
+    <span class="token keyword">end</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+</code></pre>
+<h2 id="constraint-based-layout">Constraint-based layout<a aria-hidden="true" class="anchor-heading icon-link" href="#constraint-based-layout"></a></h2>
+<p>Flutter's layout algorith. See
+<a href="https://docs.flutter.dev/development/ui/layout/constraints">Understanding constraints (Flutter Docs)</a></p>
+<blockquote>
+<p>Constraints go down. Sizes go up. Parent sets position</p>
+</blockquote>
+<ol>
+<li>Parent asks child component how big it wants to be given dimension constraints (min/max width/height)</li>
+<li>Child returns size inside constraints</li>
+<li>Parent places child inside itself</li>
+</ol>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">def</span> <span class="token method-definition"><span class="token function">layout_children</span></span>
+  children<span class="token punctuation">.</span><span class="token keyword">each</span> <span class="token keyword">do</span> <span class="token operator">|</span>child<span class="token operator">|</span>
+    <span class="token comment"># calc constraints for child</span>
+    child<span class="token punctuation">.</span>update_dimensions<span class="token punctuation">(</span><span class="token symbol">min_w</span><span class="token operator">:</span><span class="token punctuation">,</span> <span class="token symbol">max_w</span><span class="token operator">:</span><span class="token punctuation">,</span> <span class="token symbol">min_h</span><span class="token operator">:</span><span class="token punctuation">,</span> <span class="token symbol">max_h</span><span class="token operator">:</span><span class="token punctuation">)</span>
+    child<span class="token punctuation">.</span>x <span class="token operator">=</span> <span class="token operator">...</span>
+    child<span class="token punctuation">.</span>y <span class="token operator">=</span> <span class="token operator">...</span>
+    child<span class="token punctuation">.</span>layout_children
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+</code></pre>

@@ -1,0 +1,43 @@
+<h1 id="component-composition">Component Composition<a aria-hidden="true" class="anchor-heading icon-link" href="#component-composition"></a></h1>
+<h2 id="what-is-a-good-component">What is a good component?<a aria-hidden="true" class="anchor-heading icon-link" href="#what-is-a-good-component"></a></h2>
+<ul>
+<li>It can bew read and understand at a glance</li>
+<li>It has a clear and easy to understand name</li>
+<li>It does not do unrelated things</li>
+</ul>
+<h2 id="kinds-of-components">Kinds of components<a aria-hidden="true" class="anchor-heading icon-link" href="#kinds-of-components"></a></h2>
+<ul>
+<li>
+<p>Simple components: Props -> Output</p>
+</li>
+<li>
+<p>Container components: Props, Children -> Output</p>
+<ul>
+<li>Performance note: Children will not be rerendered when component is rerendered</li>
+</ul>
+</li>
+<li>
+<p>Content:</p>
+<ul>
+<li>Components that implement content directly (not much composition)</li>
+<li>Components that compose components</li>
+</ul>
+</li>
+</ul>
+<h2 id="when-to-extract-components">When to extract Components<a aria-hidden="true" class="anchor-heading icon-link" href="#when-to-extract-components"></a></h2>
+<ul>
+<li>
+<p>Not right away! First write it down without extracting anything</p>
+</li>
+<li>
+<p>When the component gets too big (subjective, but more than one screen page?)</p>
+</li>
+<li>
+<p>When state does not belong in this component but is a separate concern</p>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/1qgmr670moitcxxpmnmjxlp">Software Development</a></li>
+</ul>

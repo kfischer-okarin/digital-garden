@@ -1,0 +1,9 @@
+<h1 id="execute-shell-commands">Execute Shell Commands<a aria-hidden="true" class="anchor-heading icon-link" href="#execute-shell-commands"></a></h1>
+<h2 id="just-execute-and-get-successfail">Just execute and get success/fail<a aria-hidden="true" class="anchor-heading icon-link" href="#just-execute-and-get-successfail"></a></h2>
+<pre class="language-lua"><code class="language-lua">success <span class="token operator">=</span> os<span class="token punctuation">.</span><span class="token function">execute</span><span class="token punctuation">(</span><span class="token string">'sleep 20'</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="get-stdout-of-executed-process">Get stdout of executed process<a aria-hidden="true" class="anchor-heading icon-link" href="#get-stdout-of-executed-process"></a></h2>
+<pre class="language-lua"><code class="language-lua">stream <span class="token operator">=</span> io<span class="token punctuation">.</span><span class="token function">popen</span><span class="token punctuation">(</span><span class="token string">'ls'</span><span class="token punctuation">)</span>
+output <span class="token operator">=</span> stream<span class="token punctuation">:</span><span class="token function">read</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span> <span class="token comment">-- 'a' means read all</span>
+stream<span class="token punctuation">:</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>

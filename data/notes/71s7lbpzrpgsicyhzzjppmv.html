@@ -1,0 +1,21 @@
+<h1 id="general-advanced-optimization-functions">General Advanced Optimization Functions<a aria-hidden="true" class="anchor-heading icon-link" href="#general-advanced-optimization-functions"></a></h1>
+<p>For example</p>
+<ul>
+<li>Conjugate Gradient</li>
+<li>BFGS</li>
+<li>L-BFGS</li>
+</ul>
+<h1 id="using-them-in-octave">Using them in Octave<a aria-hidden="true" class="anchor-heading icon-link" href="#using-them-in-octave"></a></h1>
+<pre class="language-octave"><code class="language-octave">function [jVal, gradient] = costFunction(theta)
+  jVal = [...code to compute J(theta)...];
+  n = length(theta)
+  gradient = zeroes(n, 1)
+  gradient(1) = [...code to compute partial derivative of J(theta) by theta(1)...];
+  ...
+  gradient(n + 1) = [...code to compute partial derivative of J(theta) by theta(n + 1)...];
+end
+
+options = optimset('GradObj', 'on', 'MaxIter', 100);
+initialTheta = zeros(2,1);
+[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
+</code></pre>

@@ -1,0 +1,14 @@
+<h1 id="parametrizing-fixtures">Parametrizing fixtures<a aria-hidden="true" class="anchor-heading icon-link" href="#parametrizing-fixtures"></a></h1>
+<h2 id="indirectly-on-test-cases">Indirectly on test cases<a aria-hidden="true" class="anchor-heading icon-link" href="#indirectly-on-test-cases"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>mark<span class="token punctuation">.</span>parametrize</span><span class="token punctuation">(</span><span class="token string">"fixture_name"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">"value1"</span><span class="token punctuation">,</span> <span class="token string">"value2"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> indirect<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="directly-in-fixtures-via-requestparam">Directly in fixtures via <code>request.param</code><a aria-hidden="true" class="anchor-heading icon-link" href="#directly-in-fixtures-via-requestparam"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>fixture</span><span class="token punctuation">(</span>params<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"smtp.gmail.com"</span><span class="token punctuation">,</span> <span class="token string">"mail.python.org"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">def</span> <span class="token function">some_fixture_value</span><span class="token punctuation">(</span>request<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># use request.param</span>
+</code></pre>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/1uhq7rrzicz2rb103rzho2b">pytest</a></li>
+</ul>

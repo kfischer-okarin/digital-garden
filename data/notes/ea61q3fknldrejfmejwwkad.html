@@ -1,0 +1,34 @@
+<h1 id="auc-area-under-the-roc-curve">AUC: Area under the ROC Curve<a aria-hidden="true" class="anchor-heading icon-link" href="#auc-area-under-the-roc-curve"></a></h1>
+<ul>
+<li>
+<p>Area below the <a href="/digital-garden/notes/vk39861xwxqo09ghs630eum">ROC Curve</a></p>
+</li>
+<li>
+<p>It expresses the quality of the model's predictions</p>
+</li>
+<li>
+<p>Valued between 0 and 1 (A classifier that's 100% correct has an AUC of 1.0)</p>
+</li>
+<li>
+<p>Scale-invariant: It just measures how well predictions are made irrespective of what kind of value/probability was
+predicted</p>
+<ul>
+<li>This is often a good property but sometimes the values of the probability output are very important but AUC will not
+help with that</li>
+</ul>
+</li>
+<li>
+<p>Classification-threshold-invariant: It measure's the model's quality irrespective of the threshold</p>
+<ul>
+<li>So in a sense it gives a measure of how well the model itself does in general</li>
+<li>But depending on the domain false negative costs and false positive costs are vastly different - which means AUC
+would not be a useful metric to specifically minimize one of them</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/ebnoqhjq26sj6wfwy2l27f1">Evaluation Methods</a></li>
+<li><a href="/digital-garden/notes/fe4odyl95dhdrskq9mte9ys">Adversarial Validation</a></li>
+</ul>

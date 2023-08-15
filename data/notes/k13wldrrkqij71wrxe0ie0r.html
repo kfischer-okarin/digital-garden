@@ -1,0 +1,110 @@
+<h1 id="good-git-commit-messages">Good Git Commit Messages<a aria-hidden="true" class="anchor-heading icon-link" href="#good-git-commit-messages"></a></h1>
+<p>Sources:</p>
+<ul>
+<li><a href="https://joshuatauberer.medium.com/write-joyous-git-commit-messages-2f98891114c4">Write joyous git commit messages by Joshua Tauberer</a></li>
+<li><a href="https://cbea.ms/git-commit">How to Write a Git Commit Message</a></li>
+</ul>
+<h2 id="why">Why?<a aria-hidden="true" class="anchor-heading icon-link" href="#why"></a></h2>
+<ul>
+<li>Some serious projects require accountability - it's very important to know what code change caused a problem, why the
+change was made</li>
+<li>To share the creative process behind a solved problem</li>
+<li>Putting it into a git commit message is good because it's right attached to the source code</li>
+</ul>
+<h2 id="when">When?<a aria-hidden="true" class="anchor-heading icon-link" href="#when"></a></h2>
+<ul>
+<li>When committing a complete logical change - not for little intermediate commits</li>
+</ul>
+<h2 id="template">Template<a aria-hidden="true" class="anchor-heading icon-link" href="#template"></a></h2>
+<p>Use Markdown to format your messages.</p>
+<h3 id="feature">Feature<a aria-hidden="true" class="anchor-heading icon-link" href="#feature"></a></h3>
+<pre><code>The summary line
+    ----one blank line-----
+[POV User - What problem is being solved?]
+
+[POV User - What kind of user is benefitting from this feature?]
+
+[POV Manager - Why this solution? What alternatives you considered? Explain your thought process]
+
+[POV Manager - Risks? Tech Debt?]
+
+[POV Code - Explain non-obvious code changes, bullet points per file]
+
+[POV Code - Give evidence that the commit works.]
+
+[POV Git - Mention issues, external discussions related]
+</code></pre>
+<h3 id="bugs">Bugs<a aria-hidden="true" class="anchor-heading icon-link" href="#bugs"></a></h3>
+<pre><code>The summary line
+    ----one blank line-----
+[POV User - What problem is being solved?]
+
+[POV User - how was it found/is it reproduced]
+
+[POV Manager - What was the problem in the code?]
+
+[POV Manager - Why this solution? What alternatives you considered? Explain your thought process]
+
+[POV Manager - Risks? Tech Debt?]
+
+[POV Code - Explain non-obvious code changes, bullet points per file]
+
+[POV Code - Give evidence that the commit works.]
+
+[POV Git - Mention commit that introduced the bug]
+
+[POV Git - Mention issues, external discussions related]
+</code></pre>
+<h2 id="the-summary-line">The Summary Line<a aria-hidden="true" class="anchor-heading icon-link" href="#the-summary-line"></a></h2>
+<ul>
+<li>50-72 character slong</li>
+<li>describes <strong>all</strong> the changes briefly - might be the only thing a reader reads</li>
+<li>Starts with a capital - no period at the end</li>
+<li>"After this commit, the application will... (summary line)"
+<ul>
+<li>For changes where that doesn't fit: "In this commit, I will... (summary line)"</li>
+</ul>
+</li>
+<li>consider using a <code>[category]</code> prefix like (<code>[documentation]</code>)</li>
+</ul>
+<h2 id="what-problem-is-being-solved">What problem is being solved?<a aria-hidden="true" class="anchor-heading icon-link" href="#what-problem-is-being-solved"></a></h2>
+<ul>
+<li>Bug, feature or improvement.</li>
+<li>What change would a user see in the software?</li>
+<li>Past tense for bugs and present tense for new features.</li>
+<li>Examples:
+<ul>
+<li>The program crashed when ____.</li>
+<li>Users were not able to install the application.</li>
+<li>The application can now output verbose information.</li>
+<li>Pages were loading too slowly (>150ms).</li>
+</ul>
+</li>
+</ul>
+<h2 id="what-was-the-mistake">What was the mistake?<a aria-hidden="true" class="anchor-heading icon-link" href="#what-was-the-mistake"></a></h2>
+<ul>
+<li>Act like a detective?</li>
+<li>If the root cause is hard to find ask 5 times Why?</li>
+</ul>
+<h2 id="why-this-kind-of-change-and-not-another">Why this kind of change and not another?<a aria-hidden="true" class="anchor-heading icon-link" href="#why-this-kind-of-change-and-not-another"></a></h2>
+<ul>
+<li>Explain your reasoning? The architecture of the change.</li>
+<li>Write as much as you can</li>
+<li>Show off your thought process</li>
+</ul>
+<h2 id="risks-tech-debt">Risks? Tech debt?<a aria-hidden="true" class="anchor-heading icon-link" href="#risks-tech-debt"></a></h2>
+<ul>
+<li>Is something else not at reisk of breaking</li>
+<li>Are there new TODOS? New tech debt?</li>
+<li>Will a user lose a feature they relied on?</li>
+<li>Can it be easily undone?</li>
+</ul>
+<h2 id="give-evidence-that-the-commit-works">Give evidence that the commit works<a aria-hidden="true" class="anchor-heading icon-link" href="#give-evidence-that-the-commit-works"></a></h2>
+<ul>
+<li>Did you write test? How did you validate it?</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/2x8jcoqfs40ann6wvkfiys9">Commit Messages</a></li>
+</ul>

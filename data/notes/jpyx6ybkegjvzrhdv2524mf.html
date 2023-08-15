@@ -1,0 +1,16 @@
+<h1 id="idempotency">Idempotency<a aria-hidden="true" class="anchor-heading icon-link" href="#idempotency"></a></h1>
+<p>A operation is idempotent if you can apply it several times and the result will be the same.</p>
+<p>Adding a new member to a project is not idempotent - changing their name to <code>"Bob"</code> is idempotent.</p>
+<p>Idempotent operations are especially important in following areas:</p>
+<ul>
+<li><strong>Distributed systems:</strong> When sending commands in a message queue over network they might be received several times
+because of how the message service works. Making the actions idempotent makes sure the system will not enter an
+unintended or even illegal state.</li>
+<li><strong>Automatic code updates:</strong> Using a codemod on a source code file should not change it if the change was already
+applied before.</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/6h1tm70s7kgke1v06pmply9">Good software libraries should be easy to upgrade</a></li>
+</ul>

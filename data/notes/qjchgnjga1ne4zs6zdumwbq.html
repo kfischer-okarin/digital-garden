@@ -1,0 +1,19 @@
+<h1 id="query-notes-via-engine-api">Query Notes via Engine API<a aria-hidden="true" class="anchor-heading icon-link" href="#query-notes-via-engine-api"></a></h1>
+<h2 id="request">Request<a aria-hidden="true" class="anchor-heading icon-link" href="#request"></a></h2>
+<p>Find out <code>&#x3C;port></code> by reading the contents of <code>&#x3C;workspace-path>/.dendron.port</code>.</p>
+<pre class="language-http"><code class="language-http">GET localhost:&#x3C;port>/api/note/query?ws=&#x3C;workspace-path>&#x26;qs=&#x3C;filter>
+</code></pre>
+<p><code>&#x3C;filter></code> is space separated parts of the node ids you look for.</p>
+<p>If you want to find <code>work.journal.2022.06.*</code> you could use <code>work journal 2022 06.</code> (the dot after <code>06</code> is to make sure
+that a note <code>work.journal.2022.06</code> would not match.</p>
+<p>Reference: <a href="https://fusejs.io/examples.html#extended-search">Fuse Extended Search</a></p>
+<h2 id="response">Response<a aria-hidden="true" class="anchor-heading icon-link" href="#response"></a></h2>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span> DNoteProps Object <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"error"</span><span class="token operator">:</span> <span class="token null keyword">null</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>See <code>DNodeProps</code> in
+<a href="https://github.com/dendronhq/dendron/blob/master/packages/common-all/src/types/foundation.ts">common-all/src/types/foundation.ts</a></p>

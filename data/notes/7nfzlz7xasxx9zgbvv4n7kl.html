@@ -1,0 +1,83 @@
+<h1 id="designing-component-libraries">Designing Component Libraries<a aria-hidden="true" class="anchor-heading icon-link" href="#designing-component-libraries"></a></h1>
+<p><strong>Source:</strong> <a href="https://www.gabe.pizza/notes-on-component-libraries/">Gabe's blog - Notes on maintaining an internal React component library</a></p>
+<h2 id="interface">Interface<a aria-hidden="true" class="anchor-heading icon-link" href="#interface"></a></h2>
+<ul>
+<li>Components should be blackboxes for the parents who use them
+<ul>
+<li>Props in -> Rendered content out</li>
+</ul>
+</li>
+<li>Design components with orthogonal props that allow to represent all valid display states
+<ul>
+<li>If possible <a href="/digital-garden/notes/ob7ihfvw9eqrill5n7jidim">Illegal states should be unrepresentable</a></li>
+</ul>
+</li>
+<li>Don't extend base props - only offer the minimal real interface you need
+<ul>
+<li>This is also true for pass-through override props to modify internal subcomponents like <code>ButtonProps</code>
+<ul>
+<li>Offer minimal interfaces for them too, don't just use the original full props type</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Don't use spread (<code>...props</code>) to blanket forward props from above</li>
+<li>If possible don't offer class/style props
+<ul>
+<li>Use something explicit like <code>UNSAFE_className</code> / <code>UNSAFE_style</code> to at least give an escape hatch but make it easy to
+find and maybe use a linter for it</li>
+</ul>
+</li>
+<li>Use Context internally for linking dependent props
+<ul>
+<li>Example: Select Group parent that has the selected state as context and Select Group item that consumes it</li>
+</ul>
+</li>
+<li>Group components that belong together as a single object - the user will know they are supposed to be used together
+<pre class="language-ts"><code class="language-ts"><span class="token keyword module">export</span> <span class="token keyword">const</span> <span class="token maybe-class-name">Select</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token maybe-class-name">Menu</span><span class="token operator">:</span> <span class="token maybe-class-name">SelectMenu</span><span class="token punctuation">,</span>
+  <span class="token maybe-class-name">Option</span><span class="token operator">:</span> <span class="token maybe-class-name">SelectOption</span><span class="token punctuation">,</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+</li>
+</ul>
+<h2 id="layout">Layout<a aria-hidden="true" class="anchor-heading icon-link" href="#layout"></a></h2>
+<ul>
+<li>Don't let components position or add external margins to themselves
+<ul>
+<li>This is the parent's responsibility</li>
+</ul>
+</li>
+<li>Components should take up all horizontal space by default
+<ul>
+<li>Container components are the exception, since they usually span to fit the width of their contents (or up to the
+parent containers width)</li>
+</ul>
+</li>
+</ul>
+<h2 id="release--maintenance">Release &#x26; Maintenance<a aria-hidden="true" class="anchor-heading icon-link" href="#release--maintenance"></a></h2>
+<ul>
+<li>Use proper semantic versioning - apply deprecations only at major version bumps</li>
+<li>Use codemods if possible to automate source code changes
+<ul>
+<li>Make sure codemods are idempotent</li>
+</ul>
+</li>
+<li>Statically analyze source code bases using the library (parsing code into ASTs etc) to know how the components are
+used to get interesting insights</li>
+<li>Use visual regression tests rather than unit tests
+<ul>
+<li>This can be annoying because of OS rendering differences</li>
+</ul>
+</li>
+</ul>
+<h2 id="other">Other<a aria-hidden="true" class="anchor-heading icon-link" href="#other"></a></h2>
+<ul>
+<li>Don't write your own abstractions over browser differences - there are good libraries for that</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/hmpjvyk0nogfuxb01ux2tuq">UI Components</a></li>
+</ul>

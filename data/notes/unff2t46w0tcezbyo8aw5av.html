@@ -1,0 +1,7 @@
+<h1 id="checkout-v3">Checkout V3<a aria-hidden="true" class="anchor-heading icon-link" href="#checkout-v3"></a></h1>
+<pre class="language-yaml"><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v3
+  <span class="token key atrule">with</span><span class="token punctuation">:</span>
+    <span class="token key atrule">repository</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> github.repository <span class="token punctuation">}</span><span class="token punctuation">}</span>
+    <span class="token key atrule">ref</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span> github.ref <span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token comment"># or default branch</span>
+    <span class="token key atrule">path</span><span class="token punctuation">:</span> <span class="token string">''</span> <span class="token comment"># Target path</span>
+</code></pre>

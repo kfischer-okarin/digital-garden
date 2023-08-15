@@ -1,0 +1,30 @@
+<h1 id="rd2d-pool-in-warp">rd2d Pool in Warp<a aria-hidden="true" class="anchor-heading icon-link" href="#rd2d-pool-in-warp"></a></h1>
+<pre class="language-rs"><code class="language-rs">// type PoolType = Pool&#x3C;ManagerType>
+
+fn with_pool(pool: PoolType) {
+   warp::any().map(move || pool.clone())
+}
+
+#[tokio::main]
+async fn main() {
+    let pool = create_pool();
+
+    // Pool must be cloned everytime but the last time
+    let api1 = warp::path("data")
+        .and(with_pool(pool.clone()))
+        .and_then(|pool: Pooltype| async move {
+            let conn = pool.get().unwrap();
+            // Do something
+        });
+    let api2 = warp::path("data2")
+        .and(with_pool(pool))
+        .and_then(|pool: Pooltype| async move {
+            let conn = pool.get().unwrap();
+            // Do something
+        });
+
+    warp::serve(api1.or(api2))
+        .run(([127, 0, 0, 1], 3030))
+        .await;
+}
+</code></pre>

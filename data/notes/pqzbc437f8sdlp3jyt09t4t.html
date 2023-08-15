@@ -1,0 +1,10 @@
+<h1 id="restore-a-deleted-note">Restore a deleted note<a aria-hidden="true" class="anchor-heading icon-link" href="#restore-a-deleted-note"></a></h1>
+<p>Open the Joplin database with SQLite3</p>
+<pre class="language-sh"><code class="language-sh">sqlite3 ~/.config/joplin-desktop/database.sqlite
+</code></pre>
+<p>Select latest revisions to find your note's item id.</p>
+<pre class="language-sql"><code class="language-sql">sqlite<span class="token operator">></span> <span class="token keyword">select</span> item_id<span class="token punctuation">,</span> body_diff<span class="token punctuation">,</span> created_time <span class="token keyword">from</span> revisions <span class="token keyword">order</span> <span class="token keyword">by</span> created_time<span class="token punctuation">;</span>
+</code></pre>
+<p>Open the command palette in Joplin with <code>Cmd+Shift+P</code> and enter</p>
+<pre class="language-joplin"><code class="language-joplin">restoreNoteRevision &#x3C;item_id>
+</code></pre>

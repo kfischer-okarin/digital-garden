@@ -1,0 +1,203 @@
+<h1 id="software-development">Software Development<a aria-hidden="true" class="anchor-heading icon-link" href="#software-development"></a></h1>
+<h2 id="how-to-stay-in-flow">How to stay in Flow<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-stay-in-flow"></a></h2>
+<p>When you are about to be interrupted, dump your working memory as quick as possible... Write down what you are about to
+do next (next and next etc) - this way you know where to pick up when continuing to work</p>
+<blockquote>
+<p>When you are going good, stop writing.</p>
+</blockquote>
+<p>Ernest Hemingway</p>
+<p>Source: <img src="/digital-garden/assets/twitter-icon.svg" alt="Twitter Icon" style="height:1rem;"><a href="https://twitter.com/ceilfors/status/1583397713357307904">Interruptible Workflow Thread by Wisen Tanasa</a> (<a href="/digital-garden/joplin://x-callback-url/openNote?id=002c453dbd69478e9f6974dfe787a2d6">Clipped Article (Private Joplin)</a>)</p>
+<h2 id="several-solutions">Several Solutions<a aria-hidden="true" class="anchor-heading icon-link" href="#several-solutions"></a></h2>
+<p>Come up with three ways of solving a problem before committing to a solution.</p>
+<h2 id="when-being-interrupted">When being interrupted<a aria-hidden="true" class="anchor-heading icon-link" href="#when-being-interrupted"></a></h2>
+<p>Talk about following points before just doing what you're being told:</p>
+<ul>
+<li>What is the impact of the work you're asking for? Can't do it if the impact is unclear</li>
+<li>Do you have a spec that is agreed with stakeholders?</li>
+<li>Make clear that you have to do your own estimate first</li>
+<li>Explain clearly what the cost and consequences of dropping your current work are</li>
+</ul>
+<p><a href="/digital-garden/notes/bhttuhvw0lmm3qgxa2fbfxp">How to know what to build</a></p>
+<h2 id="documentation">Documentation<a aria-hidden="true" class="anchor-heading icon-link" href="#documentation"></a></h2>
+<ul>
+<li><a href="/digital-garden/notes/tuxfl9vy5d9c7db4ei5lsrx">Four Types of Documentation</a></li>
+</ul>
+<h2 id="toolbox">Toolbox<a aria-hidden="true" class="anchor-heading icon-link" href="#toolbox"></a></h2>
+<h3 id="frontend">Frontend<a aria-hidden="true" class="anchor-heading icon-link" href="#frontend"></a></h3>
+<ul>
+<li><a href="/digital-garden/notes/opuu0qsqju8wp97fxlzes7t">React Component Composition</a></li>
+<li>Use Storybook!</li>
+<li>Use Typescript!</li>
+</ul>
+<h2 id="try-out">Try out<a aria-hidden="true" class="anchor-heading icon-link" href="#try-out"></a></h2>
+<h3 id="frontend-1">Frontend<a aria-hidden="true" class="anchor-heading icon-link" href="#frontend-1"></a></h3>
+<ul>
+<li>Testing with Storybook
+<ul>
+<li><a href="https://storybook.js.org/blog/test-component-interactions-with-storybook/">https://storybook.js.org/blog/test-component-interactions-with-storybook/</a></li>
+</ul>
+</li>
+<li>Data Fetching libraries
+<ul>
+<li>React: React Query, RTK Query, SWR, Apollo</li>
+</ul>
+</li>
+<li>Web Components</li>
+</ul>
+<h3 id="other">Other<a aria-hidden="true" class="anchor-heading icon-link" href="#other"></a></h3>
+<ul>
+<li>Matrix - An open network for secure, decentralized communication
+<ul>
+<li><a href="https://matrix.org/">https://matrix.org/</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="software-design">Software Design<a aria-hidden="true" class="anchor-heading icon-link" href="#software-design"></a></h2>
+<ul>
+<li>Build a Ubiquitous Language (共通言語)</li>
+<li>Separate <strong>WHAT</strong> from <strong>HOW</strong></li>
+<li>Public interfaces are important!
+<ul>
+<li>They should communicate <strong>WHAT</strong> not how - in their name</li>
+</ul>
+</li>
+<li>Single responsibility
+<ul>
+<li>If you cannot properly name it it probably has more than one responsibility</li>
+<li>One class - one thing</li>
+<li>One method - one thing</li>
+</ul>
+</li>
+</ul>
+<h2 id="testing-principles">Testing principles<a aria-hidden="true" class="anchor-heading icon-link" href="#testing-principles"></a></h2>
+<ul>
+<li>Does Test Driven Design lead to good design? No - but it steers you away from bad design - when you feel how annoying
+it is to write tests</li>
+</ul>
+<h3 id="bdd">BDD<a aria-hidden="true" class="anchor-heading icon-link" href="#bdd"></a></h3>
+<ul>
+<li>Use the domain language (The Ubiquitous Language)</li>
+<li>Drive Development with Executable Specifications</li>
+<li>Focus ond WHAT not HOW
+<ul>
+<li>Say nothing about HOW it does those things</li>
+<li>Only on WHAT it does</li>
+</ul>
+</li>
+<li>Make the code simple, easily readable!</li>
+<li>Test ONE thing</li>
+<li>Start tests with "Should do this thing"
+<ul>
+<li>The thing you are testing is the subject</li>
+</ul>
+</li>
+</ul>
+<h3 id="acceptance-tests--executable-specifications">Acceptance Tests / Executable Specifications<a aria-hidden="true" class="anchor-heading icon-link" href="#acceptance-tests--executable-specifications"></a></h3>
+<p>Sources:</p>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=JDD5EEJgpHU"><img src="/digital-garden/assets/youtube-icon.svg" alt="Youtube Icon" style="height:1rem;"> Continuous Delivery - How To Write Acceptance Tests</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=knB4jBafR_M"><img src="/digital-garden/assets/youtube-icon.svg" alt="Youtube Icon" style="height:1rem;"> Continuous Delivery - Acceptance Testing with Executable Specifications</a></p>
+</li>
+<li>
+<p>Properties</p>
+<ul>
+<li>Life-like scenarios</li>
+<li>In Production like Test environments</li>
+</ul>
+</li>
+<li>
+<p>Executable Specifications</p>
+<ul>
+<li>Write them beforehand from the User Story</li>
+<li>It should be from the perspective of an external user of the system
+<ul>
+<li>Use the Ubiquitous language!</li>
+</ul>
+</li>
+<li>Separate What the system does from how it does it
+<ul>
+<li>Imagine replacing the system with something else that fulfills the same function - the test should still make
+sense!</li>
+</ul>
+</li>
+<li>Write them so clear that even the least technical person can understand it!</li>
+<li>Focus on what the user wants - link them to user stories
+<ul>
+<li>Find an underlying need, what the user wants to achieve</li>
+<li>Why are you making this change? Find that and focus on that in the acceptance test</li>
+</ul>
+</li>
+<li>Have at least one test for each acceptance criteria of your user stories</li>
+</ul>
+</li>
+<li>
+<p>Implementation: <a href="/digital-garden/notes/qhnsko8zwma7lmvkgxnnxh6">Acceptance Test Four Layer Architecture</a></p>
+</li>
+</ul>
+<h2 id="articles-to-read-regularly">Articles to read regularly<a aria-hidden="true" class="anchor-heading icon-link" href="#articles-to-read-regularly"></a></h2>
+<ul>
+<li><a href="https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/">Professional Programming: The First 10 Years</a></li>
+</ul>
+<h2 id="events---the-real-world">Events - The Real world<a aria-hidden="true" class="anchor-heading icon-link" href="#events---the-real-world"></a></h2>
+<ul>
+<li>Model your application as a stream of events - to decouple it
+<ul>
+<li>External:
+<ul>
+<li>User actions</li>
+<li>An external data source publishes new data</li>
+</ul>
+</li>
+<li>Internal:
+<ul>
+<li>Calculation is finished</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>How to deal with events
+<ul>
+<li>Finite State Machines
+<ul>
+<li>Initial state</li>
+<li>Change state when receiving event, maybe execute code on state enter/exit or particular transition</li>
+<li>Can be expressed as data</li>
+</ul>
+</li>
+<li>Observer pattern</li>
+<li>Pub / Sub</li>
+<li>Event Streams
+<ul>
+<li>There are nice libraries (<a href="https://reactivex.io/">https://reactivex.io/</a>) which treat event streams like collections and allow all
+conveniences of Enumerables like filtering, zipping, mapping</li>
+<li>Time is not something that needs to be managed anymore - you do.. as it happens</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/digital-garden/notes/qhnsko8zwma7lmvkgxnnxh6">Acceptance Test Four Layer Architecture</a></li>
+<li><a href="/digital-garden/notes/l4y3044qoq8v0e016k7r5dm">Career Paths</a></li>
+<li><a href="/digital-garden/notes/5m8fs9j9a9x587mj2w0csyy">Coding Competitions</a></li>
+<li><a href="/digital-garden/notes/tuxfl9vy5d9c7db4ei5lsrx">Four Types of Documentation</a></li>
+<li><a href="/digital-garden/notes/k13wldrrkqij71wrxe0ie0r">Good Git Commit Messages</a></li>
+<li><a href="/digital-garden/notes/bhttuhvw0lmm3qgxa2fbfxp">How to know what to build</a></li>
+<li><a href="/digital-garden/notes/ud4jkiyomuaf9keojlz60mc">Inbox</a></li>
+<li><a href="/digital-garden/notes/hmz33wwmnmznosm3ku3u295">Japanese Terms</a></li>
+<li><a href="/digital-garden/notes/jhna37me92seo78qr7t2t17">Learn Something New</a></li>
+<li><a href="/digital-garden/notes/mrbeopt2rixf1lhx6wo40gm">Patterns</a></li>
+<li><a href="/digital-garden/notes/rmrh0z2lhyvjz8g5sneda3p">Project Ideas</a></li>
+<li><a href="/digital-garden/notes/q7alvxlp1vhqg9znebmjjd6">Teaching Programming</a></li>
+<li><a href="/digital-garden/notes/k66yqkw9eqbxlcutw78dgs8">The Checklist</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/">Home</a></li>
+</ul>

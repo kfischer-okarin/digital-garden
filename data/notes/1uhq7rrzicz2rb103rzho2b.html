@@ -1,0 +1,67 @@
+<h1 id="pytest">pytest<a aria-hidden="true" class="anchor-heading icon-link" href="#pytest"></a></h1>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Parametrize Tests</span></div>
+<a href="/digital-garden/notes/f9gbum3a449ah7p5km5z6a4" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h1 id="parametrize-tests">Parametrize tests<a aria-hidden="true" class="anchor-heading icon-link" href="#parametrize-tests"></a></h1>
+<h2 id="single-argument">Single argument<a aria-hidden="true" class="anchor-heading icon-link" href="#single-argument"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>mark<span class="token punctuation">.</span>parametrize</span><span class="token punctuation">(</span><span class="token string">"color"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">"red"</span><span class="token punctuation">,</span> <span class="token string">"blue"</span><span class="token punctuation">,</span> <span class="token string">"green"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token builtin">id</span><span class="token operator">=</span><span class="token builtin">str</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="multiple-arguments">Multiple arguments<a aria-hidden="true" class="anchor-heading icon-link" href="#multiple-arguments"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>mark<span class="token punctuation">.</span>parametrize</span><span class="token punctuation">(</span><span class="token string">"height,width"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token number">40</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token builtin">id</span><span class="token operator">=</span><span class="token builtin">str</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="custom-human-readable-ids">Custom human readable ids<a aria-hidden="true" class="anchor-heading icon-link" href="#custom-human-readable-ids"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>mark<span class="token punctuation">.</span>parametrize</span><span class="token punctuation">(</span>
+    <span class="token string">"height,width"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span>
+        <span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token punctuation">(</span><span class="token number">400</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    ids<span class="token operator">=</span><span class="token punctuation">[</span>
+        <span class="token string">'small size'</span><span class="token punctuation">,</span>
+        <span class="token string">'big size'</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">)</span>
+</code></pre></div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Parametrize Fixtures</span></div>
+<a href="/digital-garden/notes/018bcs1bl4bw38x1aeglrco" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h1 id="parametrizing-fixtures">Parametrizing fixtures<a aria-hidden="true" class="anchor-heading icon-link" href="#parametrizing-fixtures"></a></h1>
+<h2 id="indirectly-on-test-cases">Indirectly on test cases<a aria-hidden="true" class="anchor-heading icon-link" href="#indirectly-on-test-cases"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>mark<span class="token punctuation">.</span>parametrize</span><span class="token punctuation">(</span><span class="token string">"fixture_name"</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">"value1"</span><span class="token punctuation">,</span> <span class="token string">"value2"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> indirect<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="directly-in-fixtures-via-requestparam">Directly in fixtures via <code>request.param</code><a aria-hidden="true" class="anchor-heading icon-link" href="#directly-in-fixtures-via-requestparam"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>fixture</span><span class="token punctuation">(</span>params<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"smtp.gmail.com"</span><span class="token punctuation">,</span> <span class="token string">"mail.python.org"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token keyword">def</span> <span class="token function">some_fixture_value</span><span class="token punctuation">(</span>request<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token comment"># use request.param</span>
+</code></pre></div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Use Fixtures</span></div>
+<a href="/digital-garden/notes/nw5lhe55hxlhmj6r4762n5h" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h1 id="use-fixtures">Use fixtures<a aria-hidden="true" class="anchor-heading icon-link" href="#use-fixtures"></a></h1>
+<h2 id="without-having-them-as-argument">Without having them as argument<a aria-hidden="true" class="anchor-heading icon-link" href="#without-having-them-as-argument"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>mark<span class="token punctuation">.</span>usefixtures</span><span class="token punctuation">(</span><span class="token string">"cleandir"</span><span class="token punctuation">)</span>
+</code></pre></div></div><p></p><p></p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/digital-garden/notes/x7s06f8n7qt4lae4m405lwt">How To</a></li>
+<li><a href="/digital-garden/notes/f1jgytehh78vp468vmtlmmb">Troubleshooting</a></li>
+</ol>

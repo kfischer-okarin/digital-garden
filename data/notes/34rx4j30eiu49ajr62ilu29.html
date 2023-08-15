@@ -1,0 +1,5 @@
+<h1 id="test-flash-messages-in-request-specs">Test Flash Messages in Request Specs<a aria-hidden="true" class="anchor-heading icon-link" href="#test-flash-messages-in-request-specs"></a></h1>
+<pre class="language-rb"><code class="language-rb"><span class="token comment"># post some request</span>
+
+expect<span class="token punctuation">(</span>response<span class="token punctuation">.</span>request<span class="token punctuation">.</span>flash<span class="token punctuation">[</span><span class="token symbol">:success</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span>to eq <span class="token string-literal"><span class="token string">'My Success message'</span></span>
+</code></pre>

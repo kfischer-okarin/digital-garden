@@ -1,0 +1,6 @@
+<h1 id="override-fixtures">Override Fixtures<a aria-hidden="true" class="anchor-heading icon-link" href="#override-fixtures"></a></h1>
+<p>You can just refer to the fixture with the same name to get the definition from the next higher scope.</p>
+<pre class="language-py"><code class="language-py"><span class="token decorator annotation punctuation">@pytest<span class="token punctuation">.</span>fixture</span>
+<span class="token keyword">def</span> <span class="token function">users</span><span class="token punctuation">(</span>users<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> users <span class="token operator">+</span> <span class="token punctuation">[</span>User<span class="token punctuation">(</span><span class="token builtin">id</span><span class="token operator">=</span><span class="token string">'seconduser'</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+</code></pre>

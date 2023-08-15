@@ -1,0 +1,29 @@
+<h1 id="patterns-to-use-in-dragonruby">Patterns to use in DragonRuby<a aria-hidden="true" class="anchor-heading icon-link" href="#patterns-to-use-in-dragonruby"></a></h1>
+<h2 id="input-actions"><a href="/digital-garden/notes/dr-patterns-input-actions">Input Actions</a><a aria-hidden="true" class="anchor-heading icon-link" href="#input-actions"></a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Input Actions</span></div>
+<a href="/digital-garden/notes/dr-patterns-input-actions" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Instead of using <code>args.inputs</code> directly you parse it into an input actions objects, which is then used instead to
+control your game.</p>
+<p><img src="/digital-garden/./assets/images/input_actions.png" alt="Input Actions"></p>
+<h2 id="when-is-it-useful">When is it useful?<a aria-hidden="true" class="anchor-heading icon-link" href="#when-is-it-useful"></a></h2>
+<p>Some scenarios when this pattern can be useful:</p>
+<ul>
+<li>Having several different kinds of inputs with the same effect</li>
+<li>Configurable controls</li>
+<li>Letting an AI player control your game (character)</li>
+<li>Multiplayer</li>
+</ul>
+<p>In general I think it results in cleaner, better organized code but YMMV of course.</p>
+</div></div><p></p><p></p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/digital-garden/notes/dr-patterns-input-actions">Input Actions</a></li>
+</ol>

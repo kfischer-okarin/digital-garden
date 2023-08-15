@@ -1,0 +1,22 @@
+<h1 id="testing-multiple-instances-of-vue-detected">Testing: Multiple instances of Vue detected<a aria-hidden="true" class="anchor-heading icon-link" href="#testing-multiple-instances-of-vue-detected"></a></h1>
+<p>When trying to initialize vuetify for unit tests using testing-library and you try to use the local vue instance to
+initialize vuetify following error will appear:</p>
+<pre><code>[Vuetify] Multiple instances of Vue detected
+</code></pre>
+<p>You have to <strong>globally</strong> initialize Vuetify and pass a new vuetify instance to the render function of testing-library.</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// Initialization (once)</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">Vue</span></span> <span class="token keyword module">from</span> <span class="token string">'vue'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">Vuetify</span></span> <span class="token keyword module">from</span> <span class="token string">'vuetify'</span><span class="token punctuation">;</span>
+
+<span class="token maybe-class-name">Vue</span><span class="token punctuation">.</span><span class="token method function property-access">use</span><span class="token punctuation">(</span><span class="token maybe-class-name">Vuetify</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<pre class="language-js"><code class="language-js"><span class="token comment">// in tests</span>
+
+<span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">Vuetify</span></span> <span class="token keyword module">from</span> <span class="token string">'vuetify'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> render <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'@testing-library/vue'</span><span class="token punctuation">;</span>
+
+<span class="token function">render</span><span class="token punctuation">(</span><span class="token maybe-class-name">Component</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">vuetify</span><span class="token operator">:</span> <span class="token keyword">new</span> <span class="token class-name">Vuetify</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+</code></pre>

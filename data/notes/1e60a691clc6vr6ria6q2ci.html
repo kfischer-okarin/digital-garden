@@ -1,0 +1,26 @@
+<h1 id="unit-tests-in-ruby">Unit tests in Ruby<a aria-hidden="true" class="anchor-heading icon-link" href="#unit-tests-in-ruby"></a></h1>
+<p><a href="https://test-unit.github.io/test-unit/en/Test/Unit.html"><code>Test/Unit</code></a> is
+built-in into Ruby.</p>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">require</span> <span class="token string-literal"><span class="token string">'test/unit'</span></span>
+
+<span class="token keyword">class</span> <span class="token class-name">TestSomeFeature</span> <span class="token operator">&#x3C;</span> Test<span class="token double-colon punctuation">::</span>Unit<span class="token double-colon punctuation">::</span>TestCase
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">test_one_thing</span></span>
+    assert_equal expected<span class="token punctuation">,</span> actual<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'message'</span></span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+</code></pre>
+<h2 id="assertions">Assertions<a aria-hidden="true" class="anchor-heading icon-link" href="#assertions"></a></h2>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">def</span> <span class="token method-definition"><span class="token function">test_many_things</span></span>
+  assert_equal expected<span class="token punctuation">,</span> actual<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'it failed'</span></span>
+  assert_true actual<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'was not true'</span></span>
+  assert_false actual<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'was not false'</span></span>
+  assert_nil actual<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'was not nil'</span></span>
+  assert_compare expected<span class="token punctuation">,</span> <span class="token operator">:</span><span class="token operator">></span><span class="token punctuation">,</span> actual<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'was not greater'</span></span>
+  assert_include collection<span class="token punctuation">,</span> expect<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'did not include'</span></span>
+  assert_instance_of klass<span class="token punctuation">,</span> object<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'was not instance of'</span></span>
+  assert_match <span class="token regex-literal"><span class="token regex">/pattern/</span></span><span class="token punctuation">,</span> string<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'did not match'</span></span>
+
+  assert_not_equal expected<span class="token punctuation">,</span> actual<span class="token punctuation">,</span> <span class="token string-literal"><span class="token string">'was equal'</span></span>
+  <span class="token comment"># ...</span>
+<span class="token keyword">end</span>
+</code></pre>

@@ -1,0 +1,7 @@
+<h1 id="install-old-ruby-on-m1-mac">Install old Ruby on M1 Mac<a aria-hidden="true" class="anchor-heading icon-link" href="#install-old-ruby-on-m1-mac"></a></h1>
+<p>This error:</p>
+<pre class="language-sh"><code class="language-sh">error: implicit declaration of function 'ffi_prep_closure' is invalid in C99
+</code></pre>
+<p>Can be solved by</p>
+<pre class="language-sh"><code class="language-sh">RUBY_CFLAGS=-DUSE_FFI_CLOSURE_ALLOC asdf install ruby 2.5.9
+</code></pre>

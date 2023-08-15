@@ -1,0 +1,37 @@
+<h1 id="elisp">elisp<a aria-hidden="true" class="anchor-heading icon-link" href="#elisp"></a></h1>
+<ul>
+<li>Evaluate an expression in <code>*scratch*</code> via <code>C-j</code></li>
+</ul>
+<h2 id="lists">Lists<a aria-hidden="true" class="anchor-heading icon-link" href="#lists"></a></h2>
+<ul>
+<li>Consist of "cons cells" which are pairs of
+<ul>
+<li>CAR: The actual element</li>
+<li>CDR: The next cons cell or <code>nil</code></li>
+</ul>
+</li>
+<li>It's basically a linked list</li>
+<li>It can also be circular by letting the CRT point to a previous cell</li>
+<li><code>nil</code> and <code>()</code> (empty list) are the same</li>
+<li>Two notations:
+<ul>
+<li>List notation: <code>(1 2 3)</code></li>
+<li>Dotted pair: <code>(1 . (2 . (3 . nil)))</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="evaluation">Evaluation<a aria-hidden="true" class="anchor-heading icon-link" href="#evaluation"></a></h3>
+<ul>
+<li>Evaluating a list by itself will be interpreted as a function call
+<ul>
+<li>First element being the function and the rest the arguments</li>
+</ul>
+</li>
+<li>To get the list as a value do one of:
+<ul>
+<li>Quote it: <code>'(1 2 3)</code></li>
+<li>Use <code>list</code>: <code>(list 1 2 3)</code></li>
+<li>Use <code>cons</code>: <code>(cons 1 '(2 3))</code></li>
+</ul>
+</li>
+</ul>

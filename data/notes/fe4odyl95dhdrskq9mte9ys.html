@@ -1,0 +1,14 @@
+<h1 id="adversarial-validation">Adversarial Validation<a aria-hidden="true" class="anchor-heading icon-link" href="#adversarial-validation"></a></h1>
+<p>A method to find out whether training and test data come from the same distribution.</p>
+<ol>
+<li>Mix your training and test data and replace the label with a binary label that shows from which set the data point
+comes</li>
+<li>Fit a model to the new labeled data</li>
+<li>Check the <a href="/digital-garden/notes/ea61q3fknldrejfmejwwkad">AUC</a> - if the data come from the same distribution the value should be around
+0.5, i.e. the two types of samples cannot really be distinguished</li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/j86cv8425vuiakp1ds2qp1h">Overfitting</a></li>
+</ul>

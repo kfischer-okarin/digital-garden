@@ -1,0 +1,108 @@
+<h1 id="keys">Keys<a aria-hidden="true" class="anchor-heading icon-link" href="#keys"></a></h1>
+<h2 id="navigation">Navigation<a aria-hidden="true" class="anchor-heading icon-link" href="#navigation"></a></h2>
+<ul>
+<li>Movement
+<pre><code>    C-p
+C-b     C-f
+    C-n
+</code></pre>
+</li>
+<li><code>M-f</code> / <code>M-b</code> Move word forward/back</li>
+<li><code>C-a</code> / <code>C-e</code> Move to beginning/end of line</li>
+<li><code>M-a</code> / <code>M-e</code> Move to beginning/end of sentence</li>
+<li><code>M-&#x3C;</code> / <code>M-></code> Move to beginning/end of text</li>
+<li><code>C-v</code> / <code>M-v</code> Page down/up</li>
+<li><code>C-l</code> Center current line / Move to top / Move to bottom</li>
+<li><code>M-r</code> Move to center line / top line / bottom line</li>
+<li><code>M-g g N</code> Go to line N</li>
+</ul>
+<h2 id="editing">Editing<a aria-hidden="true" class="anchor-heading icon-link" href="#editing"></a></h2>
+<ul>
+<li><code>&#x3C;DEL></code> / <code>M-&#x3C;DEL></code> delete character/word before cursor</li>
+<li><code>C-d</code> / <code>M-d</code> delete character/word after cursor</li>
+<li><code>C-k</code> / <code>M-k</code> kill to end of line/sentence</li>
+<li><code>C-&#x3C;SPC></code> Set Mark</li>
+<li><code>C-w</code> kill marked content</li>
+<li><code>C-y</code> Yank killed content
+<ul>
+<li>Then <code>M-y</code> Rotate through killed contents</li>
+</ul>
+</li>
+<li><code>C-/</code> Undo</li>
+</ul>
+<h2 id="buffers">Buffers<a aria-hidden="true" class="anchor-heading icon-link" href="#buffers"></a></h2>
+<ul>
+<li><code>C-x &#x3C;LEFT></code> / <code>C-x &#x3C;RIGHT></code> Previous/Next buffer</li>
+<li><code>C-x b</code> Select buffer by name</li>
+<li><code>C-x k</code> Kill buffer (Enter for current buffer)</li>
+</ul>
+<h2 id="windows">Windows<a aria-hidden="true" class="anchor-heading icon-link" href="#windows"></a></h2>
+<ul>
+<li><code>C-x 1</code> Remove all other windows</li>
+<li><code>C-x 0</code> Remove current window</li>
+<li><code>C-x 2</code> Split Window to the bottom</li>
+<li><code>C-x 3</code> Split Window to the right</li>
+</ul>
+<h2 id="help">Help<a aria-hidden="true" class="anchor-heading icon-link" href="#help"></a></h2>
+<ul>
+<li><code>C-h k &#x3C;KEY></code> Describe key</li>
+<li><code>C-h a</code> Apropos - find command matching word</li>
+</ul>
+<h2 id="info-mode">Info Mode<a aria-hidden="true" class="anchor-heading icon-link" href="#info-mode"></a></h2>
+<ul>
+<li><code>&#x3C;SPC></code> / <code>&#x3C;DEL></code> Move pagewise forward/backward through manual</li>
+<li><code>m</code> go to link</li>
+<li><code>M-n</code> copy info buffer</li>
+</ul>
+<h2 id="meta">Meta<a aria-hidden="true" class="anchor-heading icon-link" href="#meta"></a></h2>
+<ul>
+<li><code>C-u &#x3C;N> &#x3C;KEY></code> Executes command of KEY N times</li>
+<li><code>C-g</code> Stop current command</li>
+<li><code>M-x</code> Execute command by name</li>
+<li><code>M-:</code> Eval Elisp</li>
+</ul>
+<h2 id="customization">Customization<a aria-hidden="true" class="anchor-heading icon-link" href="#customization"></a></h2>
+<ul>
+<li><code>M-x add-dir-local-variable</code> Add customization for current directory</li>
+</ul>
+<h2 id="org-mode">Org Mode<a aria-hidden="true" class="anchor-heading icon-link" href="#org-mode"></a></h2>
+<ul>
+<li><code>M-&#x3C;RET></code> New Heading</li>
+<li><code>M-&#x3C;LEFT></code> / <code>M-&#x3C;RIGHT></code> Change Heading level</li>
+<li><code>M-S-&#x3C;LEFT></code> / <code>M-S-&#x3C;RIGHT></code> Change level of whole subtree</li>
+<li><code>M-&#x3C;UP></code> / <code>M-&#x3C;DOWN></code> Swap Subtree up/down on same level</li>
+<li><code>C-c C-n</code> / <code>C-c C-p</code> Next/Previous heading</li>
+<li><code>C-c C-f</code> / <code>C-c C-b</code> Next/Previous heading same level</li>
+<li><code>C-c C-u</code> Heading in parent level</li>
+<li><code>C-c C-j</code> Goto</li>
+</ul>
+<h3 id="todo--clocking-time">Todo &#x26; Clocking Time<a aria-hidden="true" class="anchor-heading icon-link" href="#todo--clocking-time"></a></h3>
+<ul>
+<li><code>C-c C-c</code> Convenience key
+<ul>
+<li>On Checkbox: Toggle</li>
+<li>On Clock: Re-calculate clock duration</li>
+<li>On TODO statistic: recalculate</li>
+<li>On TODO: Add tag</li>
+</ul>
+</li>
+<li><code>C-c C-t</code> Change todo state</li>
+<li><code>C-c t</code> Show todo tree</li>
+<li><code>C-c C-x C-i</code> Clock in</li>
+<li><code>C-c C-x C-o</code> Clock out</li>
+<li><code>C-c C-x C-d</code> Show total times next to tasks</li>
+<li><code>C-c C-x C-q</code> Cancel clock</li>
+<li><code>C-c C-x e</code> Set effort for selected task</li>
+<li><code>C-c C-x C-e</code> Set effort for currently clocked task</li>
+</ul>
+<h2 id="magit">Magit<a aria-hidden="true" class="anchor-heading icon-link" href="#magit"></a></h2>
+<ul>
+<li><code>C-x g</code> Open Magit</li>
+</ul>
+<h3 id="in-magit-buffer">In Magit buffer<a aria-hidden="true" class="anchor-heading icon-link" href="#in-magit-buffer"></a></h3>
+<ul>
+<li><code>g</code> refresh</li>
+<li><code>n</code> / <code>p</code> next/previous hunk</li>
+<li><code>P u</code> push to upstream</li>
+<li><code>c c</code> commit (Confirm message with <code>C-c</code>)</li>
+</ul>

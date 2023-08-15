@@ -1,0 +1,32 @@
+<h1 id="create-an-atom-feed">Create an Atom Feed<a aria-hidden="true" class="anchor-heading icon-link" href="#create-an-atom-feed"></a></h1>
+<p>Usign this ruby script I wrote you can turn your most recent git 10 commits to your vault into an Atom Feed.</p>
+<ul>
+<li>It will create one entry per modified file (renamed and deleted files are ignored), the updated timestamp will be
+the timestamp of the commit</li>
+<li>Commit starting with either <code>chore:</code> or <code>refactor:</code> will be ignored</li>
+</ul>
+<h2 id="prerequisite">Prerequisite<a aria-hidden="true" class="anchor-heading icon-link" href="#prerequisite"></a></h2>
+<ul>
+<li>An execution environment that runs Ruby (e.g. the GitHub Actions runner <code>ubuntu-latest</code>)</li>
+</ul>
+<h2 id="steps">Steps<a aria-hidden="true" class="anchor-heading icon-link" href="#steps"></a></h2>
+<h3 id="1-add-the-script">1. Add the script<a aria-hidden="true" class="anchor-heading icon-link" href="#1-add-the-script"></a></h3>
+<p>Add <a href="https://github.com/kfischer-okarin/digital-garden/blob/main/build_rss_feed.rb">this ruby script</a>
+next to your <code>dendron.yml</code></p>
+<h3 id="2-call-the-script-between-export-and-deploy">2. Call the script between export and deploy<a aria-hidden="true" class="anchor-heading icon-link" href="#2-call-the-script-between-export-and-deploy"></a></h3>
+<p>Assuming you followed the instructions to publish to
+<a href="https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR">GitHub Pages with GitHub Actions</a> add following step in your
+<a href="https://wiki.dendron.so/notes/FnK2ws6w1uaS1YzBUY3BR/#steps---setup-github-actions">workflow</a> between the
+<code>"Export notes"</code> and the <code>"Deploy site"</code> step:</p>
+<pre class="language-yml"><code class="language-yml">    <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Generate Atom Feed
+      <span class="token key atrule">run</span><span class="token punctuation">:</span> ruby build_rss_feed.rb vault <span class="token punctuation">></span> docs/feed.xml
+</code></pre>
+<p>If your vault happens to be in a different folder than <code>vault</code> then make sure to replace the folder name in the step
+above.</p>
+<p><strong>Note:</strong> If you are using <a href="https://wiki.dendron.so/notes/o4i7a81j778jyh7wql0nacb/">Self Contained Vaults</a> then you
+have to specify the notes folder inside the vault, not the vault folder.</p>
+<h3 id="3-optional-add-a-custom-header-with-the-link-to-the-feed">3. (Optional) Add a custom header with the link to the feed<a aria-hidden="true" class="anchor-heading icon-link" href="#3-optional-add-a-custom-header-with-the-link-to-the-feed"></a></h3>
+<p>Add following content to you custom header.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>alternate<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>application/atom+xml<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>&#x3C;PAGE_URL>/feed.xml<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</code></pre>
+<p>where <code>&#x3C;PAGE_URL></code> would be the url of your published page, e.g. <code>https://kfischer-okarin.github.io/digital-garden</code>.</p>

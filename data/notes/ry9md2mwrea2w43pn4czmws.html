@@ -1,0 +1,40 @@
+<h1 id="upload-a-file-via-api">Upload a File via API<a aria-hidden="true" class="anchor-heading icon-link" href="#upload-a-file-via-api"></a></h1>
+<h2 id="one-time-preparation-create-a-dropbox-app">One-Time Preparation: Create a Dropbox App<a aria-hidden="true" class="anchor-heading icon-link" href="#one-time-preparation-create-a-dropbox-app"></a></h2>
+<ul>
+<li><a href="https://www.dropbox.com/developers/apps/create">Create a Dropbox App</a> which has at least the permission
+<code>file.content.write</code></li>
+<li>Write down the App key (<code>APP_KEY</code>) and App secret (<code>APP_SECRET</code>)</li>
+</ul>
+<h2 id="one-time-preparation-get-a-oauth-20-refresh-token">One-Time Preparation: Get a OAuth 2.0 Refresh Token<a aria-hidden="true" class="anchor-heading icon-link" href="#one-time-preparation-get-a-oauth-20-refresh-token"></a></h2>
+<ul>
+<li>Open the url
+<pre><code>https://www.dropbox.com/oauth2/authorize?client_id=&#x3C;APP_KEY>&#x26;token_access_type=offline&#x26;response_type=code
+</code></pre>
+and authorize the App.</li>
+<li>Write down the authorization code (<code>AUTHORIZATION_CODE</code>)</li>
+<li>Retrieve a refresh token
+<pre class="language-sh"><code class="language-sh">curl https://api.dropbox.com/oauth2/token \
+     -d code=&#x3C;AUTHORIZATION_CODE> \
+     -d grant_type=authorization_code \
+     -u &#x3C;APP_KEY>:&#x3C;APP_SECRET>
+</code></pre>
+The response will contain the refresh token at the JSON key <code>"refresh_token"</code>. Write it down (<code>REFRESH_TOKEN</code>)</li>
+</ul>
+<h2 id="uploading-the-file">Uploading the File<a aria-hidden="true" class="anchor-heading icon-link" href="#uploading-the-file"></a></h2>
+<ul>
+<li>Get an up-to-date access token
+<pre class="language-sh"><code class="language-sh">curl https://api.dropbox.com/oauth2/token \
+     -d grant_type=refresh_token \
+     -d refresh_token=&#x3C;REFRESH_TOKEN> \
+     -u &#x3C;APP_KEY>:&#x3C;APP_SECRET>
+</code></pre>
+The access token will be returned at the JSON key <code>"access_token"</code>. Write it down (<code>ACCESS_TOKEN</code>).</li>
+<li>Upload the file
+<pre class="language-sh"><code class="language-sh">curl -X POST https://content.dropboxapi.com/2/files/upload \
+     --header "Authorization: Bearer &#x3C;ACCESS_TOKEN>" \
+     --header "Dropbox-API-Arg: {\"path\":\"/Path/To/Dropbox/Destination\",\"mode\":\"overwrite\",\"mute\":true}" \
+     --header "Content-Type: application/octet-stream" \
+     --data-binary @path/to/file/to/upload
+</code></pre>
+You can reuse the access token as long as it is valid</li>
+</ul>

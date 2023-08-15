@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Kevin Fischer</name>
+  </author>
+  <id>https://kfischer-okarin.github.io/digital-garden/feed.xml</id>
+  <link href="https://kfischer-okarin.github.io/digital-garden"
+    rel="alternate"/>
+  <link href="https://kfischer-okarin.github.io/digital-garden/feed.xml"
+    rel="self"/>
+  <subtitle>Kevin Fischer's Digital Garden.</subtitle>
+  <title>My Digital Garden</title>
+  <updated>2023-08-15T12:07:35+00:00</updated>
+  <entry>
+    <id>673c8f7a4bba8aa1f158c7b3beaeb268a43e356a:notes/reference.assets.fonts.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/cr0segfhiodkhyiugeojap6"/>
+    <title>Fonts</title>
+    <updated>2023-08-15T12:07:35+00:00</updated>
+    <dc:date>2023-08-15T12:07:35+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>673c8f7a4bba8aa1f158c7b3beaeb268a43e356a:notes/reference.checklists.gamejam-game.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/aobp3v5dufjavxb0csvwjq7"/>
+    <title>Gamejam Game</title>
+    <updated>2023-08-15T12:07:35+00:00</updated>
+    <dc:date>2023-08-15T12:07:35+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>673c8f7a4bba8aa1f158c7b3beaeb268a43e356a:notes/reference.literature-notes.sustainable-rails.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/pdesskotvu61paia8tm5ugg"/>
+    <title>Sustainable Rails</title>
+    <updated>2023-08-15T12:07:35+00:00</updated>
+    <dc:date>2023-08-15T12:07:35+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>673c8f7a4bba8aa1f158c7b3beaeb268a43e356a:notes/someday.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ceagbmx4k3i5sokhd3n8iyf"/>
+    <title>Someday</title>
+    <updated>2023-08-15T12:07:35+00:00</updated>
+    <dc:date>2023-08-15T12:07:35+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>673c8f7a4bba8aa1f158c7b3beaeb268a43e356a:notes/someday.project-ideas.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ez53twk4hj6ek0ez5kn9h59"/>
+    <title>Project ideas</title>
+    <updated>2023-08-15T12:07:35+00:00</updated>
+    <dc:date>2023-08-15T12:07:35+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>4d1318ea1f5a09dcba85714cd1d8a39da65ab031:notes/concepts.rough-consensus.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/esp2r6fgt2po7bydxveh0x2"/>
+    <title>Rough Consensus</title>
+    <updated>2023-07-28T05:21:34+00:00</updated>
+    <dc:date>2023-07-28T05:21:34+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>4d1318ea1f5a09dcba85714cd1d8a39da65ab031:notes/reference.literature-notes.accelerate.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/mc7d2j11zatgyzfytg0ckjt"/>
+    <title>Accelerate</title>
+    <updated>2023-07-28T05:21:34+00:00</updated>
+    <dc:date>2023-07-28T05:21:34+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>4d1318ea1f5a09dcba85714cd1d8a39da65ab031:notes/someday.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ceagbmx4k3i5sokhd3n8iyf"/>
+    <title>Someday</title>
+    <updated>2023-07-28T05:21:34+00:00</updated>
+    <dc:date>2023-07-28T05:21:34+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>4d1318ea1f5a09dcba85714cd1d8a39da65ab031:notes/someday.project-ideas.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ez53twk4hj6ek0ez5kn9h59"/>
+    <title>Project ideas</title>
+    <updated>2023-07-28T05:21:34+00:00</updated>
+    <dc:date>2023-07-28T05:21:34+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>825fc67dde2c572f2a168fa992e06f1ee855c409:notes/reference.literature-notes.sustainable-rails.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/pdesskotvu61paia8tm5ugg"/>
+    <title>Sustainable Rails</title>
+    <updated>2023-07-15T10:38:46+00:00</updated>
+    <dc:date>2023-07-15T10:38:46+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>825fc67dde2c572f2a168fa992e06f1ee855c409:notes/someday.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ceagbmx4k3i5sokhd3n8iyf"/>
+    <title>Someday</title>
+    <updated>2023-07-15T10:38:46+00:00</updated>
+    <dc:date>2023-07-15T10:38:46+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>ccfd46df76a5fe1e1d89c8604d618c5ae9a63776:notes/reference.literature-notes.sustainable-rails.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/pdesskotvu61paia8tm5ugg"/>
+    <title>Sustainable Rails</title>
+    <updated>2023-07-04T16:40:38+00:00</updated>
+    <dc:date>2023-07-04T16:40:38+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>ccfd46df76a5fe1e1d89c8604d618c5ae9a63776:notes/someday.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ceagbmx4k3i5sokhd3n8iyf"/>
+    <title>Someday</title>
+    <updated>2023-07-04T16:40:38+00:00</updated>
+    <dc:date>2023-07-04T16:40:38+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>8299b9769d057f067aff10f83ade8c85f0ea4d01:notes/reference.literature-notes.sustainable-rails.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/pdesskotvu61paia8tm5ugg"/>
+    <title>Sustainable Rails</title>
+    <updated>2023-06-17T07:16:55+00:00</updated>
+    <dc:date>2023-06-17T07:16:55+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>8299b9769d057f067aff10f83ade8c85f0ea4d01:notes/reference.video-games.dragon-quest-monsters.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/q5cxyddya0shp3vqxgsbqxf"/>
+    <title>Dragon Quest Monsters</title>
+    <updated>2023-06-17T07:16:55+00:00</updated>
+    <dc:date>2023-06-17T07:16:55+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>8f3534985b32a6b136b88639aaf720c63d678971:notes/reference.literature-notes.sustainable-rails.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/pdesskotvu61paia8tm5ugg"/>
+    <title>Sustainable Rails</title>
+    <updated>2023-05-07T23:47:50+00:00</updated>
+    <dc:date>2023-05-07T23:47:50+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>8f3534985b32a6b136b88639aaf720c63d678971:notes/someday.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/ceagbmx4k3i5sokhd3n8iyf"/>
+    <title>Someday</title>
+    <updated>2023-05-07T23:47:50+00:00</updated>
+    <dc:date>2023-05-07T23:47:50+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>573a2dfd8f28572f5da562ecc9ba10ba322f1339:notes/reference.tools-for.drawing-dnd-maps.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/17nfrv6pjnfzf4243xfnnxf"/>
+    <title>Drawing DnD Maps</title>
+    <updated>2023-04-23T13:58:18+00:00</updated>
+    <dc:date>2023-04-23T13:58:18+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>a5080197317e04561f91e4fbbb3d75004b085bd0:notes/gamedev.multiagent-memory-architecture.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/9he59qafozs1cols3ccbfdr"/>
+    <title>Multiagent Memory Architecture</title>
+    <updated>2023-04-23T13:57:16+00:00</updated>
+    <dc:date>2023-04-23T13:57:16+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>a5080197317e04561f91e4fbbb3d75004b085bd0:notes/now.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/tu102fn6psvc3ef33p2jl5p"/>
+    <title>Now</title>
+    <updated>2023-04-23T13:57:16+00:00</updated>
+    <dc:date>2023-04-23T13:57:16+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>a5080197317e04561f91e4fbbb3d75004b085bd0:notes/reference.dev.git.how-to.remove-all-untracked-files.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/wnbxrmmww8vk7olsgh6axih"/>
+    <title>Remove All Untracked Files</title>
+    <updated>2023-04-23T13:57:16+00:00</updated>
+    <dc:date>2023-04-23T13:57:16+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>a5080197317e04561f91e4fbbb3d75004b085bd0:notes/reference.literature-notes.sustainable-rails.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/pdesskotvu61paia8tm5ugg"/>
+    <title>Sustainable Rails</title>
+    <updated>2023-04-23T13:57:16+00:00</updated>
+    <dc:date>2023-04-23T13:57:16+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>2626ac807622d44474b2575ad6884a9b8034ad8e:notes/areas.gamedev.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/6l8bkr9dd1y2gki01z3t80e"/>
+    <title>Game Development</title>
+    <updated>2023-04-17T00:45:41+00:00</updated>
+    <dc:date>2023-04-17T00:45:41+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>2626ac807622d44474b2575ad6884a9b8034ad8e:notes/areas.gamedev.tileset-structures.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/los7s0ayh2cabzzdr9hfcir"/>
+    <title>Tileset Structures</title>
+    <updated>2023-04-17T00:45:41+00:00</updated>
+    <dc:date>2023-04-17T00:45:41+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>2626ac807622d44474b2575ad6884a9b8034ad8e:notes/reference.checklists.gamejam-game.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/aobp3v5dufjavxb0csvwjq7"/>
+    <title>Gamejam Game</title>
+    <updated>2023-04-17T00:45:41+00:00</updated>
+    <dc:date>2023-04-17T00:45:41+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>2626ac807622d44474b2575ad6884a9b8034ad8e:notes/reference.dev.emacs.keys.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/wbk7j19vy9ebjyy02o3rd1n"/>
+    <title>Keys</title>
+    <updated>2023-04-17T00:45:41+00:00</updated>
+    <dc:date>2023-04-17T00:45:41+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>2626ac807622d44474b2575ad6884a9b8034ad8e:notes/tools-for.generating-game-ideas.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/z3lh2k647esu7w3m8l6yvfy"/>
+    <title>Generating Game Ideas</title>
+    <updated>2023-04-17T00:45:41+00:00</updated>
+    <dc:date>2023-04-17T00:45:41+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>19b51853f1a9f22f9aafb33cbe9b7d6808a7274d:notes/reference.dev.bash.how-to.output-to-stderr.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/vslwo3t1e6xt87d1gr17ba1"/>
+    <title>Output to Stderr</title>
+    <updated>2023-04-11T14:37:58+00:00</updated>
+    <dc:date>2023-04-11T14:37:58+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>19b51853f1a9f22f9aafb33cbe9b7d6808a7274d:notes/reference.dev.bash.syntax-constructs.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/xtd7gun35nwwyp0b2s1ryiq"/>
+    <title>Syntax Constructs</title>
+    <updated>2023-04-11T14:37:58+00:00</updated>
+    <dc:date>2023-04-11T14:37:58+00:00</dc:date>
+  </entry>
+  <entry>
+    <id>19b51853f1a9f22f9aafb33cbe9b7d6808a7274d:notes/reference.dev.powershell.bash-equivalents.md</id>
+    <link href="https://kfischer-okarin.github.io/digital-garden/notes/zudzvju7viininav8x0aqta"/>
+    <title>Bash Equivalents</title>
+    <updated>2023-04-11T14:37:58+00:00</updated>
+    <dc:date>2023-04-11T14:37:58+00:00</dc:date>
+  </entry>
+  <dc:date>2023-08-15T12:07:35+00:00</dc:date>
+</feed>

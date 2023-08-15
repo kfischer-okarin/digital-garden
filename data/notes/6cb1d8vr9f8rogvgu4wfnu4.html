@@ -1,0 +1,8 @@
+<h1 id="dump-a-database">Dump a database<a aria-hidden="true" class="anchor-heading icon-link" href="#dump-a-database"></a></h1>
+<pre class="language-sh"><code class="language-sh">mysqldump -h db.url.com -p -u user databasename > dump.sql
+</code></pre>
+<h2 id="explation">Explation<a aria-hidden="true" class="anchor-heading icon-link" href="#explation"></a></h2>
+<ul>
+<li><code>-p</code> will prompt for a password</li>
+<li>Automatically adds drop table statements by default</li>
+</ul>

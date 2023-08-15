@@ -1,0 +1,179 @@
+<h1 id="implementing-domain-driven-design-vaughn-vernon">Implementing Domain Driven Design (Vaughn Vernon)<a aria-hidden="true" class="anchor-heading icon-link" href="#implementing-domain-driven-design-vaughn-vernon"></a></h1>
+<p><img src="https://m.media-amazon.com/images/P/0321834577.01._SCLZZZZZZZ_SX500_.jpg" alt="Book cover" style="height:200px;;"></p>
+<p><a href="https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577">Amazon</a></p>
+<h2 id="my-summary">My Summary<a aria-hidden="true" class="anchor-heading icon-link" href="#my-summary"></a></h2>
+<hr>
+<h2 id="entity">Entity<a aria-hidden="true" class="anchor-heading icon-link" href="#entity"></a></h2>
+<ul>
+<li>Something that changes over time</li>
+</ul>
+<h2 id="value-objects">Value Objects<a aria-hidden="true" class="anchor-heading icon-link" href="#value-objects"></a></h2>
+<ul>
+<li>Value object is a description of something</li>
+<li>Use Value objects where possible</li>
+<li>If it has to change... think if it's possible to "replace" it instead</li>
+<li>Separate it from the Persistence layer!
+<ul>
+<li>Sometimes you have to store it as records - but don't let that influence your domain model</li>
+</ul>
+</li>
+</ul>
+<h2 id="domain-service">Domain Service<a aria-hidden="true" class="anchor-heading icon-link" href="#domain-service"></a></h2>
+<ul>
+<li>Calculation process
+<ul>
+<li>Involving several aggregrates</li>
+<li>Using repositories</li>
+</ul>
+</li>
+<li>Transformation processes
+<ul>
+<li>See Adapters, Ports (Hexagonal Architecture) in Integrating Contexts</li>
+</ul>
+</li>
+</ul>
+<h2 id="domain-events">Domain Events<a aria-hidden="true" class="anchor-heading icon-link" href="#domain-events"></a></h2>
+<ul>
+<li>When something important happens publish a domain event
+<ul>
+<li>Immutable</li>
+<li>Contains timestamp</li>
+<li>Contains all necessary information to re-execute the same action (the ids of the involved aggregates)</li>
+</ul>
+</li>
+<li>Event Store: Store it in a special db table/list
+<ul>
+<li>Must be in the same transaction as the actual change happening</li>
+<li>have message publisher read that store to process/publish events</li>
+</ul>
+</li>
+<li>Publishing events
+<ul>
+<li>Event Endpoint
+<ul>
+<li>Like an Atom Feed</li>
+<li>Use constant URLs for certain event ranges (e.g. /events/60,79) and make effective use of caching</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="aggregates">Aggregates<a aria-hidden="true" class="anchor-heading icon-link" href="#aggregates"></a></h2>
+<ul>
+<li>Aggregates = Groups of Entities and Value objects accessed via a common interface (the Root Entity)</li>
+<li>Internal construction, value modifications should be hidden inside Root method implementations</li>
+<li>Each aggregate is a transactional boundary:
+<ul>
+<li>Everything that must change together should be inside one aggregate</li>
+</ul>
+</li>
+<li>Build as small aggregates as possible!!!</li>
+<li>Reference other aggregates only via id</li>
+<li>If other Aggregates need to change in response to an aggregate changing do it asynchronously
+<ul>
+<li>Use eventually consistency where possible. Transactional boundaries are often smaller than one thinks!
+<ul>
+<li>Does it really need to be 100% immediately consistent?</li>
+<li>Imagine how the business would happen without the application... Just transmitting the information to the next
+workflow would take some time</li>
+</ul>
+</li>
+<li>Publish an event from Aggregate A &#x26; subscribe to it from the other Aggregates</li>
+</ul>
+</li>
+</ul>
+<h2 id="factories">Factories<a aria-hidden="true" class="anchor-heading icon-link" href="#factories"></a></h2>
+<ul>
+<li>Factory methods on Aggregate classes to create related aggregates
+<ul>
+<li>Use this to create internally consistent objects (like with the correct association which should not be left
+to the client)
+<ul>
+<li>Ensure that the object has the correct parent etc</li>
+</ul>
+</li>
+<li>Use method names that express real use cases in the language</li>
+<li><code>Forum.start_discussion</code>, <code>Tenant.register_user</code> etc</li>
+</ul>
+</li>
+<li>Factory Methods on Services that integrate other contexts
+<ul>
+<li>Example: A Service that encapsulates the connection to the Authentication Context, which creates Author, Creator,
+Moderator, etc objects</li>
+</ul>
+</li>
+</ul>
+<h2 id="repositories">Repositories<a aria-hidden="true" class="anchor-heading icon-link" href="#repositories"></a></h2>
+<ul>
+<li>Stores Aggregates behind a in memory collection interface</li>
+<li>Collection style stores
+<ul>
+<li>No explicit save calls but one of:
+<ul>
+<li>Track changes and then at some point later persist them</li>
+<li>Wrap the returned object in a persistence backed decorator</li>
+</ul>
+</li>
+<li>Adding means storing</li>
+</ul>
+</li>
+<li>Persistence style stores
+<ul>
+<li>Explicit save calls</li>
+</ul>
+</li>
+<li>Collection style is preferable but not always feasible</li>
+</ul>
+<h2 id="integrating-bounded-contexts">Integrating Bounded Contexts<a aria-hidden="true" class="anchor-heading icon-link" href="#integrating-bounded-contexts"></a></h2>
+<ul>
+<li>When using message services - make your event handlers idempotent if any possible - since a message could always be
+delivered several times</li>
+</ul>
+<h2 id="ui">UI<a aria-hidden="true" class="anchor-heading icon-link" href="#ui"></a></h2>
+<ul>
+<li>Should manipulate <strong>one</strong> aggregate at a time (aggregate == transaction boundary)</li>
+<li>Might need several aggregates for context</li>
+<li>When you use Rest Resources (or any kind of data representation for the UI) then design them around use cases <strong>not</strong>
+around the actual aggregates
+<ul>
+<li>Keep UI and data structures decoupled</li>
+</ul>
+</li>
+</ul>
+<h2 id="application-service">Application service<a aria-hidden="true" class="anchor-heading icon-link" href="#application-service"></a></h2>
+<ul>
+<li>Used by the UI to actually do things</li>
+<li>Uses domain services to realize the use cases</li>
+<li>Think about outgoing interfaces:
+<ul>
+<li>Do you want to expose domain models (i.e. add dependencies to it) as return types etc?</li>
+<li>Or do you want the overhead of DTOs?</li>
+</ul>
+</li>
+<li>Can be used to integrate several contexts for UI but if this is repeatedly happening and starting to contain some
+logic you should think about possibly extracting a new downstream context</li>
+</ul>
+<h2 id="infrastructure">Infrastructure<a aria-hidden="true" class="anchor-heading icon-link" href="#infrastructure"></a></h2>
+<ul>
+<li>Concrete implementations of interfaces for technical capabilities like storage, messaging etc</li>
+<li>Injected into/passed to application services</li>
+<li>Ports/Adapters in Hexagonal Design</li>
+</ul>
+<h2 id="event-sourcing">Event Sourcing<a aria-hidden="true" class="anchor-heading icon-link" href="#event-sourcing"></a></h2>
+<ul>
+<li>Store your whole data only as a collection of events that happened and reconstruct your aggregates (or for that
+matter any kind of read representation) by processing all events so far</li>
+<li>Events are immutable</li>
+<li>Reading data structures should be cached (for example every 100 events) and are freely disposable</li>
+<li>For events that are also consumed as domain events by listeners (possibly from other contexts) it might be smart to
+include additional properties in the published event that are not explicitly needed to reconstruct the state to avoid
+secondary queries for more information</li>
+<li>Is natural to implement with functional programming
+<ul>
+<li>Aggregate + Event -> Aggregate</li>
+<li>Aggregate + Command -> Event[]</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="my-questions-thoughts-comments">My Questions, Thoughts, Comments<a aria-hidden="true" class="anchor-heading icon-link" href="#my-questions-thoughts-comments"></a></h2>

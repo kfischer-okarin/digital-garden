@@ -1,0 +1,69 @@
+<h1 id="input-actions">Input Actions<a aria-hidden="true" class="anchor-heading icon-link" href="#input-actions"></a></h1>
+<p>Instead of using <code>args.inputs</code> directly you parse it into an input actions objects, which is then used instead to
+control your game.</p>
+<p><img src="/digital-garden/./assets/images/input_actions.png" alt="Input Actions"></p>
+<h2 id="when-is-it-useful">When is it useful?<a aria-hidden="true" class="anchor-heading icon-link" href="#when-is-it-useful"></a></h2>
+<p>Some scenarios when this pattern can be useful:</p>
+<ul>
+<li>Having several different kinds of inputs with the same effect</li>
+<li>Configurable controls</li>
+<li>Letting an AI player control your game (character)</li>
+<li>Multiplayer</li>
+</ul>
+<p>In general I think it results in cleaner, better organized code but YMMV of course.</p>
+<h2 id="background--principles">Background &#x26; Principles<a aria-hidden="true" class="anchor-heading icon-link" href="#background--principles"></a></h2>
+<p>When developing complex pieces of software it often pays off to divide your program into separate independent small
+pieces that have clear-cut responsibilities and can live independently from each other.</p>
+<p>Processing raw player inputs provided by <code>args.inputs</code> and converting them into a more abstract object describing
+actions the player takes in one distinct step at the beginning of your tick will allow you to tinker with your control
+scheme without having to track down your input code all over the place.</p>
+<p>One natural way to approach this pattern would be to imagine that your game controls could be configured in your game's
+option menu (even if you are in fact still very far away from actually having any menus). Each of the controls that
+could be re-assigned to a different button would be one type of input event that can be returned by your processing
+function.</p>
+<p>Abstracting controls away to these kind of input action objects, gives you also the advantage that your remaining game
+logic can now be called with them instead of having to pass <code>args.inputs</code> directly.</p>
+<p>If you have enemy characters that are gameplay-wise similar to your player character you could re-use your player
+update functions with AI produced input events.</p>
+<h2 id="implementation-example">Implementation Example<a aria-hidden="true" class="anchor-heading icon-link" href="#implementation-example"></a></h2>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">def</span> <span class="token method-definition"><span class="token function">tick</span></span><span class="token punctuation">(</span>args<span class="token punctuation">)</span>
+  input_actions <span class="token operator">=</span> process_inputs<span class="token punctuation">(</span>args<span class="token punctuation">.</span>inputs<span class="token punctuation">)</span>
+
+  <span class="token keyword">if</span> input_actions<span class="token punctuation">[</span><span class="token symbol">:movement</span><span class="token punctuation">]</span>
+    args<span class="token punctuation">.</span>state<span class="token punctuation">.</span>player<span class="token punctuation">.</span>x <span class="token operator">+=</span> input_actions<span class="token punctuation">[</span><span class="token symbol">:movement</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token symbol">:x</span><span class="token punctuation">]</span>
+  <span class="token keyword">end</span>
+
+  <span class="token keyword">if</span> input_actions<span class="token punctuation">[</span><span class="token symbol">:jump</span><span class="token punctuation">]</span>
+    <span class="token comment"># Jumping logic</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+<span class="token keyword">def</span> <span class="token method-definition"><span class="token function">process_inputs</span></span><span class="token punctuation">(</span>inputs<span class="token punctuation">)</span>
+  input_actions <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token keyword">if</span> inputs<span class="token punctuation">.</span>keyboard<span class="token punctuation">.</span>key_down<span class="token punctuation">.</span>space <span class="token operator">||</span> inputs<span class="token punctuation">.</span>keyboard<span class="token punctuation">.</span>key_down<span class="token punctuation">.</span>up <span class="token operator">||</span> inputs<span class="token punctuation">.</span>keyboard<span class="token punctuation">.</span>key_down<span class="token punctuation">.</span>w
+    input_actions<span class="token punctuation">[</span><span class="token symbol">:jump</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">true</span>
+  <span class="token keyword">end</span>
+
+  <span class="token keyword">if</span> inputs<span class="token punctuation">.</span>keyboard<span class="token punctuation">.</span>key_held<span class="token punctuation">.</span>left <span class="token operator">||</span> inputs<span class="token punctuation">.</span>keyboard<span class="token punctuation">.</span>key_held<span class="token punctuation">.</span>a
+    input_actions<span class="token punctuation">[</span><span class="token symbol">:movement</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token symbol">x</span><span class="token operator">:</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token punctuation">}</span>
+  <span class="token keyword">elsif</span> inputs<span class="token punctuation">.</span>keyboard<span class="token punctuation">.</span>key_held<span class="token punctuation">.</span>right <span class="token operator">||</span> inputs<span class="token punctuation">.</span>keyboard<span class="token punctuation">.</span>key_held<span class="token punctuation">.</span>d
+    input_actions<span class="token punctuation">[</span><span class="token symbol">:movement</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token symbol">x</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span>
+  <span class="token keyword">end</span>
+
+  input_actions
+<span class="token keyword">end</span>
+</code></pre>
+<h2 id="caveats--thoughts-for-more-complex-scenarios">Caveats &#x26; Thoughts for more complex scenarios<a aria-hidden="true" class="anchor-heading icon-link" href="#caveats--thoughts-for-more-complex-scenarios"></a></h2>
+<ul>
+<li>You will probably have more than one set of possible actions (gameplay and inside a menu would be classic examples)
+which means that you will need several kinds of <code>process_inputs</code> functions for different situations (or use
+<code>if</code>/<code>case</code> statements to make the distinguishment inside one functions)</li>
+<li>You might need some kind of state in addition to the inputs if you need to process inputs that take longer than 1
+tick, like distinguishing long button presses from short ones</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/m9u70yufp50mimd6jg9k5o7">Patterns</a></li>
+</ul>

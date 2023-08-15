@@ -1,0 +1,17 @@
+<h1 id="handle-csv">Handle CSV<a aria-hidden="true" class="anchor-heading icon-link" href="#handle-csv"></a></h1>
+<h2 id="read-a-csv-as-array-of-arrays">Read a CSV as array of arrays<a aria-hidden="true" class="anchor-heading icon-link" href="#read-a-csv-as-array-of-arrays"></a></h2>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">require</span> <span class="token string-literal"><span class="token string">'csv'</span></span>
+
+data <span class="token operator">=</span> <span class="token constant">CSV</span><span class="token punctuation">.</span>read <span class="token string-literal"><span class="token string">'filename.csv'</span></span>
+</code></pre>
+<h2 id="read-with-symbolized-headers">Read with symbolized headers<a aria-hidden="true" class="anchor-heading icon-link" href="#read-with-symbolized-headers"></a></h2>
+<pre class="language-rb"><code class="language-rb">csv_content <span class="token operator">=</span> <span class="token string-literal heredoc-string"><span class="token delimiter"><span class="token punctuation">&#x3C;&#x3C;~</span><span class="token symbol">CSV</span></span><span class="token string">
+  Project,Description,"Start Time","End Time","Duration (h)"
+  "Project A","Refactor","18:43","19:28","0:45"
+</span><span class="token delimiter"><span class="token symbol">CSV</span></span></span>
+data <span class="token operator">=</span> <span class="token constant">CSV</span><span class="token punctuation">.</span>parse csv_content<span class="token punctuation">,</span> <span class="token symbol">headers</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token symbol">header_converters</span><span class="token operator">:</span> <span class="token symbol">:symbol</span>
+
+<span class="token comment"># data[:project]</span>
+<span class="token comment"># data[:start_time]</span>
+<span class="token comment"># data[:duration_h]</span>
+</code></pre>

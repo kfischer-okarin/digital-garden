@@ -1,0 +1,164 @@
+<h1 id="how-to-know-what-to-build">How to know what to build<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-know-what-to-build"></a></h1>
+<h2 id="about-user-stories">About User Stories<a aria-hidden="true" class="anchor-heading icon-link" href="#about-user-stories"></a></h2>
+<p>Source: <img src="/digital-garden/assets/youtube-icon.svg" alt="Youtube Icon" style="height:1rem;"> <a href="https://www.youtube.com/watch?v=AzBuohuOU6g">YOW! 2014 Jeff Patton - User Story Mapping: Discover The Whole Story</a></p>
+<ul>
+<li>User Stories are not extensive complete documentation artifacts</li>
+<li>They are conversation starters
+<ul>
+<li>Write down the short idea of the feature and then go and have a conversation with the involved parties</li>
+<li>Have a collaborative visual workspace where you can build and document a common understanding (Whiteboard / Miro)</li>
+<li>It's like a holiday photo - you look at them and if you were there that's enough to remember all kinds of things
+from the vacation - whereas it doesn't mean a lot to someone who wasn't there</li>
+</ul>
+</li>
+<li>For big stories map them out step by step from the user's point of view</li>
+</ul>
+<h2 id="four-questions-to-find-out-what-to-build">Four questions to find out what to build<a aria-hidden="true" class="anchor-heading icon-link" href="#four-questions-to-find-out-what-to-build"></a></h2>
+<p>Source: <img src="/digital-garden/assets/youtube-icon.svg" alt="Youtube Icon" style="height:1rem;">
+<a href="https://www.youtube.com/watch?v=GnK_n9Udhhs">Agile Adria 2013 keynote / Gojko Adzic: Make Impacts Not Software</a></p>
+<p><img src="/digital-garden/assets/images/four-questions-for-planning.png" style="height:200px;"></p>
+<ul>
+<li>Those questions map to certain elements of planning
+<ul>
+<li>Why: Big Picture, your end goal</li>
+<li>Who: Who to address</li>
+<li>What: What kind of behaviour/change you want to achieve</li>
+<li>How: Project Scope</li>
+</ul>
+</li>
+<li>Answering one question helps answering the neighboring ones</li>
+<li>The Big Picture is your Goal in your Navigation system</li>
+<li>You can try out many different Who/What/Hows once you know the why
+<ul>
+<li>The why will give you a way to measure success</li>
+</ul>
+</li>
+<li>Each connection uphill is an assumption
+<ul>
+<li>Who could help me achieve my goal?</li>
+<li>What kind of behaviour in those people might help to achieve that goal?</li>
+<li>How to achieve that behaviour change?</li>
+</ul>
+</li>
+</ul>
+<h3 id="example-adding-levels--achievements-to-a-facebook-game">Example: Adding levels &#x26; achievements to a Facebook game<a aria-hidden="true" class="anchor-heading icon-link" href="#example-adding-levels--achievements-to-a-facebook-game"></a></h3>
+<p>(C)ustomer &#x26; (M)anager</p>
+<ul>
+<li>C: We want to have levels and achievements for our game.</li>
+<li>M: This is a what - How does this change somebody's behavior.</li>
+<li>C: I don't understand</li>
+<li>M: Imagine we spend 9 months on this and nothing changes in the user's behaviour... have we wasted time?</li>
+<li>C: Yes.</li>
+<li>M: Ok, let's not do that. So give me an example of how the users will behave differently.</li>
+<li>C: They will post to Facebook.</li>
+<li>M: They do that already... what's the change?</li>
+<li>C: They will post a lot more.
+<div class="mermaid">
+    flowchart LR
+    Players --- pm(Post More)
+    pm --- la(Levels and Achievements)
+</div>
+</li>
+<li>M: Ok, so if we deliver 10 % of the above and people don't post more we should stop this - if they do we know we're
+doing something right. So why is it important for people to post more?</li>
+<li>C: If they post more other people might read about our games.</li>
+<li>M: That's another behavior change not a big picture. Why is it important that they read about the games?</li>
+<li>C: If they read about it they will come and play the games more.</li>
+<li>M: That's another behavior change. Why is that important?</li>
+<li>C: That's a stupid question
+<ul>
+<li>When you hear something like that you're onto something good</li>
+</ul>
+</li>
+<li>M: So you want more players... How many more? Would it be a waste of time if after 9 months you had 5 more players?</li>
+<li>C: No, no, no we need 1 million more players
+<div class="mermaid">
+    flowchart LR
+    1m(1M Players) --- Players
+    Players --- pm(Post More)
+    pm --- la(Levels and Achievements)
+</div>
+<ul>
+<li>He actually had a problem but came with a solution instead, we just had a structured conversation to unpack the
+problem</li>
+</ul>
+</li>
+<li>M: So this is our destination... and these are some of the roads we could take... Let's not take a tunnel for 9 months
+but let's try out if this is actually a good idea. Something simple we could quickly do would be allowing people to
+post about tournament wins... so we can test the hypothesis about players posting more.
+<div class="mermaid">
+    flowchart LR
+    1m(1M Players) --- Players
+    Players --- pm(Post More)
+    pm --- la(Levels and Achievements)
+    pm --- tw(Tournament Winners)
+</div>
+</li>
+</ul>
+<p>They tried out tournament winners and after three days no one shared their wins anymore because they didn't want to
+spam their friends. So making players post more about a stupid Facebook game doesn't seem to work.</p>
+<ul>
+<li>M: We could try to make people invite others</li>
+<li>C: So here we asked our marketing department and they gave us this:
+<div class="mermaid">
+    flowchart LR
+    1m(1M Players) --- Players
+    Players --- pm(Post More)
+    pm --- la(Levels and Achievements)
+    pm --- tw(Tournament Winners)
+    Players --- i(Invite more friends)
+    i --- Automated
+</div>
+</li>
+<li>M: No you're doing this again... let's first see if this even makes sense... maybe with something manual
+<div class="mermaid">
+    flowchart LR
+    1m(1M Players) --- Players
+    Players --- pm(Post More)
+    pm --- la(Levels and Achievements)
+    pm --- tw(Tournament Winners)
+    Players --- i(Invite more friends)
+    i --- Automated
+    i --- Manual
+</div>
+</li>
+</ul>
+<p>It didn't work at first, but when they changed the mail template to make the invite button more visible and it actually
+helped</p>
+<h2 id="questions-to-ask-the-customer">Questions to ask the customer:<a aria-hidden="true" class="anchor-heading icon-link" href="#questions-to-ask-the-customer"></a></h2>
+<p>Source: <img src="/digital-garden/assets/twitter-icon.svg" alt="Twitter Icon" style="height:1rem;"> <a href="https://mobile.twitter.com/BrianFOConnor/status/1547910093143826434">Twitter thread by Brian O'Connor</a></p>
+<ul>
+<li>What's the hardest thing about doing this?
+<ul>
+<li>Part of the problem that's frequent or painful enough to be worth solving</li>
+<li>Find out the current workflow</li>
+</ul>
+</li>
+<li>Tell me about the last time you encountered this problem
+<ul>
+<li>Understand more about the context when this problem occurs</li>
+</ul>
+</li>
+<li>Why was that hard?
+<ul>
+<li>Understand the why of the solution</li>
+</ul>
+</li>
+<li>What, if anything, have you done to solve this problem?
+<ul>
+<li>Find out if it's worth solving</li>
+<li>What are the tools/processes the new solution will be compared with?</li>
+<li>If they haven't even tried solving it, then maybe the pain is not big enough in the first place?</li>
+</ul>
+</li>
+<li>What do you dislike about the solutions you have tried?
+<ul>
+<li>Understand what kind of features might better solve the problem</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/1qgmr670moitcxxpmnmjxlp">Software Development</a></li>
+</ul>

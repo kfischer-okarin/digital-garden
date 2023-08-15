@@ -1,0 +1,10 @@
+<h1 id="handle-xml">Handle XML<a aria-hidden="true" class="anchor-heading icon-link" href="#handle-xml"></a></h1>
+<h2 id="build-xml-trees">Build XML Trees<a aria-hidden="true" class="anchor-heading icon-link" href="#build-xml-trees"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token keyword">import</span> xml<span class="token punctuation">.</span>etree<span class="token punctuation">.</span>ElementTree <span class="token keyword">as</span> xml
+
+root <span class="token operator">=</span> xml<span class="token punctuation">.</span>Element<span class="token punctuation">(</span><span class="token string">'rss'</span><span class="token punctuation">,</span> version<span class="token operator">=</span><span class="token string">'2.0'</span><span class="token punctuation">)</span>
+channel <span class="token operator">=</span> xml<span class="token punctuation">.</span>Element<span class="token punctuation">(</span><span class="token string">'channel'</span><span class="token punctuation">)</span>
+root<span class="token punctuation">.</span>append<span class="token punctuation">(</span>channel<span class="token punctuation">)</span>
+
+xml_string <span class="token operator">=</span> xml<span class="token punctuation">.</span>tostring<span class="token punctuation">(</span>root<span class="token punctuation">)</span>
+</code></pre>

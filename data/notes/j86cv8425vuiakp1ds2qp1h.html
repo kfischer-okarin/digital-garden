@@ -1,0 +1,23 @@
+<h1 id="overfitting">Overfitting<a aria-hidden="true" class="anchor-heading icon-link" href="#overfitting"></a></h1>
+<p>The model fits the training set too perfectly and therefore has poor performance on unknown data.</p>
+<p>Possible causes:</p>
+<ul>
+<li>The chosen model is much more complex than the relationship between independent and dependent variables. Thus the
+model tries to learn to fit for example random fluctuations of an originally mostly linear dataset.
+<ul>
+<li>Fitting a high order polynomial to linear data</li>
+</ul>
+</li>
+<li>The training set and the validation set / real-world data come from a different distribution (for instance too much
+time passed since the collection of the training data)
+<ul>
+<li>You can use <a href="/digital-garden/notes/fe4odyl95dhdrskq9mte9ys">Adversarial Validation</a> to test whether you can easily distinguish between
+training and test data</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/digital-garden/notes/ia3cgd5kglewwelw8j459vn">Regularization</a></li>
+</ul>

@@ -1,0 +1,321 @@
+<h1 id="david-bryant-copeland---sustainable-web-development-with-ruby-on-rails">David Bryant Copeland - Sustainable Web Development with Ruby on Rails<a aria-hidden="true" class="anchor-heading icon-link" href="#david-bryant-copeland---sustainable-web-development-with-ruby-on-rails"></a></h1>
+<p><img src="/digital-garden/link-to-amazon-picture" alt="Book cover" style="height:200px;;"></p>
+<p><a href="/digital-garden/link-to-amazon">Amazon</a></p>
+<p><strong>Current position:</strong> Chapter 1</p>
+<h2 id="my-summary">My Summary<a aria-hidden="true" class="anchor-heading icon-link" href="#my-summary"></a></h2>
+<ul>
+<li>Work with Rails not against it where possible
+<ul>
+<li>Use default resource routes where possible - devs will know where the code is even years from now</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="chapter-1---why-this-book-exists">Chapter 1 - Why This Book Exists<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-1---why-this-book-exists"></a></h2>
+<ul>
+<li>What is sustainable development?
+<ul>
+<li>Easily support new requirements</li>
+<li>Can be worked on by many different people</li>
+</ul>
+</li>
+<li>Agile often pushes us to YAGNI (You ain't gonna need it)
+<ul>
+<li>Of course there is always the danger of overengineering</li>
+<li>YAGNI gets software shipped but it does not actively drive development of supporting architecture for sustainability
+like
+<ul>
+<li>Log statements</li>
+<li>Design Systems for easy UI construction</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Assumptions of the advice in this book
+<ul>
+<li>The Software has a clear purpose (i.e. it's not still experimenting and trying to find its market)</li>
+<li>The Software needs to exist for years</li>
+<li>The Software will evolve</li>
+<li>The Team will change</li>
+<li>You value sustainability, consistency and quality
+<ul>
+<li>Quality needs to be part of the day to day process - the day to pay down technical debt usually doesn't come
+unless there's a catastrophic failure</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Opportunity Cost vs Carrying Cost
+<ul>
+<li>Carrying cost: Cost that is paid everytime when maintaining/using something
+<ul>
+<li>Each line of code is a carrying cost</li>
+<li>Each feature has a carrying cost</li>
+<li>Each thing we need to remember is a carrying cost</li>
+</ul>
+</li>
+<li>Opportunity cost: One time investment to produce something to reduce carrying cost
+<ul>
+<li>By making such a decision you cut off your potential future solution space</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>To develop a software sustainably you need to keep your carrying cost down
+<ul>
+<li>Sometimes you need to strategically incur opportunity cost to keep your carrying cost in check</li>
+</ul>
+</li>
+<li>Rails' is designed in a way that keeps your carrying cost low for many common webapp patterns</li>
+</ul>
+<h2 id="chapter-2---the-rails-application-architecture">Chapter 2 - The Rails Application Architecture<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-2---the-rails-application-architecture"></a></h2>
+<ul>
+<li>Parts of a Rails App
+<ul>
+<li>Boundaries: Accept Input from somewhere and return output</li>
+<li>Views: HTML, ERB, CSS etc</li>
+<li>Models</li>
+<li>Everything Else
+<ul>
+<li>Tests, Dependencies, Seeds, <code>bin/setup</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Pros and Cons of the Architecture
+<ul>
+<li>Pro: No big upfront decisions needed to get started</li>
+<li>Pro: Lots of conventions for naming etc - it's easy to maintain the architecture</li>
+<li>Con: It's designed to build a DB backed webapp</li>
+<li>Con: Rails gives no guidance on where business logic should go</li>
+</ul>
+</li>
+</ul>
+<h2 id="chapter-4---start-your-app-off-right">Chapter 4 - Start Your App Off Right<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-4---start-your-app-off-right"></a></h2>
+<ul>
+<li>Things assumed about the app
+<ul>
+<li>Other developers will work on it and need to
+<ul>
+<li>set it up</li>
+<li>run tests locally</li>
+<li>run the app</li>
+</ul>
+</li>
+<li>It will have security vulnerabilties</li>
+<li>It will be deployed to production via a CI pipeline</li>
+<li>It will need operational observability</li>
+</ul>
+</li>
+<li>Setting up a Developer Workflow by providing a set of scripts
+<ul>
+<li><code>bin/setup</code> - Set up the app after cloning it</li>
+<li><code>bin/run</code> - Run the app locally using environment variables via the <code>dotenv</code> gem</li>
+<li><code>bin/ci</code> - Run tests and other checks like <code>brakeman</code> and <code>bundle audit</code></li>
+</ul>
+</li>
+<li>Manage runtime env consistently via UNIX Environment variables
+<ul>
+<li>Having all of <code>database.yml</code>, <code>credentials.yml.enc</code> and <code>master.key</code> to store environment is confusing</li>
+<li>Better delete all of them</li>
+<li>Use <code>dotenv</code> for test/development
+<ul>
+<li>can also be safely checked in</li>
+<li>Gitignore <code>.env</code> - if checked in its purpose is very unclear</li>
+<li>Gitignore <code>.env.*.local</code></li>
+</ul>
+</li>
+<li>Don't use <code>dotenv</code> in production</li>
+</ul>
+</li>
+<li>Write comments, about why libraries are there</li>
+<li><code>bin/setup</code> (written in Ruby)
+<ul>
+<li>Reset local database regularly to remove old test data / production data for troubleshooting</li>
+<li>Add comments to each setup step explaining why</li>
+<li>Use some nice helpers like:
+<ul>
+<li><code>system!</code> abort when command fails</li>
+<li><code>log</code> log with a prefix to know it was written by the script and not an executed command</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>bin/ci</code>
+<ul>
+<li>Run tests</li>
+<li>Run Brakeman &#x26; output to brakeman.html</li>
+<li>Run Bundle audit</li>
+</ul>
+</li>
+<li>Use <code>lograge</code> for logs
+<ul>
+<li>Turns off coloring (though that can be done with the <code>colorize_logging</code> option too)</li>
+<li>Puts request logs on a simple 1 line format
+<pre><code>method=GET path=/jobs/833552.json format=json controller=JobsController  action=show status=200 duration=58.33 view=40.43 db=15.26
+</code></pre>
+<ul>
+<li>Requires you to properly set the logger formatter to get timestamps</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="chapter-5---business-logic-does-not-go-in-active-records">Chapter 5 - Business Logic (Does Not Go In Active Records)<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-5---business-logic-does-not-go-in-active-records"></a></h2>
+<ul>
+<li>Rails is optimized for CRUD</li>
+<li>Essential/necessary complexity: Everything on top of normal CRUD that makes your App Special
+<ul>
+<li>Conditional updates, data formatting, calling 3rd party services</li>
+</ul>
+</li>
+<li>Accidental/unnecessary complexity: Architectural decisions that add complexity that didn't <strong>have</strong> to be there
+<ul>
+<li>For example manage users in another app and manage via API calls rather than storing it the own database</li>
+</ul>
+</li>
+<li>Business logic is made up of both types of complexity</li>
+<li>Business logic changes often = High churn</li>
+<li>High complexity + High churn = A paradise for bugs</li>
+<li>Fan out: How many other classes you call</li>
+<li>Fan in: How often other modules/classes call you
+<ul>
+<li>Classes with high fan in are most likely to cause system-wide bugs</li>
+</ul>
+</li>
+<li>To reduce system-wide bugs: Minimize the complexity and minimize the churn of high fan-in classes
+<ul>
+<li>ActiveRecord classes are the most used classes in Rails apps</li>
+<li>Business logic has high complexity &#x26; high church</li>
+<li>Therefore: Keep business logic <strong>out</strong> of ActiveRecord classes</li>
+</ul>
+</li>
+<li>Add a service layer between your Controllers and ActiveRecords
+<ul>
+<li>Logic on Active Records
+<ul>
+<li><code>Product#search</code>, <code>Product#rate</code>, <code>Product#purchase</code>, <code>Product#purchase_by_tax</code></li>
+<li>Every controller uses <code>Product</code></li>
+</ul>
+</li>
+<li>With a Service Layer in between
+<ul>
+<li>Several service classes:
+<ul>
+<li><code>ProductPurchaser#purchase</code>, <code>ProductPurchaser#purchase_by_tax</code></li>
+<li><code>ProductRater#rate</code></li>
+<li><code>ProductSearch#search</code></li>
+</ul>
+</li>
+<li>Each of those new classes is only used by 1 or two controllers</li>
+<li>All complex business logic is contained in those classes</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="chapter-6---routes-and-urls">Chapter 6 - Routes and URLs<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-6---routes-and-urls"></a></h2>
+<ul>
+<li>Stick with Rails conventions for canonical routes, use <code>resources</code> where possible
+<ul>
+<li>Developers will immediately know how the app is organized</li>
+<li>You won't have to make architectural decisions</li>
+</ul>
+</li>
+<li>Don't create unused routes (use <code>only:</code>)</li>
+<li>Add custom routes as a separate section below normal routes as redirects to canonical urls
+<ul>
+<li>Add a comment explaining why it's needed</li>
+<li>You can also use a normal <code>get</code> etc helper if you don't want any redirects</li>
+</ul>
+</li>
+<li>Prefer creating new resources rather than custom actions
+<ul>
+<li>Rails works best when focused on resources + standard actions</li>
+<li><code>resource :product_ratings, only: %i[create]</code> rather than <code>resource :products, only: %i[...., rate]</code></li>
+</ul>
+</li>
+<li>Prefer separate resources over nested resources.....
+<ul>
+<li>Rails Guid recommends to only nest resources at most one level</li>
+<li>Only use a child resource if it's 100% clear that this can really only make sense and/or retrieved in the context
+of the parent resource
+<ul>
+<li><code>product_rating</code> sounds like a good candidate for a nested resource... but what about querying all ratings of a
+particular user?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="chapter-7---html-templates">Chapter 7 - HTML Templates<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-7---html-templates"></a></h2>
+<ul>
+<li>Build HTML views with the correct semantic tags
+<ul>
+<li>This will result in easier to change views (tree of meaningful tags vs div hell)</li>
+<li>It will be easier to test since the semantic meaning of a page elemnt is more unlikely to change than a CSS class</li>
+<li>Solve layout / appearance problems with added <code>div</code> / <code>span</code> tags and CSS</li>
+</ul>
+</li>
+<li>Expose one instance variable per action (representing the resource) if possible
+<ul>
+<li>Avoid representing the resource with several variables</li>
+<li>If you add additional non-resource instance variables you have to go check the controller to know how it was
+assigned</li>
+<li>Decorators/View Models are also no good choice since they make code harder to understand</li>
+<li>Exceptions are things like <code>@current_user</code> and <code>@country_codes</code> or other UI state like <code>@current_tab</code></li>
+</ul>
+</li>
+<li>Use only instance variables in views not helpers directly if possible
+<ul>
+<li>You can generalize/abstract code at the controller level to make it DRY</li>
+<li>If you only use instance variables in views you know exactly where to check for their values - in the controller</li>
+</ul>
+</li>
+<li>Layouts should be used for global concerns like stylesheets or a sidewide navigation bar</li>
+<li>Use Partials for only re-usable components
+<ul>
+<li>Use only locals inside not instance variables to keep it re-usable in any situation</li>
+<li>Just use ERB (and not Haml or Slim etc) since it's closer to HTML and comes with Rails</li>
+</ul>
+</li>
+</ul>
+<h2 id="chapter-8---helpers">Chapter 8 - Helpers<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-8---helpers"></a></h2>
+<ul>
+<li>Helpers introduce lots of "global view code" which can be a problem for maintainability</li>
+<li>Be careful to not put "view concerns" into helper functions which are actually domain concerns since they are not just
+an incidental display format but the User relies on that in their daily job
+<ul>
+<li>i.e. a specially formatted Item ID</li>
+</ul>
+</li>
+<li>Good users for helpers
+<ul>
+<li>Global UI context like <code>current_user</code></li>
+<li>Wrapping often used UI Component partials
+<ul>
+<li>Directly rendering HTML to act as very simple small UI components is also ok!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Define UI Components helpers only in <code>application_helper.rb</code>
+<ul>
+<li>Separation in several helper files does not really help the fact that all helpers are global</li>
+<li>It's better to express that fact by just writing everything in application_helper</li>
+</ul>
+</li>
+<li>Define global UI state that needs to access database (like <code>current_user</code>) as private <code>ApplicationController</code> methods
+and turn it into a helper method with <code>helper :current_user</code> etc.</li>
+<li>Alternative method: Presenters
+<ul>
+<li>Wrap your domain object into an object that adds a few methods for views and delegates the rest to the domain object</li>
+<li>This unfortunately introduces inconsistencies and more design decisions you have to make (should I make a Prresenter
+because it's everywhere even though I don't need it etc ?)</li>
+<li>it also makes it hard to exactly know the type an object has</li>
+<li>Few</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="my-questions-thoughts-comments">My Questions, Thoughts, Comments<a aria-hidden="true" class="anchor-heading icon-link" href="#my-questions-thoughts-comments"></a></h2>

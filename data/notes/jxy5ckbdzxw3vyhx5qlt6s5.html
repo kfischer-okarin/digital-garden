@@ -1,0 +1,48 @@
+<h1 id="composite-pattern">Composite Pattern<a aria-hidden="true" class="anchor-heading icon-link" href="#composite-pattern"></a></h1>
+<ul>
+<li>Objects arranged in tree-like hierarchies</li>
+<li>Individual objects and compositions have a common interface</li>
+<li>The official Gang of Four Pattern also explicitly includes the collection management methods (<code>add</code> / <code>remove</code> /
+<code>children</code>) methods for composites
+<ul>
+<li>I personally think that's just another dimension/interface</li>
+</ul>
+</li>
+</ul>
+<pre class="language-rb"><code class="language-rb"><span class="token comment"># Component - common interface</span>
+<span class="token keyword">class</span> <span class="token class-name">Item</span>
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">weight</span></span>
+    <span class="token keyword">raise</span> NotImplementedError
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+<span class="token comment"># Leaf</span>
+<span class="token keyword">class</span> <span class="token class-name">SolidItem</span> <span class="token operator">&#x3C;</span> Item
+  attr_reader <span class="token symbol">:weight</span>
+
+  <span class="token comment"># ...</span>
+<span class="token keyword">end</span>
+
+<span class="token comment"># Leaf</span>
+<span class="token keyword">class</span> <span class="token class-name">LiquidContainer</span> <span class="token operator">&#x3C;</span> Item
+  <span class="token comment"># ...</span>
+
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">weight</span></span>
+    <span class="token variable">@volume</span> <span class="token operator">*</span> <span class="token variable">@density</span> <span class="token operator">*</span> <span class="token variable">@filled_percentage</span> <span class="token operator">+</span> <span class="token variable">@container_weight</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+
+<span class="token comment"># Composite</span>
+<span class="token keyword">class</span> <span class="token class-name">ItemContainer</span> <span class="token operator">&#x3C;</span> Item
+  attr_reader <span class="token symbol">:items</span>
+
+  <span class="token keyword">def</span> <span class="token method-definition"><span class="token function">weight</span></span>
+    <span class="token variable">@items</span><span class="token punctuation">.</span>sum<span class="token punctuation">(</span><span class="token operator">&#x26;</span><span class="token symbol">:weight</span><span class="token punctuation">)</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+</code></pre>
+<hr>
+<ul>
+<li><strong>Epistemic Status:</strong> Rough but probably complete (for my purposes) with some slight modifications I'd make from my
+experience.</li>
+</ul>

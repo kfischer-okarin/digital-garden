@@ -1,0 +1,9 @@
+<h1 id="test-file-uploads-in-request-specs">Test File Uploads in Request Specs<a aria-hidden="true" class="anchor-heading icon-link" href="#test-file-uploads-in-request-specs"></a></h1>
+<p>It's not well documented but you can use <code>StringIO</code> objects in <code>Rack::Test::UploadedFile</code>.</p>
+<pre class="language-rb"><code class="language-rb">post import_path<span class="token punctuation">,</span> <span class="token symbol">params</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token symbol">file</span><span class="token operator">:</span> Rack<span class="token double-colon punctuation">::</span>Test<span class="token double-colon punctuation">::</span><span class="token class-name">UploadedFile</span><span class="token punctuation">.</span><span class="token keyword">new</span><span class="token punctuation">(</span>
+    <span class="token class-name">StringIO</span><span class="token punctuation">.</span><span class="token keyword">new</span><span class="token punctuation">(</span>file_content<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token symbol">original_filename</span><span class="token operator">:</span> <span class="token string-literal"><span class="token string">'imported_data.csv'</span></span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre>

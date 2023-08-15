@@ -1,0 +1,72 @@
+<h1 id="multiagent-memory-architecture">Multiagent Memory Architecture<a aria-hidden="true" class="anchor-heading icon-link" href="#multiagent-memory-architecture"></a></h1>
+<h2 id="memory-stream">Memory Stream<a aria-hidden="true" class="anchor-heading icon-link" href="#memory-stream"></a></h2>
+<ul>
+<li>All observations are stored in the memory stream</li>
+<li>Memories have properties:
+<ul>
+<li>Recency: When was the memory last retrieved - exponential decay</li>
+<li>Importance: How important the event is (eating breakfast on a normal day vs breaking up with your SO)</li>
+<li>Relevance: Relevance to a certain situation - basically similarity to a query to the memory stream</li>
+</ul>
+</li>
+<li>Calculate a score for each memory with those weighted properties</li>
+<li>Add the most relevant k memories to the active memory which is used for reasoning</li>
+</ul>
+<h2 id="reflections">Reflections<a aria-hidden="true" class="anchor-heading icon-link" href="#reflections"></a></h2>
+<ul>
+<li>Reflect when the sum of importance scores for recent events surpasses a threshold (something important happened)</li>
+<li>Determine questions to ask about those memories:
+<ul>
+<li>Ask LLM: Given only the information above what are 3 most salient high-level questions we can answer about the
+subject?</li>
+</ul>
+</li>
+<li>Extract insights as answers to those questions:
+<ul>
+<li>Ask LLM: What high level insights can you infer from above statements (example format: insight (because of 1, 5, 3))</li>
+</ul>
+</li>
+</ul>
+<h2 id="planning">Planning<a aria-hidden="true" class="anchor-heading icon-link" href="#planning"></a></h2>
+<ul>
+<li>A plan is: Action + Location, starting time, duration</li>
+<li>Plans are also stored in the memory stream</li>
+<li>Make a general agenda for the day:
+<ul>
+<li>Ask LLM: Given agent description + short summary of previous day what would be the rough agenda for today</li>
+</ul>
+</li>
+<li>Decompose the agenda into hour long chunks and then little chunks from 5-15 min</li>
+</ul>
+<h2 id="reacting">Reacting:<a aria-hidden="true" class="anchor-heading icon-link" href="#reacting"></a></h2>
+<ul>
+<li>Ask LLM:
+<ul>
+<li>Given:
+<ul>
+<li>Current date &#x26; time</li>
+<li>What agent just did</li>
+<li>What agent just observed</li>
+<li>relevant context from agent's memory (query Memory stream)
+<ul>
+<li>What is agent's relationship with observed entity</li>
+<li>Observed entity is currently doing/being (current action/status)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Ask: Should agent react to the observation and if so what would be the appropriate reaction</li>
+</ul>
+</li>
+<li>Then rebuild plan from time after reaciton</li>
+</ul>
+<h2 id="dialogues">Dialogues<a aria-hidden="true" class="anchor-heading icon-link" href="#dialogues"></a></h2>
+<ul>
+<li>Ask LLM:
+<ul>
+<li>Same context as with reacting</li>
+<li>Describe the dialogue action the agent is about to take (e.g. ask about music project) and ask what they would say</li>
+</ul>
+</li>
+</ul>
+<p>Source: <a href="https://arxiv.org/abs/2304.03442">Generative Agents: Interactive Simulacra of Human Behavior</a></p>

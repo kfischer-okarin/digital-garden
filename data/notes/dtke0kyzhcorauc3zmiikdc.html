@@ -1,0 +1,10 @@
+<h1 id="handle-csv">Handle CSV<a aria-hidden="true" class="anchor-heading icon-link" href="#handle-csv"></a></h1>
+<h2 id="read-csv-from-file">Read CSV from File<a aria-hidden="true" class="anchor-heading icon-link" href="#read-csv-from-file"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token keyword">import</span> csv
+
+<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'file.csv'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> csv_file<span class="token punctuation">:</span>
+    <span class="token keyword">with</span> csv<span class="token punctuation">.</span>reader<span class="token punctuation">(</span>csv_file<span class="token punctuation">)</span> <span class="token keyword">as</span> csv_rows<span class="token punctuation">:</span>
+        <span class="token keyword">for</span> row <span class="token keyword">in</span> csv_rows<span class="token punctuation">:</span>
+            column1<span class="token punctuation">,</span> column2<span class="token punctuation">,</span> column3 <span class="token operator">=</span> row
+</code></pre>
+<p>To read from string use <code>io.StringIO</code> to wrap the string.</p>

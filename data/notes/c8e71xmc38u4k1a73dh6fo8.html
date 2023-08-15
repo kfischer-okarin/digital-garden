@@ -1,0 +1,12 @@
+<h1 id="import-file-mismatch">Import file mismatch<a aria-hidden="true" class="anchor-heading icon-link" href="#import-file-mismatch"></a></h1>
+<h2 id="error-message">Error message<a aria-hidden="true" class="anchor-heading icon-link" href="#error-message"></a></h2>
+<pre><code>import file mismatch:
+imported module 'query_test' has this __file__ attribute:
+  /root/project/spec/model/query_test.py
+which is not the same as the test file we want to collect:
+  /root/project/spec/model/persistence/dynamodb/query_test.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+</code></pre>
+<h2 id="solution">Solution<a aria-hidden="true" class="anchor-heading icon-link" href="#solution"></a></h2>
+<p>Add <code>__init__.py</code> files to the conflicting module folders</p>
+<p><a href="https://stackoverflow.com/questions/53918088/import-file-mismatch-in-pytest">'import file mismatch in pytest' on StackOverflow</a></p>

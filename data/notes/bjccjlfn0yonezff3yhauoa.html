@@ -1,0 +1,85 @@
+<h1 id="insert-agenda-depending-on-weekday">Insert Agenda depending on weekday<a aria-hidden="true" class="anchor-heading icon-link" href="#insert-agenda-depending-on-weekday"></a></h1>
+<p>After following these steps creating the note <code>work.journal.2022.05.30</code> will produce following content:</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token front-matter yaml language-yaml">id: xxxxx
+title: '2022-05-30 (Mon)'
+desc: ''
+updated: xxxxx
+created: xxxxx</span>
+<span class="token punctuation">---</span></span>
+
+<span class="token title important"><span class="token punctuation">#</span> 2022-05-30 (Mon)</span>
+
+<span class="token title important"><span class="token punctuation">##</span> Daily Meeting</span>
+
+<span class="token title important"><span class="token punctuation">##</span> Weekly Meeting</span>
+
+<span class="token title important"><span class="token punctuation">##</span> Code Review</span>
+</code></pre>
+<h2 id="1-create-schema">1. Create schema<a aria-hidden="true" class="anchor-heading icon-link" href="#1-create-schema"></a></h2>
+<p>This schema contains a custom frontmatter with the agenda items by weekday and two placeholders for the title and the
+agenda itself.</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token front-matter yaml language-yaml">id: xxxxxx
+title: Work Journal Template
+agenda_items_by_weekday:
+  Mon:
+    - Daily Meeting
+    - Weekly Meeting
+    - Code Review
+  Mon:
+    - Daily Meeting
+    - Code Review
+  Wed:
+    - Daily
+    - '[[work.areas.project-a]] Meeting'
+    - Code Review
+  Thu:
+    - Daily
+    - Code Review
+  Fri:
+    - Daily
+    - Retrospective
+    - Code Review</span>
+<span class="token punctuation">---</span></span>
+
+<span class="token title important"><span class="token punctuation">#</span> &#x3C;&#x3C;TITLE>></span>
+
+&#x3C;<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>AGENDA</span><span class="token punctuation">></span></span>>
+</code></pre>
+<h2 id="2-create-the-hook">2. Create the hook<a aria-hidden="true" class="anchor-heading icon-link" href="#2-create-the-hook"></a></h2>
+<p>Use the <code>Create Hook</code> command and assign the correct hierarchy in the configuration (in this case
+<code>work.journal.20[2-9][0-9].[0-9][0-9].[0-9][0-9]</code>)</p>
+<h2 id="3-implement-the-hook">3. Implement the hook<a aria-hidden="true" class="anchor-heading icon-link" href="#3-implement-the-hook"></a></h2>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">exports</span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> note <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> fname<span class="token punctuation">,</span> custom <span class="token punctuation">}</span> <span class="token operator">=</span> note<span class="token punctuation">;</span>
+
+  <span class="token comment">// fname is work.journal.&#x3C;year>.&#x3C;month>.&#x3C;day></span>
+  <span class="token keyword">const</span> <span class="token punctuation">[</span>year<span class="token punctuation">,</span> month<span class="token punctuation">,</span> day<span class="token punctuation">]</span> <span class="token operator">=</span> fname<span class="token punctuation">.</span><span class="token method function property-access">split</span><span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">slice</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> weekday <span class="token operator">=</span> <span class="token function">getShortWeekday</span><span class="token punctuation">(</span>year<span class="token punctuation">,</span> month<span class="token punctuation">,</span> day<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> title <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>year<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>month<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>day<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> (</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>weekday<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">)</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+  note<span class="token punctuation">.</span><span class="token property-access">title</span> <span class="token operator">=</span> title<span class="token punctuation">;</span>
+  note<span class="token punctuation">.</span><span class="token property-access">body</span> <span class="token operator">=</span> note<span class="token punctuation">.</span><span class="token property-access">body</span><span class="token punctuation">.</span><span class="token method function property-access">replace</span><span class="token punctuation">(</span><span class="token string">'&#x3C;&#x3C;TITLE>>'</span><span class="token punctuation">,</span> title<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> agendaItems <span class="token operator">=</span> custom<span class="token punctuation">.</span><span class="token property-access">agenda_items_by_weekday</span><span class="token punctuation">[</span>weekday<span class="token punctuation">]</span><span class="token punctuation">;</span>
+  note<span class="token punctuation">.</span><span class="token property-access">body</span> <span class="token operator">=</span> note<span class="token punctuation">.</span><span class="token property-access">body</span><span class="token punctuation">.</span><span class="token method function property-access">replace</span><span class="token punctuation">(</span><span class="token string">'&#x3C;&#x3C;AGENDA>>'</span><span class="token punctuation">,</span> <span class="token function">buildAgenda</span><span class="token punctuation">(</span>agendaItems<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">delete</span> custom<span class="token punctuation">.</span><span class="token property-access">agenda_items_by_weekday</span><span class="token punctuation">;</span>
+
+  <span class="token keyword control-flow">return</span> <span class="token punctuation">{</span> note <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">getShortWeekday</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">year<span class="token punctuation">,</span> month<span class="token punctuation">,</span> day</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// Adjust month since Date uses 0-index month</span>
+  <span class="token keyword">const</span> date <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span>year<span class="token punctuation">,</span> <span class="token known-class-name class-name">Number</span><span class="token punctuation">(</span>month<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> day<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword control-flow">return</span> date<span class="token punctuation">.</span><span class="token method function property-access">toLocaleString</span><span class="token punctuation">(</span><span class="token string">'en-US'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">weekday</span><span class="token operator">:</span> <span class="token string">'short'</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">buildAgenda</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">agendaItems</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>agendaItems<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> <span class="token string">''</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword control-flow">return</span> agendaItems<span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span><span class="token parameter">item</span> <span class="token arrow operator">=></span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">## </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>item<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">\n</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">join</span><span class="token punctuation">(</span><span class="token string">'\n'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>

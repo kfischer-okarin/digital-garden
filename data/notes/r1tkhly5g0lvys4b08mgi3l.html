@@ -1,0 +1,31 @@
+<h1 id="mocks">Mocks<a aria-hidden="true" class="anchor-heading icon-link" href="#mocks"></a></h1>
+<h2 id="replacing-functionsclasses-in-a-module">Replacing functions/classes in a module<a aria-hidden="true" class="anchor-heading icon-link" href="#replacing-functionsclasses-in-a-module"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token keyword">from</span> unittest<span class="token punctuation">.</span>mock <span class="token keyword">import</span> patch
+
+<span class="token comment"># Manually</span>
+method_patch <span class="token operator">=</span> patch<span class="token punctuation">(</span><span class="token string">'module.submodule.function'</span><span class="token punctuation">,</span> autospec<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+mocked_function <span class="token operator">=</span> method_patch<span class="token punctuation">.</span>start<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># ... do stuff</span>
+
+method_patch<span class="token punctuation">.</span>stop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Context Manager</span>
+<span class="token keyword">with</span> patch<span class="token punctuation">(</span><span class="token string">'module.submodule.function'</span><span class="token punctuation">,</span> autospec<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span> <span class="token keyword">as</span> mocked_function<span class="token punctuation">:</span>
+    <span class="token comment"># ... do stuff</span>
+</code></pre>
+<h2 id="replacing-functions-on-a-object">Replacing functions on a object<a aria-hidden="true" class="anchor-heading icon-link" href="#replacing-functions-on-a-object"></a></h2>
+<pre class="language-py"><code class="language-py"><span class="token keyword">from</span> unittest<span class="token punctuation">.</span>mock <span class="token keyword">import</span> patch
+
+<span class="token comment"># Manually</span>
+method_patch <span class="token operator">=</span> patch<span class="token punctuation">.</span><span class="token builtin">object</span><span class="token punctuation">(</span>an_object<span class="token punctuation">,</span> <span class="token string">'object_method'</span><span class="token punctuation">,</span> autospec<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+mocked_function <span class="token operator">=</span> method_patch<span class="token punctuation">.</span>start<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># ... do stuff</span>
+
+method_patch<span class="token punctuation">.</span>stop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># Context Manager</span>
+<span class="token keyword">with</span> patch<span class="token punctuation">.</span><span class="token builtin">object</span><span class="token punctuation">(</span>an_object<span class="token punctuation">,</span> <span class="token string">'object_method'</span><span class="token punctuation">,</span> autospec<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span> <span class="token keyword">as</span> mocked_function<span class="token punctuation">:</span>
+    <span class="token comment"># ... do stuff</span>
+</code></pre>

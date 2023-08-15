@@ -1,0 +1,7 @@
+<h1 id="execute-windows-console-commands">Execute Windows console commands<a aria-hidden="true" class="anchor-heading icon-link" href="#execute-windows-console-commands"></a></h1>
+<p>If you try executing commands like <code>dir</code> or <code>md</code> directly via <code>$gtk.system</code> it will fail with an "Command not found"
+error.</p>
+<p>You have to use <code>cmd /c</code></p>
+<p>For example:</p>
+<pre class="language-bat"><code class="language-bat">cmd /c md new_directory
+</code></pre>

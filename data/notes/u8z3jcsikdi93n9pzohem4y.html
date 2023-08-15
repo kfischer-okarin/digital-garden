@@ -1,0 +1,41 @@
+<h1 id="paolo-perrotta---metaprogramming-ruby">Paolo Perrotta - Metaprogramming Ruby<a aria-hidden="true" class="anchor-heading icon-link" href="#paolo-perrotta---metaprogramming-ruby"></a></h1>
+<p><img src="https://m.media-amazon.com/images/I/51sqZ5BY7iL._SX415_BO1,204,203,200_.jpg" alt="Book cover" style="height:200px;;"></p>
+<p><a href="https://www.amazon.com/Metaprogramming-Ruby-Program-Like-Facets/dp/1941222129">Amazon</a></p>
+<h2 id="chapter-3---blocks">Chapter 3 - Blocks<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-3---blocks"></a></h2>
+<ul>
+<li>New scopes are started inside
+<ul>
+<li>A class defined with <code>class</code> keyword</li>
+<li>A module defined with the <code>module</code> keyword</li>
+<li>A method defined witht the <code>def</code> keyword</li>
+</ul>
+</li>
+<li>To use something from an existing scope you must use the dynamic definition methods <code>Class.new</code>, <code>Module.new</code>, <code>define_method</code></li>
+<li>Use <code>BasicObject</code> derived classes as clean room for DSL execution to have less methods available</li>
+</ul>
+<h2 id="chapter-4---class-definitions">Chapter 4 - Class definitions<a aria-hidden="true" class="anchor-heading icon-link" href="#chapter-4---class-definitions"></a></h2>
+<ul>
+<li><code>class</code> keyword = <code>class_eval</code> = <code>instance_eval</code> on the Class object</li>
+<li>Inside a class definition you can:
+<ul>
+<li><code>self</code> is the class inside</li>
+</ul>
+</li>
+</ul>
+<div class="mermaid">
+  flowchart LR
+    obj -- class --> MyClass
+    MyClass -- superclass --> Object
+    MyClass -- class --> #MyClass
+    Object -- class --> #Object
+    #MyClass -- superclass --> #Object
+    Object -- superclass --> BasicObject
+    BasicObject -- class --> #BasicObject
+    #Object -- superclass --> #BasicObject
+    #BasicObject -- superclass --> Class
+</div>
+<ul>
+<li>Super class of a singleton class is singleton class of superclass</li>
+</ul>
+<hr>
+<h2 id="my-questions-thoughts-comments">My Questions, Thoughts, Comments<a aria-hidden="true" class="anchor-heading icon-link" href="#my-questions-thoughts-comments"></a></h2>

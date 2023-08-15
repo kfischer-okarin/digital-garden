@@ -1,0 +1,87 @@
+<h1 id="create-a-settings-menu">Create a Settings Menu<a aria-hidden="true" class="anchor-heading icon-link" href="#create-a-settings-menu"></a></h1>
+<p>The function below generates a <code>hs.menu</code> object with separate options for setting categories you define. Selecting such
+an option will show a sequence of input dialogs for each value in the category.</p>
+<h2 id="source-code">Source Code<a aria-hidden="true" class="anchor-heading icon-link" href="#source-code"></a></h2>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">function</span> <span class="token function">buildSettingsMenu</span><span class="token punctuation">(</span>settings<span class="token punctuation">)</span>
+  <span class="token keyword">local</span> buildSettingsUpdateFunction <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>setting<span class="token punctuation">)</span>
+    defaultValue <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    hs<span class="token punctuation">.</span>fnutils<span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span>setting<span class="token punctuation">.</span>values<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>settingValue<span class="token punctuation">)</span>
+      defaultValue<span class="token punctuation">[</span>settingValue<span class="token punctuation">.</span>id<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">''</span>
+    <span class="token keyword">end</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      value <span class="token operator">=</span> hs<span class="token punctuation">.</span>settings<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>setting<span class="token punctuation">.</span>id<span class="token punctuation">)</span> <span class="token keyword">or</span> defaultValue
+
+      hs<span class="token punctuation">.</span>fnutils<span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span>setting<span class="token punctuation">.</span>values<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>settingValue<span class="token punctuation">)</span>
+        value<span class="token punctuation">[</span>settingValue<span class="token punctuation">.</span>id<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">askForSettingsValue</span><span class="token punctuation">(</span>settingValue<span class="token punctuation">,</span> value<span class="token punctuation">[</span>settingValue<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">)</span>
+      <span class="token keyword">end</span><span class="token punctuation">)</span>
+
+      hs<span class="token punctuation">.</span>settings<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span>setting<span class="token punctuation">.</span>id<span class="token punctuation">,</span> value<span class="token punctuation">)</span>
+    <span class="token keyword">end</span>
+  <span class="token keyword">end</span>
+
+  <span class="token keyword">local</span> askForSettingsValue <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>settingValue<span class="token punctuation">,</span> currentValue<span class="token punctuation">)</span>
+    <span class="token keyword">if</span> settingValue<span class="token punctuation">.</span>type <span class="token operator">==</span> <span class="token string">'directory'</span> <span class="token keyword">then</span>
+      selected <span class="token operator">=</span> hs<span class="token punctuation">.</span>dialog<span class="token punctuation">.</span><span class="token function">chooseFileOrFolder</span><span class="token punctuation">(</span>
+        <span class="token string">'Please select '</span> <span class="token operator">..</span> settingValue<span class="token punctuation">.</span>name<span class="token punctuation">,</span>
+        currentValue<span class="token punctuation">,</span>
+        <span class="token keyword">false</span><span class="token punctuation">,</span> <span class="token comment">-- canChooseFiles</span>
+        <span class="token keyword">true</span><span class="token punctuation">,</span> <span class="token comment">-- canChooseDirectories</span>
+        <span class="token keyword">false</span> <span class="token comment">-- allowsMultipleSelection</span>
+      <span class="token punctuation">)</span>
+      <span class="token keyword">if</span> selected <span class="token operator">==</span> <span class="token keyword">nil</span> <span class="token keyword">then</span>
+        <span class="token keyword">return</span> currentValue
+      <span class="token keyword">end</span>
+
+      <span class="token keyword">return</span> selected<span class="token punctuation">[</span><span class="token string">'1'</span><span class="token punctuation">]</span>
+    <span class="token keyword">else</span>
+      clickedButton<span class="token punctuation">,</span> newValue <span class="token operator">=</span> hs<span class="token punctuation">.</span>dialog<span class="token punctuation">.</span><span class="token function">textPrompt</span><span class="token punctuation">(</span>
+        settingValue<span class="token punctuation">.</span>name<span class="token punctuation">,</span>
+        <span class="token string">'Please enter '</span> <span class="token operator">..</span> settingValue<span class="token punctuation">.</span>name<span class="token punctuation">,</span>
+        currentValue
+      <span class="token punctuation">)</span>
+      <span class="token keyword">if</span> clickedButton <span class="token operator">~=</span> <span class="token string">'OK'</span> <span class="token keyword">then</span>
+        <span class="token keyword">return</span> currentValue
+      <span class="token keyword">end</span>
+
+      <span class="token keyword">return</span> newValue
+    <span class="token keyword">end</span>
+  <span class="token keyword">end</span>
+
+  <span class="token keyword">return</span> hs<span class="token punctuation">.</span>fnutils<span class="token punctuation">.</span><span class="token function">imap</span><span class="token punctuation">(</span>settings<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>setting<span class="token punctuation">)</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      title <span class="token operator">=</span> setting<span class="token punctuation">.</span>name<span class="token punctuation">,</span>
+      fn <span class="token operator">=</span> <span class="token function">buildSettingsUpdateFunction</span><span class="token punctuation">(</span>setting<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token keyword">end</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span>
+</code></pre>
+<h2 id="definition-example">Definition example<a aria-hidden="true" class="anchor-heading icon-link" href="#definition-example"></a></h2>
+<pre class="language-lua"><code class="language-lua"><span class="token punctuation">{</span>
+  <span class="token punctuation">{</span>
+    id <span class="token operator">=</span> <span class="token string">'clockify'</span><span class="token punctuation">,</span>
+    name <span class="token operator">=</span> <span class="token string">'Clockify'</span><span class="token punctuation">,</span>
+    values <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token punctuation">{</span>
+        id <span class="token operator">=</span> <span class="token string">'apiKey'</span><span class="token punctuation">,</span>
+        name <span class="token operator">=</span> <span class="token string">'Clockify API Key'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        id <span class="token operator">=</span> <span class="token string">'workspaceId'</span><span class="token punctuation">,</span>
+        name <span class="token operator">=</span> <span class="token string">'Clockify Workspace ID'</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    id <span class="token operator">=</span> <span class="token string">'dendron'</span><span class="token punctuation">,</span>
+    name <span class="token operator">=</span> <span class="token string">'Dendron'</span><span class="token punctuation">,</span>
+    values <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token punctuation">{</span>
+        id <span class="token operator">=</span> <span class="token string">'workspacePath'</span><span class="token punctuation">,</span>
+        name <span class="token operator">=</span> <span class="token string">'Dendron Workspace Path'</span><span class="token punctuation">,</span>
+        type <span class="token operator">=</span> <span class="token string">'directory'</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>

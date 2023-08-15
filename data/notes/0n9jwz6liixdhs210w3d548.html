@@ -1,0 +1,24 @@
+<h1 id="aws-data-pipeline">AWS Data Pipeline<a aria-hidden="true" class="anchor-heading icon-link" href="#aws-data-pipeline"></a></h1>
+<ul>
+<li>Pipeline Components: Definitions of
+<ul>
+<li>Data Nodes: Input/Output locations for activities
+<ul>
+<li>Dynamo DB, S3</li>
+</ul>
+</li>
+<li>Activities: The work to perform
+<ul>
+<li>Copy, Shell Command</li>
+</ul>
+</li>
+<li>Preconditions: Conditions whether a task should run or not</li>
+<li>Resources: That become task runners, Like EC2 instances</li>
+<li>Schedules</li>
+</ul>
+</li>
+<li>Task Instances: Tasks that result from the compiled components</li>
+<li>Attempts: Actual execution/retry of a task</li>
+<li>Task Runner: Takes Tasks from the pipeline and attempts them</li>
+</ul>
+<p>The modern alternative using Lambda would be AWS Step Functions</p>

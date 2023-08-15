@@ -1,0 +1,62 @@
+<h1 id="query-from-a-dynamodb-table">Query from a DynamoDB Table<a aria-hidden="true" class="anchor-heading icon-link" href="#query-from-a-dynamodb-table"></a></h1>
+<p><a href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Table.query">Boto3 Docs</a></p>
+<pre class="language-py"><code class="language-py"><span class="token keyword">import</span> boto3
+<span class="token keyword">from</span> boto3<span class="token punctuation">.</span>dynamodb<span class="token punctuation">.</span>conditions <span class="token keyword">import</span> Key
+
+dynamodb <span class="token operator">=</span> boto3<span class="token punctuation">.</span>resource<span class="token punctuation">(</span><span class="token string">'dynamodb'</span><span class="token punctuation">)</span>
+table <span class="token operator">=</span> dynamodb<span class="token punctuation">.</span>Table<span class="token punctuation">(</span><span class="token string">'&#x3C;TABLE_NAME>'</span><span class="token punctuation">)</span>
+
+result <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+last_evaluated_key <span class="token operator">=</span> <span class="token boolean">None</span>
+
+<span class="token keyword">while</span> <span class="token boolean">True</span><span class="token punctuation">:</span>
+    additional_query_args <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token keyword">if</span> last_evaluated_key<span class="token punctuation">:</span>
+        additional_query_args<span class="token punctuation">[</span><span class="token string">'ExclusiveStartKey'</span><span class="token punctuation">]</span> <span class="token operator">=</span> last_evaluated_key
+
+    response <span class="token operator">=</span> table<span class="token punctuation">.</span>query<span class="token punctuation">(</span>
+        KeyConditionExpression<span class="token operator">=</span><span class="token punctuation">(</span>
+            Key<span class="token punctuation">(</span><span class="token string">'hash_key_attribute'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>eq<span class="token punctuation">(</span><span class="token string">'some_value'</span><span class="token punctuation">)</span> <span class="token keyword">and</span>
+            Key<span class="token punctuation">(</span><span class="token string">'range_key_attribute'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>begins_with<span class="token punctuation">(</span><span class="token string">'some_prefix'</span><span class="token punctuation">)</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token operator">**</span>additional_query_args
+    <span class="token punctuation">)</span>
+
+    result<span class="token punctuation">.</span>extend<span class="token punctuation">(</span>response<span class="token punctuation">[</span><span class="token string">'Items'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    last_evaluated_key <span class="token operator">=</span> response<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'LastEvaluatedKey'</span><span class="token punctuation">,</span> <span class="token boolean">None</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> <span class="token keyword">not</span> last_evaluated_key<span class="token punctuation">:</span>
+        <span class="token keyword">break</span>
+</code></pre>
+<h2 id="additional-important-arguments">Additional important arguments<a aria-hidden="true" class="anchor-heading icon-link" href="#additional-important-arguments"></a></h2>
+<ul>
+<li><code>ConsistentRead</code></li>
+<li><code>IndexName</code></li>
+<li><code>Limit</code></li>
+<li><code>ScanIndexForward</code>: Is <code>true</code> by default, set to <code>false</code> to get results in reverse order</li>
+</ul>
+<h2 id="conditions">Conditions<a aria-hidden="true" class="anchor-heading icon-link" href="#conditions"></a></h2>
+<p><a href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/customizations/dynamodb.html#dynamodb-conditions">Boto 3 Docs</a></p>
+<h3 id="usable-with-keys-and-attributes">Usable with keys and attributes<a aria-hidden="true" class="anchor-heading icon-link" href="#usable-with-keys-and-attributes"></a></h3>
+<ul>
+<li><code>begins_with(value)</code></li>
+<li><code>between(low_value, high_value)</code>: Is same as <code>gte(low_value) and lte(high_value)</code></li>
+<li><code>eq(value)</code></li>
+<li><code>gt(value)</code></li>
+<li><code>gte(value)</code></li>
+<li><code>lt(value)</code></li>
+<li><code>lte(value)</code></li>
+</ul>
+<h2 id="usable-only-with-attributes">Usable only with attributes<a aria-hidden="true" class="anchor-heading icon-link" href="#usable-only-with-attributes"></a></h2>
+<ul>
+<li><code>attribute_type(type)</code></li>
+<li><code>contains(value)</code></li>
+<li><code>exists()</code></li>
+<li><code>is_in(value)</code></li>
+<li><code>ne()</code>: Not Equal</li>
+<li><code>not_exists()</code></li>
+<li><code>size()</code>: Interprets the atribute condition with regard to size - needs another condition
+<ul>
+<li>Ex: <code>name.size() and name.lte(20)</code></li>
+</ul>
+</li>
+</ul>

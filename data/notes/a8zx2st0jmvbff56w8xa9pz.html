@@ -1,0 +1,44 @@
+<h1 id="create-a-countdown-in-the-menubar">Create a Countdown in the Menubar<a aria-hidden="true" class="anchor-heading icon-link" href="#create-a-countdown-in-the-menubar"></a></h1>
+<pre class="language-lua"><code class="language-lua"><span class="token comment">--- createCountdown(label, endTime, [onStop])</span>
+<span class="token comment">---</span>
+<span class="token comment">--- Parameters:</span>
+<span class="token comment">---  * label - Label for the countdown</span>
+<span class="token comment">---  * endTime - End time of the countdown as UNIX timestamp</span>
+<span class="token comment">---  * [onStop] - Callback that will be called when countdown is stopped</span>
+<span class="token comment">---</span>
+<span class="token comment">--- Returns:</span>
+<span class="token comment">---  * Table</span>
+<span class="token comment">---    {</span>
+<span class="token comment">---      menu: `hs.menu` object showing the countdown</span>
+<span class="token comment">---      endTime: End time of the countdown that was passed as parameter</span>
+<span class="token comment">---      timer: `hs.timer` object updating the countdown every second</span>
+<span class="token comment">---    }</span>
+<span class="token keyword">function</span> <span class="token function">createCountdown</span><span class="token punctuation">(</span>label<span class="token punctuation">,</span> endTime<span class="token punctuation">,</span> <span class="token punctuation">...</span><span class="token punctuation">)</span>
+  countdown <span class="token operator">=</span> <span class="token punctuation">{</span>
+    menu <span class="token operator">=</span> hs<span class="token punctuation">.</span>menubar<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    endTime <span class="token operator">=</span> endTime<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+
+  countdown<span class="token punctuation">.</span>timer <span class="token operator">=</span> hs<span class="token punctuation">.</span>timer<span class="token punctuation">.</span><span class="token function">doEvery</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    timeUntilEnd <span class="token operator">=</span> countdown<span class="token punctuation">.</span>endTime <span class="token operator">-</span> os<span class="token punctuation">.</span><span class="token function">time</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    sign <span class="token operator">=</span> timeUntilEnd <span class="token operator">&#x3C;</span> <span class="token number">0</span> <span class="token keyword">and</span> <span class="token string">'-'</span> <span class="token keyword">or</span> <span class="token string">''</span>
+    timeUntilEnd <span class="token operator">=</span> math<span class="token punctuation">.</span><span class="token function">abs</span><span class="token punctuation">(</span>timeUntilEnd<span class="token punctuation">)</span>
+
+    minutes <span class="token operator">=</span> math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>timeUntilEnd <span class="token operator">/</span> <span class="token number">60</span><span class="token punctuation">)</span>
+    seconds <span class="token operator">=</span> timeUntilEnd <span class="token operator">%</span> <span class="token number">60</span>
+    countdown<span class="token punctuation">.</span>menu<span class="token punctuation">:</span><span class="token function">setTitle</span><span class="token punctuation">(</span>label <span class="token operator">..</span> <span class="token string">': '</span> <span class="token operator">..</span> sign <span class="token operator">..</span> string<span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">'%02d:%02d'</span><span class="token punctuation">,</span> minutes<span class="token punctuation">,</span> seconds<span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token keyword">end</span><span class="token punctuation">)</span>
+
+  onStop <span class="token operator">=</span> <span class="token punctuation">...</span>
+
+  countdown<span class="token punctuation">.</span>menu<span class="token punctuation">:</span><span class="token function">setClickCallback</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    countdown<span class="token punctuation">.</span>timer<span class="token punctuation">:</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    countdown<span class="token punctuation">.</span>menu<span class="token punctuation">:</span><span class="token function">delete</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> onStop <span class="token keyword">then</span>
+      <span class="token function">onStop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">end</span>
+  <span class="token keyword">end</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> countdown
+<span class="token keyword">end</span>
+</code></pre>

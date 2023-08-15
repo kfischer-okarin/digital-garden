@@ -1,0 +1,9 @@
+<h1 id="disable-cops-in-source-code">Disable Cops in Source Code<a aria-hidden="true" class="anchor-heading icon-link" href="#disable-cops-in-source-code"></a></h1>
+<h2 id="in-an-area">In an area<a aria-hidden="true" class="anchor-heading icon-link" href="#in-an-area"></a></h2>
+<pre class="language-rb"><code class="language-rb"><span class="token comment"># rubocop:disable Layout/LineLength, Style/StringLiterals</span>
+<span class="token comment"># [...]</span>
+<span class="token comment"># rubocop:enable Layout/LineLength, Style/StringLiterals</span>
+</code></pre>
+<h2 id="on-the-same-line">On the same line<a aria-hidden="true" class="anchor-heading icon-link" href="#on-the-same-line"></a></h2>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">for</span> x <span class="token keyword">in</span> <span class="token punctuation">(</span><span class="token number">0.</span><span class="token number">.19</span><span class="token punctuation">)</span> <span class="token comment"># rubocop:disable Style/For</span>
+</code></pre>

@@ -1,0 +1,15 @@
+<h1 id="get-type-of-object">Get Type of Object<a aria-hidden="true" class="anchor-heading icon-link" href="#get-type-of-object"></a></h1>
+<pre class="language-lua"><code class="language-lua"><span class="token keyword">if</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'string'</span>
+<span class="token keyword">elseif</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'table'</span>
+<span class="token keyword">elseif</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'number'</span>
+<span class="token keyword">elseif</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'function'</span>
+<span class="token keyword">elseif</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'boolean'</span>
+<span class="token keyword">elseif</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'nil'</span>
+<span class="token keyword">elseif</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'thread'</span>
+<span class="token keyword">elseif</span> <span class="token function">type</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'userdata'</span>
+<span class="token keyword">end</span>
+</code></pre>
+<ul>
+<li><code>thread</code> is a Lua coroutine</li>
+<li><code>userdata</code> is either a custom object with a memory block managed via C functions or just a C pointer</li>
+</ul>

@@ -1,0 +1,10 @@
+<h1 id="add-vue-plugins">Add Vue Plugins<a aria-hidden="true" class="anchor-heading icon-link" href="#add-vue-plugins"></a></h1>
+<p>You can add things to the vue instance via the decorators defined in the
+<a href="https://storybook.js.org/docs/react/configure/overview#configure-story-rendering">preview.js file</a>.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword module">export</span> <span class="token keyword">const</span> decorators <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token parameter">story</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">components</span><span class="token operator">:</span> <span class="token punctuation">{</span> story <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">template</span><span class="token operator">:</span> <span class="token string">'&#x3C;v-app>&#x3C;story />&#x3C;/v-app>'</span><span class="token punctuation">,</span>
+  i18n<span class="token punctuation">,</span>
+  vuetify<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre>

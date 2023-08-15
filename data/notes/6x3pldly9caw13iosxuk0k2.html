@@ -1,0 +1,13 @@
+<h1 id="deactivate-sti-in-migrations">Deactivate STI in Migrations<a aria-hidden="true" class="anchor-heading icon-link" href="#deactivate-sti-in-migrations"></a></h1>
+<p>When creating a Migration model class for a class with a <code>type</code> column you need to turn off STI otherwise Rails will
+look for non-existing subclasses of the Migration model class.</p>
+<p>This can be done by setting <code>inheritance_column</code> to a non-existing column.</p>
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">class</span> <span class="token class-name">SomeMigration</span> <span class="token operator">&#x3C;</span> ActiveRecord<span class="token double-colon punctuation">::</span>Migration<span class="token punctuation">[</span><span class="token number">6.1</span><span class="token punctuation">]</span>
+  <span class="token keyword">class</span> <span class="token class-name">MigrateModelWithSTI</span> <span class="token operator">&#x3C;</span> ActiveRecord<span class="token double-colon punctuation">::</span>Base
+    <span class="token keyword">self</span><span class="token punctuation">.</span>table_name <span class="token operator">=</span> <span class="token string-literal"><span class="token string">'model_with_sti_table'</span></span>
+    <span class="token keyword">self</span><span class="token punctuation">.</span>inheritance_column <span class="token operator">=</span> <span class="token symbol">:_type_disabled</span>
+  <span class="token keyword">end</span>
+
+  <span class="token comment"># ...</span>
+<span class="token keyword">end</span>
+</code></pre>

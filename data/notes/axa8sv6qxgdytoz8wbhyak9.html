@@ -1,0 +1,33 @@
+<h1 id="flow-charts-in-mermaid">Flow Charts in Mermaid<a aria-hidden="true" class="anchor-heading icon-link" href="#flow-charts-in-mermaid"></a></h1>
+<pre><code>```mermaid
+flowchart TD
+    node_a[Node name] --> node_b["Node with (special) characters"]
+    node_a --> node_c
+```
+</code></pre>
+<div class="mermaid">
+  flowchart TD
+    node_a[Node name] --> node_b["Node with (special) characters"]
+    node_a --> node_c
+</div>
+<h2 id="orientations">Orientations<a aria-hidden="true" class="anchor-heading icon-link" href="#orientations"></a></h2>
+<ul>
+<li><code>TD</code>: Top-Down</li>
+<li><code>BT</code>: Bottom-Top</li>
+<li><code>LR</code>: Left-Right</li>
+<li><code>RL</code>: Right-Left</li>
+</ul>
+<h2 id="styling-nodes">Styling nodes<a aria-hidden="true" class="anchor-heading icon-link" href="#styling-nodes"></a></h2>
+<pre><code>```mermaid
+flowchart TD
+  A:::enemy --> B
+
+  classDef enemy fill:#f00,stroke:#333,stroke-width:4px;
+```
+</code></pre>
+<div class="mermaid">
+  flowchart TD
+  A:::enemy --> B
+
+  classDef enemy fill:#f00,stroke:#333,stroke-width:4px;
+</div>

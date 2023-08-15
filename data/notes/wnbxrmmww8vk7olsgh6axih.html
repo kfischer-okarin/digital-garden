@@ -1,0 +1,8 @@
+<h1 id="remove-all-untracked-files">Remove All Untracked Files<a aria-hidden="true" class="anchor-heading icon-link" href="#remove-all-untracked-files"></a></h1>
+<pre class="language-sh"><code class="language-sh">git clean -f -x -d
+</code></pre>
+<ul>
+<li><code>-f</code> force</li>
+<li><code>-x</code> remove all untracked files (<code>-X</code> would only remove explicitly ignored files and keep unstaged ones)</li>
+<li><code>-d</code> recurse down into directories</li>
+</ul>

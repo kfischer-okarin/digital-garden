@@ -1,0 +1,8 @@
+<h1 id="replace-string-in-many-files">Replace String in many files<a aria-hidden="true" class="anchor-heading icon-link" href="#replace-string-in-many-files"></a></h1>
+<pre class="language-sh"><code class="language-sh">sed -i '.bak' 's/foo/bar/g' *
+</code></pre>
+<p>will replace <code>foo</code> with <code>bar</code>.</p>
+<p><code>-i '.bak'</code> is necessary on macOS and will create backup files (ending in <code>.bak</code>) before replacing.</p>
+<h2 id="remove-the-backups">Remove the backups<a aria-hidden="true" class="anchor-heading icon-link" href="#remove-the-backups"></a></h2>
+<pre class="language-sh"><code class="language-sh">find . | grep .bak | xargs rm
+</code></pre>

@@ -1,0 +1,38 @@
+<h1 id="blend-modes">Blend Modes<a aria-hidden="true" class="anchor-heading icon-link" href="#blend-modes"></a></h1>
+<p>Source: <a href="https://typefully.com/DanHollick/KrBa0JP">Blending Modes - By Dan Hollick</a> (<a href="/digital-garden/joplin://x-callback-url/openNote?id=f87d74dc64e5487e836667b589c89404">Clipped in Joplin</a>)</p>
+<h2 id="darkening-and-lightening">Darkening and Lightening<a aria-hidden="true" class="anchor-heading icon-link" href="#darkening-and-lightening"></a></h2>
+<ul>
+<li>Darken / Lighten:
+<ul>
+<li>Chooses each RGB component's lowest/highest value to create a new color</li>
+</ul>
+</li>
+<li>Multiply / Screen:
+<ul>
+<li>Normalize RGB components to 0-1</li>
+<li>Multiplies values together - which will produce a darker color.</li>
+<li>Screen inverts the resulting color</li>
+</ul>
+</li>
+<li>Color Burn / Color Dodge:
+<ul>
+<li>Normalize RGB components to 0-1</li>
+<li>Invert the bg color</li>
+<li>Divide by the fg color</li>
+<li>Invert the result</li>
+<li>Color Dodge switches fg and bg color</li>
+</ul>
+</li>
+</ul>
+<h2 id="contrast-blending">Contrast Blending<a aria-hidden="true" class="anchor-heading icon-link" href="#contrast-blending"></a></h2>
+<ul>
+<li>Overlay
+<ul>
+<li>For each RGB component
+<ul>
+<li>If bg is light (> 127.5) then apply</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

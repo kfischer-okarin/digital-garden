@@ -1,0 +1,12 @@
+<h1 id="dump-a-database">Dump a database<a aria-hidden="true" class="anchor-heading icon-link" href="#dump-a-database"></a></h1>
+<pre class="language-sh"><code class="language-sh">pg_dump -h db.url.com -d databasename -u user -cC > dump.sql
+</code></pre>
+<h2 id="explation">Explation<a aria-hidden="true" class="anchor-heading icon-link" href="#explation"></a></h2>
+<ul>
+<li><code>-c</code> will drop all existing data before restoring the dumped data</li>
+<li><code>-C</code> will include database creation
+<ul>
+<li>will drop the whole database instead of all tables when used together with <code>-c</code></li>
+</ul>
+</li>
+</ul>

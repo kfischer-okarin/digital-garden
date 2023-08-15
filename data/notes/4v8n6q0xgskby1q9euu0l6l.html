@@ -1,0 +1,12 @@
+<pre class="language-rb"><code class="language-rb"><span class="token keyword">module</span> <span class="token class-name">M</span>
+  <span class="token keyword">extend</span> ActiveSupport<span class="token double-colon punctuation">::</span>Concern
+
+  included <span class="token keyword">do</span>
+    scope <span class="token symbol">:disabled</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token punctuation">{</span> where<span class="token punctuation">(</span><span class="token symbol">disabled</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">}</span>
+  <span class="token keyword">end</span>
+
+  class_methods <span class="token keyword">do</span>
+    <span class="token operator">...</span>
+  <span class="token keyword">end</span>
+<span class="token keyword">end</span>
+</code></pre>
